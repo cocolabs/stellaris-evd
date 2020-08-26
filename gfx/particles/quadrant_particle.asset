@@ -1,5 +1,5 @@
 particle={
-	name="quadrant_particle"
+	name="z_fx_galaxy_quadrant_particle"
 	subsystem={
 		name="q_circle_1"
 		max_amount=1

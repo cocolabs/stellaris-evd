@@ -1,5 +1,5 @@
 particle={
-	name="pinwheel_particle"
+	name="z_fx_galaxy_pinwheel_particle"
 	subsystem={
 		name="p_galaxy"
 		max_amount=1

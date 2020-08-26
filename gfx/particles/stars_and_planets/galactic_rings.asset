@@ -1,5 +1,5 @@
 particle={
-	name="galactic_rings_particle"
+	name="z_galactic_rings_particle"
 	subsystem={
 		name="center_ring"
 		max_amount=20
