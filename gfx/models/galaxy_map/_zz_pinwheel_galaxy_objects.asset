@@ -7,6 +7,7 @@ entity = {
 		name = "idle" state_time = 30 looping = yes
 		start_event = { time = 0 particle = "z_fx_galaxy_pinwheel_particle" trigger_once = yes keep_particle = yes }
 		start_event = { time = 0 particle = "z_fx_galaxy_quadrant_particle" trigger_once = yes keep_particle = yes }
+		start_event = { time = 0 particle = "z_black_hole_particle" trigger_once = yes keep_particle = yes }
 		start_event = { time = 0 particle = "z_galactic_rings_particle" trigger_once = yes keep_particle = yes }
 		start_event = { trigger_once = yes sound = { soundeffect = "amb_galaxy_map_01" } }
 		start_event = { trigger_once = yes sound = { soundeffect = "amb_galaxy_map_02" } }

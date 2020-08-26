@@ -10,6 +10,11 @@ objectTypes = {
 		scale = 1.0
 	}
 	pdxparticle = {
+		name = "z_black_hole_particle"
+		type = "z_black_hole_particle"
+		scale = 1.0
+	}
+	pdxparticle = {
 		name = "z_galactic_rings_particle"
 		type = "z_galactic_rings_particle"
 		scale = 1.0
