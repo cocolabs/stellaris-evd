@@ -16,6 +16,9 @@ council_of_veklaran_great_houses = {
 	}
 	adjective="Veklaran"
 	authority="auth_oligarchic"
+	flags = {
+		human_veklaran_great_houses
+	}
 	government="gov_war_council"
 	planet_name="Hu'dhan"
 	planet_class="pc_tundra"
@@ -77,6 +80,9 @@ democratic_peoples_republic_of_earth = {
 	}
 	adjective="Earth"
 	authority="auth_oligarchic"
+	flags = {
+		peoples_republic_of_earth
+	}
 	government="gov_military_junta"
 	planet_name="Earth"
 	planet_class="pc_continental"
@@ -140,6 +146,9 @@ deneb_star_corps = {
 	}
 	adjective="Deneb"
 	authority="auth_oligarchic"
+	flags = {
+		deneb_star
+	}
 	government="gov_citizen_stratocracy"
 	advisor_voice_type="l_the_soldier"
 	planet_name="Eurotas"
@@ -203,6 +212,9 @@ divine_terran_crusade = {
 	}
 	adjective="Terran"
 	authority="auth_imperial"
+	flags = {
+		divine_terrans
+	}
 	government="gov_blood_court"
 	planet_name="Holy Terra"
 	planet_class="pc_continental"
@@ -268,6 +280,9 @@ earth_colonial_administration = {
 	}
 	adjective="Earth"
 	authority="auth_democratic"
+	flags = {
+		earth_colonial
+	}
 	government="gov_representative_democracy"
 	advisor_voice_type="l_the_diplomat"
 	planet_name="Earth"
@@ -330,6 +345,9 @@ exlari_development_syndicate = {
 	}
 	adjective="Exlari"
 	authority="auth_corporate"
+	flags = {
+		exlari_development
+	}
 	government="gov_megacorporation"
 	planet_name="Jralad"
 	planet_class="pc_ocean"
@@ -391,6 +409,9 @@ holy_see_of_terra_and_her_colonies = {
 	}
 	adjective="Terran"
 	authority="auth_dictatorial"
+	flags = {
+		holy_terra_colonies
+	}
 	government="gov_theocratic_dictatorship"
 	planet_name="Holy Terra"
 	planet_class="pc_continental"
@@ -457,6 +478,9 @@ imperial_mongathi_legions = {
 	}
 	adjective="Mongathi"
 	authority="auth_imperial"
+	flags = {
+		imperial_mongathi
+	}
 	government="gov_martial_empire"
 	planet_name="Mongath"
 	planet_class="pc_tundra"
@@ -517,6 +541,9 @@ kolari_martial_coalition = {
 	}
 	adjective="Kolari"
 	authority="auth_oligarchic"
+	flags = {
+		kolari_martial
+	}
 	government="gov_military_junta"
 	planet_name="Inster"
 	planet_class="pc_arctic"
@@ -579,6 +606,9 @@ liao_nishanti_stellar_industries = {
 	}
 	adjective="Deneb"
 	authority="auth_corporate"
+	flags = {
+		liao_nishanti
+	}
 	government="gov_megacorporation"
 	advisor_voice_type="l_evil_corp"
 	planet_name="Pyrrho"
@@ -642,6 +672,9 @@ lithine_continuity_alliance = {
 	}
 	adjective="Lithine"
 	authority="auth_democratic"
+	flags = {
+		lithine_continuity
+	}
 	government="gov_purity_assembly"
 	planet_name="Farzhaak"
 	planet_class="pc_desert"
@@ -719,6 +752,9 @@ mirandan_interstellar_directorate = {
 	}
 	adjective="Mirandan"
 	authority="auth_oligarchic"
+	flags = {
+		mirandan_interstellar
+	}
 	government="gov_executive_committee"
 	planet_name="Miranda"
 	planet_class="pc_continental"
@@ -849,6 +885,9 @@ presidium_of_human_enlightenment = {
 	}
 	adjective="Earth"
 	authority="auth_dictatorial"
+	flags = {
+		human_presidium
+	}
 	government="gov_totalitarian_regime"
 	advisor_voice_type="l_the_technocrat"
 	planet_name="Earth"
@@ -913,6 +952,9 @@ revolutionary_union_of_sol = {
 	}
 	adjective="Solar"
 	authority="auth_oligarchic"
+	flags = {
+		union_of_sol
+	}
 	government="gov_science_directorate"
 	planet_name="Zemlya"
 	planet_class="pc_continental"
@@ -1040,6 +1082,9 @@ senzari_interstellar_quora = {
 	}
 	adjective="Senzari"
 	authority="auth_oligarchic"
+	flags = {
+		senzari_interstellar
+	}
 	government="gov_science_directorate"
 	advisor_voice_type="l_the_technocrat"
 	planet_name="Senzar"
@@ -1115,6 +1160,9 @@ sublime_siranic_council = {
 	}
 	adjective="Siranic"
 	authority="auth_democratic"
+	flags = {
+		sublime_siranic
+	}
 	government="gov_theocratic_republic"
 	planet_name="Vacoo"
 	planet_class="pc_ocean"
@@ -1177,6 +1225,9 @@ supreme_authority_of_dralark = {
 	}
 	adjective="Dralarkan"
 	authority="auth_dictatorial"
+	flags = {
+		supreme_dralark
+	}
 	government="gov_military_dictatorship"
 	planet_name="Sarmova"
 	planet_class="pc_arctic"
@@ -1238,6 +1289,9 @@ tellusian_mindflower = {
 	}
 	adjective="Tellusian"
 	authority="auth_hive_mind"
+	flags = {
+		tellusian_mindflower
+	}
 	government="gov_hive_mind"
 	planet_name="Tellus"
 	planet_class="pc_continental"
@@ -1298,6 +1352,9 @@ ten_triads_of_great_zeizok = {
 	}
 	adjective="Zeizoki"
 	authority="auth_oligarchic"
+	flags = {
+		zeizok_ten_triads
+	}
 	government="gov_bandit_commune"
 	planet_name="Gog"
 	planet_class="pc_tropical"
@@ -1430,6 +1487,9 @@ terran_millennium_covenant = {
 	}
 	adjective="Terran"
 	authority="auth_oligarchic"
+	flags = {
+		terran_millennium
+	}
 	government="gov_theocratic_oligarchy"
 	planet_name="Old Earth"
 	planet_class="pc_continental"
@@ -1492,6 +1552,9 @@ united_earth_federation = {
 	}
 	adjective="Earth"
 	authority="auth_democratic"
+	flags = {
+		human_uef
+	}
 	government="gov_citizen_republic"
 	advisor_voice_type="l_the_soldier"
 	planet_name="Earth"
@@ -1555,6 +1618,9 @@ united_systems_republic = {
 	}
 	adjective="Earth"
 	authority="auth_democratic"
+	flags = {
+		human_united_systems
+	}
 	government="gov_moral_democracy"
 	advisor_voice_type="l_the_diplomat"
 	planet_name="Earth"
