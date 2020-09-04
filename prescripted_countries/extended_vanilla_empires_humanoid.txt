@@ -820,7 +820,6 @@ order_of_azraels_chosen = {
 	authority="auth_corporate"
 	flags = {
 		order_of_azraels_chosen
-		custom_start_screen
 	}
 	government="gov_subversive_cult"
 	planet_name="New Eden"
@@ -1015,7 +1014,6 @@ sacred_commonwealth_of_earth = {
 	authority="auth_democratic"
 	flags = {
 		sacred_commonwealth_of_earth
-		custom_start_screen
 	}
 	government="gov_theocratic_republic"
 	advisor_voice_type="l_pacifist"
@@ -1418,7 +1416,6 @@ terran_colonial_empire = {
 	authority="auth_imperial"
 	flags = {
 		terran_colonial_empire
-		custom_start_screen
 	}
 	government="gov_feudal_empire"
 	planet_name="Terra"
