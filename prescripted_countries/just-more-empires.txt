@@ -2784,6 +2784,7 @@
 		adjective="Uruulic"
 		species_bio="Some might consider its leaders backward and stubborn, but the Primarchate is an open and tolerant society centered in the Maakt system, home to the Uruulae of Surosa. The Maaktese Patriarchs oversee an agrarian utopia that welcomes any being who converts to its state religion. Devotees are taught to care for the land, water, and air that sustains them, whether those elements be planetbound or found on a space habitat."
 		name_list="MAM1"
+		trait="trait_void_dweller_1"
 		trait="trait_agrarian"
 		trait="trait_conservational"
 		trait="trait_slow_learners"
