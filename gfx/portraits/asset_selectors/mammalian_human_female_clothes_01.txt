@@ -673,16 +673,58 @@ mammalian_human_female_clothes_01 = {
 	ruler = { #for rulers
 		default = "gfx/models/portraits/human/human_female_clothes_governor5.dds"
 
+		"gfx/models/portraits/human/human_female_clothes_governor4.dds" = {
+			pre_ruler_leader_class = general
+			owner = { has_militarist_government = yes }
+		}
+		"gfx/models/portraits/human/human_female_clothes_ruler.dds" = {
+			pre_ruler_leader_class = admiral
+			owner = { has_militarist_government = no }
+		}
+		"gfx/models/portraits/human/human_female_clothes_admiral2.dds" = {
+			pre_ruler_leader_class = admiral
+			owner = { has_militarist_government = yes }
+		}
+		"gfx/models/portraits/human/human_female_clothes_governor3.dds" = {
+			NOT = {
+				pre_ruler_leader_class = admiral
+				pre_ruler_leader_class = general
+			}
+			owner = {
+				has_militarist_government = yes
+				OR = {
+					has_authority = auth_dictatorial
+					has_authority = auth_imperial
+				}
+			}
+		}
+		"gfx/models/portraits/human/human_female_clothes_governor6.dds" = {
+			owner = {
+				has_spiritualist_government = yes
+				OR = {
+					has_authority = auth_dictatorial
+					has_authority = auth_imperial
+				}
+			}
+		}
+		"gfx/models/portraits/human/human_female_clothes_preacher.dds" = {
+			owner = {
+				has_spiritualist_government = yes
+				NOT = {
+					has_authority = auth_dictatorial
+					has_authority = auth_imperial
+				}
+			}
+		}
 		"gfx/models/portraits/human/human_female_clothes_governor5.dds" = { owner = { has_government = gov_communal_parity } }
 		"gfx/models/portraits/human/human_female_clothes_governor5.dds" = { owner = { has_generic_government = yes NOT = { has_authority = auth_imperial } } }
-		"gfx/models/portraits/human/human_female_clothes_ruler.dds" = { owner = { has_militarist_government = yes NOT = { has_authority = auth_imperial } } }
-		"gfx/models/portraits/human/human_female_clothes_governor6.dds" = { owner = { has_spiritualist_government = yes NOT = { has_authority = auth_imperial } } }
+		# "gfx/models/portraits/human/human_female_clothes_ruler.dds" = { owner = { has_militarist_government = yes NOT = { has_authority = auth_imperial } } }
+		# "gfx/models/portraits/human/human_female_clothes_governor6.dds" = { owner = { has_spiritualist_government = yes NOT = { has_authority = auth_imperial } } }
 		"gfx/models/portraits/human/human_female_clothes_ruler3.dds" = { owner = { has_pacifist_government = yes NOT = { has_authority = auth_imperial } } }
 		"gfx/models/portraits/human/human_female_clothes_ruler3.dds" = { owner = { has_primitive_government = yes  NOT = { has_authority = auth_imperial } } }
 		"gfx/models/portraits/human/human_female_clothes_headresearcher.dds" = { owner = { has_materialist_government = yes NOT = { has_authority = auth_imperial } } }
 		"gfx/models/portraits/human/human_female_clothes_trader.dds" = { owner = { has_authority = auth_corporate } }
-		"gfx/models/portraits/human/human_female_clothes_royal.dds" = { owner = { has_authority = auth_imperial } }
-
+		# "gfx/models/portraits/human/human_female_clothes_royal.dds" = { owner = { has_authority = auth_imperial } }
 	}
 }
 
