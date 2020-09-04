@@ -62,7 +62,7 @@ humans1 = {
 		portrait = "human_female_05"
 		texture = 0
 		hair = 1
-		clothes = 0
+		clothes = 21
 		leader_class = ruler
 	}
 }
