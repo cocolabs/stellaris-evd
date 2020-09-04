@@ -131,7 +131,7 @@ humans2 = {
 		gender = female
 		texture = 0
 		hair = 6
-		clothes = 4
+		clothes = 19
 		leader_class = ruler
 	}
 }
