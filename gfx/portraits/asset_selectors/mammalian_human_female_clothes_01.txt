@@ -611,6 +611,16 @@ mammalian_human_female_clothes_01 = {
 	ruler = { #for rulers
 		default = "gfx/models/portraits/human/human_female_clothes_governor5.dds"
 
+		# Empire specific clothes
+		##########################
+		# Disable, change or add entries to set empire ruler uniforms
+
+		# "gfx/models/portraits/human/human_female_clothes_governor3.dds" = {
+			# owner = { has_country_flag = human_2 }
+		# }
+
+		##########################
+
 		"gfx/models/portraits/human/human_female_clothes_governor4.dds" = {
 			pre_ruler_leader_class = general
 			owner = { has_militarist_government = yes }
