@@ -4217,7 +4217,7 @@
 	authority="auth_imperial"
 	government="gov_celestial_empire"
 	planet_name="Gluggnal"
-	planet_class="pc_desertislands"
+	planet_class="pc_ocean"
 	system_name="Daggimga"
 	initializer=""
 	graphical_culture="molluscoid_01"
