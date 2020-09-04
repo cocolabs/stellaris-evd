@@ -2707,7 +2707,7 @@
 		"civic_indentured_assets"
 		"civic_ruthless_competition"
 	}
-	origin="origin_mom_wormhole_junction"
+	origin="origin_lost_colony"
 }
 "Lithine Continuity Alliance"
 ={
