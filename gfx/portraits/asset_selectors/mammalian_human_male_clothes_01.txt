@@ -1,11 +1,11 @@
-# This is a template which multiple species can use. 
+# This is a template which multiple species can use.
 
 mammalian_human_male_clothes_01 = {
 	default = "gfx/models/portraits/human/human_male_clothes_civilian.dds"
-	
+
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
 		default = "gfx/models/portraits/human/human_male_clothes_civilian.dds"
-		
+
 		#random = {
 		#	trigger = { always = yes }
 		#	list = {
@@ -16,12 +16,12 @@ mammalian_human_male_clothes_01 = {
 		#	}
 		#}
 	}
-	
+
 	#species scope
 	species = { #generic portrait for a species
 		default = "gfx/models/portraits/human/human_male_clothes_civilian.dds"
 	}
-	
+
 	#pop scope
 	pop = { #for a specific pop
 		default = "gfx/models/portraits/human/human_male_clothes_governor.dds"
@@ -30,7 +30,7 @@ mammalian_human_male_clothes_01 = {
 			trigger = {
 					OR = {
 							has_job = enforcer
-					}	
+					}
 			}
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_enforcer.dds"
@@ -41,7 +41,7 @@ mammalian_human_male_clothes_01 = {
 			trigger = {
 					OR = {
 						has_job = colonist
-					}	
+					}
 			}
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_industrial.dds"
@@ -59,7 +59,7 @@ mammalian_human_male_clothes_01 = {
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_civilian.dds"
 			}
-		}		
+		}
 
 		random = {
 			trigger = {
@@ -71,19 +71,19 @@ mammalian_human_male_clothes_01 = {
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_entertainer.dds"
 			}
-		}	
+		}
 
 		random = {
 			trigger = {
 					OR = {
 						has_job = duelist
-						}	
+						}
 			}
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_duelist.dds"
 			}
-		}	
-	
+		}
+
 		random = {
 			trigger = {
 					OR = {
@@ -95,12 +95,12 @@ mammalian_human_male_clothes_01 = {
 						has_job = odd_factory_worker
 						has_job = bluelotus_technician
 						has_job = gas_plant_engineer
-					}	
+					}
 			}
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_industrial.dds"
 			}
-		}	
+		}
 
 		random = {
 			trigger = {
@@ -129,42 +129,42 @@ mammalian_human_male_clothes_01 = {
 						has_job = gas_extractor
 						has_job = cave_cleaner
 						has_job = farmer
-					}	
+					}
 			}
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_worker.dds"
 			}
 		}
-		
+
 		random = {
 			trigger = {
 					OR = {
 						has_job = slave_overseer
-					}	
+					}
 			}
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_overseer.dds"
 			}
 		}
-		
+
 		random = {
 			trigger = {
 					OR = {
 						has_job = high_priest
 						has_job = priest
 						has_job = preacher
-						}	
+						}
 			}
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_preacher.dds"
 			}
-		}	
+		}
 
 		random = {
 			trigger = {
 					OR = {
 						has_job = servant
-						}	
+						}
 			}
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_servant.dds"
@@ -175,7 +175,7 @@ mammalian_human_male_clothes_01 = {
 			trigger = {
 					OR = {
 						has_job = soldier
-						}	
+						}
 			}
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_soldier.dds"
@@ -186,24 +186,24 @@ mammalian_human_male_clothes_01 = {
 			trigger = {
 					OR = {
 						has_job = telepath
-						}	
+						}
 			}
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_telepath.dds"
 			}
-		}	
-	
+		}
+
 		random = {
 			trigger = {
 					OR = {
 						has_job = head_researcher
-					}	
+					}
 			}
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_headresearcher.dds"
 			}
-		}	
-	
+		}
+
 		random = {
 			trigger = {
 				and = {
@@ -219,7 +219,7 @@ mammalian_human_male_clothes_01 = {
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_scientist2.dds"
 			}
-		}	
+		}
 
 		random = {
 			trigger = {
@@ -245,7 +245,7 @@ mammalian_human_male_clothes_01 = {
 						has_job = researcher
 						has_job = chemist
 						has_job = healthcare
-					}	
+					}
 			}
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_scientist.dds"
@@ -258,7 +258,7 @@ mammalian_human_male_clothes_01 = {
 						has_job = criminal
 						has_job = underground_trade_worker
 						has_job = ratling_scavenger
-					}	
+					}
 			}
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_criminal.dds"
@@ -274,14 +274,14 @@ mammalian_human_male_clothes_01 = {
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_noble.dds"
 			}
-		}		
+		}
 
 		random = {
 			trigger = {
 				and = {
 						has_job = administrator
 					or = {
-						owner = { has_government = gov_star_empire } 
+						owner = { has_government = gov_star_empire }
 						owner = { has_government = gov_despotic_hegemony }
 						owner = { has_government = gov_despotic_empire }
 						owner = { has_government = gov_feudal_empire }
@@ -366,14 +366,14 @@ mammalian_human_male_clothes_01 = {
 			list = {
 				"gfx/models/portraits/human/human_male_clothes_governor6.dds"
 			}
-		}	
+		}
 
 		random = {
 			trigger = {
 				and = {
 						has_job = administrator
 					or = {
-						owner = { has_government = gov_purity_order } 
+						owner = { has_government = gov_purity_order }
 						owner = { has_government = gov_martial_dictatorship }
 						owner = { has_government = gov_military_dictatorship }
 						owner = { has_government = gov_purification_committee }
@@ -406,7 +406,7 @@ mammalian_human_male_clothes_01 = {
 				and = {
 						has_job = administrator
 					or = {
-						owner = { has_government = gov_assembly_of_clans } 
+						owner = { has_government = gov_assembly_of_clans }
 						owner = { has_government = gov_war_council }
 					}
 				}
@@ -430,9 +430,9 @@ mammalian_human_male_clothes_01 = {
 		}
 
 		random = {
-			trigger = { 
-				and = { 
-					is_unemployed = yes 
+			trigger = {
+				and = {
+					is_unemployed = yes
 					is_pop_category = ruler
 				}
 			}
@@ -443,9 +443,9 @@ mammalian_human_male_clothes_01 = {
 		}
 
 		random = {
-			trigger = { 
-				and = { 
-					is_unemployed = yes 
+			trigger = {
+				and = {
+					is_unemployed = yes
 					is_pop_category = specialist
 				}
 			}
@@ -456,9 +456,9 @@ mammalian_human_male_clothes_01 = {
 		}
 
 		random = {
-			trigger = { 
-				and = { 
-					is_unemployed = yes 
+			trigger = {
+				and = {
+					is_unemployed = yes
 					is_pop_category = worker
 				}
 			}
@@ -539,7 +539,7 @@ mammalian_human_male_clothes_01 = {
 			trigger = {
 				and = {
 					or = {
-						owner = { has_government = gov_star_empire } 
+						owner = { has_government = gov_star_empire }
 						owner = { has_government = gov_despotic_hegemony }
 						owner = { has_government = gov_despotic_empire }
 						owner = { has_government = gov_feudal_empire }
@@ -631,7 +631,7 @@ mammalian_human_male_clothes_01 = {
 			trigger = {
 				and = {
 					or = {
-						owner = { has_government = gov_purity_order } 
+						owner = { has_government = gov_purity_order }
 						owner = { has_government = gov_martial_dictatorship }
 						owner = { has_government = gov_military_dictatorship }
 						owner = { has_government = gov_purification_committee }
@@ -664,7 +664,7 @@ mammalian_human_male_clothes_01 = {
 			trigger = {
 				and = {
 					or = {
-						owner = { has_government = gov_assembly_of_clans } 
+						owner = { has_government = gov_assembly_of_clans }
 						owner = { has_government = gov_war_council }
 					}
 					leader_class = governor
@@ -679,7 +679,7 @@ mammalian_human_male_clothes_01 = {
 
 	}
 
-	#leader scope 
+	#leader scope
 	ruler = { #for rulers
 		default = "gfx/models/portraits/human/human_male_clothes_governor5.dds"
 
@@ -696,6 +696,6 @@ mammalian_human_male_clothes_01 = {
 	}
 }
 
-human_male_hair_1 = { 
+human_male_hair_1 = {
 	default = "gfx/models/portraits/human/human_male_hair_blonde_style_01.dds"
 }
