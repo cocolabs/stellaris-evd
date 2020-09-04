@@ -18,9 +18,7 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-							has_job = enforcer
-					}
+				has_job = enforcer
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_enforcer.dds"
@@ -29,9 +27,7 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-						has_job = colonist
-					}
+				has_job = colonist
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_industrial.dds"
@@ -40,11 +36,11 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-						has_job = bureaucrat
-						has_job = bio_trophy
-						has_job = fe_hedonist
-					}
+				OR = {
+					has_job = bureaucrat
+					has_job = bio_trophy
+					has_job = fe_hedonist
+				}
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_civilian.dds"
@@ -53,10 +49,10 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-						has_job = culture_worker
-						has_job = entertainer
-					}
+				OR = {
+					has_job = culture_worker
+					has_job = entertainer
+				}
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_entertainer.dds"
@@ -65,9 +61,7 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-						has_job = duelist
-						}
+				has_job = duelist
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_duelist.dds"
@@ -76,16 +70,16 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-						has_job = roboticist
-						has_job = artisan
-						has_job = foundry
-						has_job = translucer
-						has_job = gas_refiner
-						has_job = odd_factory_worker
-						has_job = bluelotus_technician
-						has_job = gas_plant_engineer
-					}
+				OR = {
+					has_job = roboticist
+					has_job = artisan
+					has_job = foundry
+					has_job = translucer
+					has_job = gas_refiner
+					has_job = odd_factory_worker
+					has_job = bluelotus_technician
+					has_job = gas_plant_engineer
+				}
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_industrial.dds"
@@ -94,14 +88,12 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-						is_enslaved = yes
-					or = {
-						has_job = miner
-						has_job = farmer
-						has_job = technician
-						has_job = clerk
-					}
+				is_enslaved = yes
+				OR = {
+					has_job = miner
+					has_job = farmer
+					has_job = technician
+					has_job = clerk
 				}
 			}
 			list = {
@@ -111,15 +103,15 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-						has_job = mote_harvester
-						has_job = miner
-						has_job = crystal_miner
-						has_job = technician
-						has_job = gas_extractor
-						has_job = cave_cleaner
-						has_job = farmer
-					}
+				OR = {
+					has_job = mote_harvester
+					has_job = miner
+					has_job = crystal_miner
+					has_job = technician
+					has_job = gas_extractor
+					has_job = cave_cleaner
+					has_job = farmer
+				}
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_worker.dds"
@@ -128,9 +120,7 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-						has_job = slave_overseer
-					}
+				has_job = slave_overseer
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_overseer.dds"
@@ -139,11 +129,11 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-						has_job = high_priest
-						has_job = priest
-						has_job = preacher
-						}
+				OR = {
+					has_job = high_priest
+					has_job = priest
+					has_job = preacher
+				}
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_preacher.dds"
@@ -152,9 +142,7 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-						has_job = servant
-						}
+				has_job = servant
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_servant.dds"
@@ -163,9 +151,7 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-						has_job = soldier
-						}
+				has_job = soldier
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_soldier.dds"
@@ -174,9 +160,7 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-						has_job = telepath
-						}
+				has_job = telepath
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_telepath.dds"
@@ -185,9 +169,7 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-						has_job = head_researcher
-					}
+				has_job = head_researcher
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_headresearcher.dds"
@@ -196,14 +178,12 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-						has_job = researcher
-					or = {
-						owner = { has_government = gov_rational_consensus }
-						owner = { has_government = gov_science_directorate }
-						owner = { has_government = gov_technocratic_dictatorship }
-						owner = { has_government = gov_illuminated_autocracy }
-					}
+				has_job = researcher
+				OR = {
+					owner = { has_government = gov_rational_consensus }
+					owner = { has_government = gov_science_directorate }
+					owner = { has_government = gov_technocratic_dictatorship }
+					owner = { has_government = gov_illuminated_autocracy }
 				}
 			}
 			list = {
@@ -213,14 +193,12 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-						has_job = dimensional_portal_researcher
-					or = {
-						owner = { has_government = gov_rational_consensus }
-						owner = { has_government = gov_science_directorate }
-						owner = { has_government = gov_technocratic_dictatorship }
-						owner = { has_government = gov_illuminated_autocracy }
-					}
+				has_job = dimensional_portal_researcher
+				OR = {
+					owner = { has_government = gov_rational_consensus }
+					owner = { has_government = gov_science_directorate }
+					owner = { has_government = gov_technocratic_dictatorship }
+					owner = { has_government = gov_illuminated_autocracy }
 				}
 			}
 			list = {
@@ -230,12 +208,12 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-						has_job = dimensional_portal_researcher
-						has_job = researcher
-						has_job = chemist
-						has_job = healthcare
-					}
+				OR = {
+					has_job = dimensional_portal_researcher
+					has_job = researcher
+					has_job = chemist
+					has_job = healthcare
+				}
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_scientist.dds"
@@ -244,11 +222,11 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-						has_job = criminal
-						has_job = underground_trade_worker
-						has_job = ratling_scavenger
-					}
+				OR = {
+					has_job = criminal
+					has_job = underground_trade_worker
+					has_job = ratling_scavenger
+				}
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_criminal.dds"
@@ -257,9 +235,7 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-						has_job = noble
-					}
+				has_job = noble
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_noble.dds"
@@ -268,20 +244,18 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-						has_job = administrator
-					or = {
-						owner = { has_government = gov_star_empire }
-						owner = { has_government = gov_despotic_hegemony }
-						owner = { has_government = gov_despotic_empire }
-						owner = { has_government = gov_feudal_empire }
-						owner = { has_government = gov_illuminated_autocracy }
-						owner = { has_government = gov_enlightened_monarchy }
-						owner = { has_government = gov_blood_court }
-						owner = { has_government = gov_divine_empire }
-						owner = { has_government = gov_elective_monarchy }
-						owner = { has_government = gov_martial_empire }
-					}
+				has_job = administrator
+				OR = {
+					owner = { has_government = gov_star_empire }
+					owner = { has_government = gov_despotic_hegemony }
+					owner = { has_government = gov_despotic_empire }
+					owner = { has_government = gov_feudal_empire }
+					owner = { has_government = gov_illuminated_autocracy }
+					owner = { has_government = gov_enlightened_monarchy }
+					owner = { has_government = gov_blood_court }
+					owner = { has_government = gov_divine_empire }
+					owner = { has_government = gov_elective_monarchy }
+					owner = { has_government = gov_martial_empire }
 				}
 			}
 			list = {
@@ -291,12 +265,10 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-						has_job = administrator
-					or = {
-						owner = { has_government = gov_bandit_kingdom }
-						owner = { has_government = gov_bandit_commune }
-					}
+				has_job = administrator
+				OR = {
+					owner = { has_government = gov_bandit_kingdom }
+					owner = { has_government = gov_bandit_commune }
 				}
 			}
 			list = {
@@ -306,15 +278,13 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-						has_job = administrator
-					or = {
-						owner = { has_government = gov_military_commissariat }
-						owner = { has_government = gov_military_junta }
-						owner = { has_government = gov_citizen_republic }
-						owner = { has_government = gov_citizen_stratocracy }
-						owner = { has_government = gov_purity_assembly }
-					}
+				has_job = administrator
+				OR = {
+					owner = { has_government = gov_military_commissariat }
+					owner = { has_government = gov_military_junta }
+					owner = { has_government = gov_citizen_republic }
+					owner = { has_government = gov_citizen_stratocracy }
+					owner = { has_government = gov_purity_assembly }
 				}
 			}
 			list = {
@@ -324,14 +294,12 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-						has_job = administrator
-					or = {
-						owner = { has_government = gov_representative_democracy }
-						owner = { has_government = gov_communal_parity }
-						owner = { has_government = gov_moral_democracy }
-						owner = { has_government = gov_direct_democracy }
-					}
+				has_job = administrator
+				OR = {
+					owner = { has_government = gov_representative_democracy }
+					owner = { has_government = gov_communal_parity }
+					owner = { has_government = gov_moral_democracy }
+					owner = { has_government = gov_direct_democracy }
 				}
 			}
 			list = {
@@ -341,16 +309,14 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-						has_job = administrator
-					or = {
-						owner = { has_government = gov_theocratic_monarchy }
-						owner = { has_government = gov_celestial_empire }
-						owner = { has_government = gov_theocratic_oligarchy }
-						owner = { has_government = gov_holy_tribunal }
-						owner = { has_government = gov_theocratic_dictatorship }
-						owner = { has_government = gov_theocratic_republic }
-					}
+				has_job = administrator
+				OR = {
+					owner = { has_government = gov_theocratic_monarchy }
+					owner = { has_government = gov_celestial_empire }
+					owner = { has_government = gov_theocratic_oligarchy }
+					owner = { has_government = gov_holy_tribunal }
+					owner = { has_government = gov_theocratic_dictatorship }
+					owner = { has_government = gov_theocratic_republic }
 				}
 			}
 			list = {
@@ -360,14 +326,12 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-						has_job = administrator
-					or = {
-						owner = { has_government = gov_purity_order }
-						owner = { has_government = gov_martial_dictatorship }
-						owner = { has_government = gov_military_dictatorship }
-						owner = { has_government = gov_purification_committee }
-					}
+				has_job = administrator
+				OR = {
+					owner = { has_government = gov_purity_order }
+					owner = { has_government = gov_martial_dictatorship }
+					owner = { has_government = gov_military_dictatorship }
+					owner = { has_government = gov_purification_committee }
 				}
 			}
 			list = {
@@ -377,13 +341,11 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-						has_job = administrator
-					or = {
-						owner = { has_government = gov_irenic_monarchy }
-						owner = { has_government = gov_irenic_bureaucracy }
-						owner = { has_government = gov_irenic_dictatorship }
-					}
+				has_job = administrator
+				OR = {
+					owner = { has_government = gov_irenic_monarchy }
+					owner = { has_government = gov_irenic_bureaucracy }
+					owner = { has_government = gov_irenic_dictatorship }
 				}
 			}
 			list = {
@@ -393,12 +355,10 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-						has_job = administrator
-					or = {
-						owner = { has_government = gov_assembly_of_clans }
-						owner = { has_government = gov_war_council }
-					}
+				has_job = administrator
+				OR = {
+					owner = { has_government = gov_assembly_of_clans }
+					owner = { has_government = gov_war_council }
 				}
 			}
 			list = {
@@ -408,11 +368,11 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-					OR = {
-						has_job = executive
-						has_job = manager
-						has_job = merchant
-					}
+				OR = {
+					has_job = executive
+					has_job = manager
+					has_job = merchant
+				}
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_trader.dds"
@@ -421,12 +381,9 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-					is_unemployed = yes
-					is_pop_category = ruler
-				}
+				is_unemployed = yes
+				is_pop_category = ruler
 			}
-
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_entertainer.dds"
 			}
@@ -434,12 +391,9 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-					is_unemployed = yes
-					is_pop_category = specialist
-				}
+				is_unemployed = yes
+				is_pop_category = specialist
 			}
-
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_unemployed_specialist.dds"
 			}
@@ -447,38 +401,42 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-					is_unemployed = yes
-					is_pop_category = worker
-				}
+				is_unemployed = yes
+				is_pop_category = worker
 			}
-
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_unemployed_worker01.dds"
 				"gfx/models/portraits/human/human_female_clothes_unemployed_worker02.dds"
 			}
 		}
 
-		"gfx/models/portraits/human/human_female_clothes_civilian.dds" = { is_pop_category = worker }
-		"gfx/models/portraits/human/human_female_clothes_slave.dds" 	 = { OR = { is_pop_category = slave is_pop_category = simple_drone }  }
-		"gfx/models/portraits/human/human_female_clothes_scientist.dds" = { OR = { is_pop_category = specialist is_pop_category = complex_drone } }
 		"gfx/models/portraits/human/human_female_clothes_governor.dds" = { is_pop_category = ruler }
-
+		"gfx/models/portraits/human/human_female_clothes_civilian.dds" = { is_pop_category = worker }
+		"gfx/models/portraits/human/human_female_clothes_slave.dds" = {
+			OR = {
+				is_pop_category = slave
+				is_pop_category = simple_drone
+			}
+		}
+		"gfx/models/portraits/human/human_female_clothes_scientist.dds" = {
+			OR = {
+				is_pop_category = specialist
+				is_pop_category = complex_drone
+			}
+		}
 	}
 	#leader scope
 	leader = { #scientists, generals, admirals, governor
 
 		random = {
 			trigger = {
-				and = {
-					or = {
-						owner = { has_government = gov_rational_consensus }
-						owner = { has_government = gov_science_directorate }
-						owner = { has_government = gov_technocratic_dictatorship }
-						owner = { has_government = gov_illuminated_autocracy }
-					}
-					leader_class = scientist
+				OR = {
+					owner = { has_government = gov_rational_consensus }
+					owner = { has_government = gov_science_directorate }
+					owner = { has_government = gov_technocratic_dictatorship }
+					owner = { has_government = gov_illuminated_autocracy }
 				}
+				leader_class = scientist
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_scientist2.dds"
@@ -489,15 +447,13 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-					or = {
-						owner = { has_government = gov_military_commissariat }
-						owner = { has_government = gov_military_junta }
-						owner = { has_government = gov_citizen_republic }
-						owner = { has_government = gov_citizen_stratocracy }
-					}
-					leader_class = general
+				OR = {
+					owner = { has_government = gov_military_commissariat }
+					owner = { has_government = gov_military_junta }
+					owner = { has_government = gov_citizen_republic }
+					owner = { has_government = gov_citizen_stratocracy }
 				}
+				leader_class = general
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_general2.dds"
@@ -508,15 +464,13 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-					or = {
-						owner = { has_government = gov_military_commissariat }
-						owner = { has_government = gov_military_junta }
-						owner = { has_government = gov_citizen_republic }
-						owner = { has_government = gov_citizen_stratocracy }
-					}
-					leader_class = admiral
+				OR = {
+					owner = { has_government = gov_military_commissariat }
+					owner = { has_government = gov_military_junta }
+					owner = { has_government = gov_citizen_republic }
+					owner = { has_government = gov_citizen_stratocracy }
 				}
+				leader_class = admiral
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_admiral2.dds"
@@ -527,21 +481,19 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-					or = {
-						owner = { has_government = gov_star_empire }
-						owner = { has_government = gov_despotic_hegemony }
-						owner = { has_government = gov_despotic_empire }
-						owner = { has_government = gov_feudal_empire }
-						owner = { has_government = gov_illuminated_autocracy }
-						owner = { has_government = gov_enlightened_monarchy }
-						owner = { has_government = gov_divine_empire }
-						owner = { has_government = gov_blood_court }
-						owner = { has_government = gov_elective_monarchy }
-						owner = { has_government = gov_martial_empire }
-					}
-					leader_class = governor
+				OR = {
+					owner = { has_government = gov_star_empire }
+					owner = { has_government = gov_despotic_hegemony }
+					owner = { has_government = gov_despotic_empire }
+					owner = { has_government = gov_feudal_empire }
+					owner = { has_government = gov_illuminated_autocracy }
+					owner = { has_government = gov_enlightened_monarchy }
+					owner = { has_government = gov_divine_empire }
+					owner = { has_government = gov_blood_court }
+					owner = { has_government = gov_elective_monarchy }
+					owner = { has_government = gov_martial_empire }
 				}
+				leader_class = governor
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_governor2.dds"
@@ -550,13 +502,11 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-					or = {
-						owner = { has_government = gov_bandit_kingdom }
-						owner = { has_government = gov_bandit_commune }
-					}
-					leader_class = governor
+				OR = {
+					owner = { has_government = gov_bandit_kingdom }
+					owner = { has_government = gov_bandit_commune }
 				}
+				leader_class = governor
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_governor3.dds"
@@ -565,16 +515,14 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-					or = {
-						owner = { has_government = gov_military_commissariat }
-						owner = { has_government = gov_military_junta }
-						owner = { has_government = gov_citizen_republic }
-						owner = { has_government = gov_citizen_stratocracy }
-						owner = { has_government = gov_purity_assembly }
-					}
-					leader_class = governor
+				OR = {
+					owner = { has_government = gov_military_commissariat }
+					owner = { has_government = gov_military_junta }
+					owner = { has_government = gov_citizen_republic }
+					owner = { has_government = gov_citizen_stratocracy }
+					owner = { has_government = gov_purity_assembly }
 				}
+				leader_class = governor
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_governor4.dds"
@@ -583,15 +531,13 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-					or = {
-						owner = { has_government = gov_representative_democracy }
-						owner = { has_government = gov_communal_parity }
-						owner = { has_government = gov_moral_democracy }
-						owner = { has_government = gov_direct_democracy }
-					}
-					leader_class = governor
+				OR = {
+					owner = { has_government = gov_representative_democracy }
+					owner = { has_government = gov_communal_parity }
+					owner = { has_government = gov_moral_democracy }
+					owner = { has_government = gov_direct_democracy }
 				}
+				leader_class = governor
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_governor5.dds"
@@ -600,17 +546,15 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-					or = {
-						owner = { has_government = gov_theocratic_monarchy }
-						owner = { has_government = gov_celestial_empire }
-						owner = { has_government = gov_theocratic_oligarchy }
-						owner = { has_government = gov_holy_tribunal }
-						owner = { has_government = gov_theocratic_dictatorship }
-						owner = { has_government = gov_theocratic_republic }
-					}
-					leader_class = governor
+				OR = {
+					owner = { has_government = gov_theocratic_monarchy }
+					owner = { has_government = gov_celestial_empire }
+					owner = { has_government = gov_theocratic_oligarchy }
+					owner = { has_government = gov_holy_tribunal }
+					owner = { has_government = gov_theocratic_dictatorship }
+					owner = { has_government = gov_theocratic_republic }
 				}
+				leader_class = governor
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_governor6.dds"
@@ -619,15 +563,13 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-					or = {
-						owner = { has_government = gov_purity_order }
-						owner = { has_government = gov_martial_dictatorship }
-						owner = { has_government = gov_military_dictatorship }
-						owner = { has_government = gov_purification_committee }
-					}
-					leader_class = governor
+				OR = {
+					owner = { has_government = gov_purity_order }
+					owner = { has_government = gov_martial_dictatorship }
+					owner = { has_government = gov_military_dictatorship }
+					owner = { has_government = gov_purification_committee }
 				}
+				leader_class = governor
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_governor7.dds"
@@ -636,14 +578,12 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-					or = {
-						owner = { has_government = gov_irenic_monarchy }
-						owner = { has_government = gov_irenic_bureaucracy }
-						owner = { has_government = gov_irenic_dictatorship }
-					}
-					leader_class = governor
+				OR = {
+					owner = { has_government = gov_irenic_monarchy }
+					owner = { has_government = gov_irenic_bureaucracy }
+					owner = { has_government = gov_irenic_dictatorship }
 				}
+				leader_class = governor
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_governor8.dds"
@@ -652,13 +592,11 @@ mammalian_human_female_clothes_01 = {
 
 		random = {
 			trigger = {
-				and = {
-					or = {
-						owner = { has_government = gov_assembly_of_clans }
-						owner = { has_government = gov_war_council }
-					}
-					leader_class = governor
+				OR = {
+					owner = { has_government = gov_assembly_of_clans }
+					owner = { has_government = gov_war_council }
 				}
+				leader_class = governor
 			}
 			list = {
 				"gfx/models/portraits/human/human_female_clothes_duelist.dds"
