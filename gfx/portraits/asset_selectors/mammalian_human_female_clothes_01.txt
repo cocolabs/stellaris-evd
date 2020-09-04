@@ -611,16 +611,63 @@ mammalian_human_female_clothes_01 = {
 	ruler = { #for rulers
 		default = "gfx/models/portraits/human/human_female_clothes_governor5.dds"
 
-		# Empire specific clothes
-		##########################
-		# Disable, change or add entries to set empire ruler uniforms
-
-		# "gfx/models/portraits/human/human_female_clothes_governor3.dds" = {
-			# owner = { has_country_flag = human_2 }
-		# }
-
-		##########################
-
+		#-------------------------
+		########################
+		# User defined Empires
+		########################
+		#-------------------------
+		# Commonwealth of Man
+		"gfx/models/portraits/human/human_female_clothes_governor3.dds" = {
+			owner = { has_country_flag = human_2 }
+		}
+		# Revolutionary Union of Sol
+		"gfx/models/portraits/human/human_female_clothes_slave.dds" = {
+			owner = { has_country_flag = union_of_sol }
+		}
+		# Sacred Commonwealth of Earth
+		"gfx/models/portraits/human/human_female_clothes_governor8.dds" = {
+			owner = { has_country_flag = sacred_commonwealth_of_earth }
+		}
+		# Terran Millennium Covenant
+		"gfx/models/portraits/human/human_female_clothes_noble.dds" = {
+			owner = { has_country_flag = terran_millennium }
+		}
+		# United Earth Federation
+		"gfx/models/portraits/human/human_male_clothes_overseer.dds" = {
+			owner = { has_country_flag = human_earth_federation }
+		}
+		#######################
+		# Hive Mind Government
+		######################
+		"gfx/models/portraits/human/human_female_clothes_duelist.dds" = {
+			owner = { has_authority = auth_hive_mind }
+		}
+		###########################
+		# Dictatorial Police State
+		###########################
+		"gfx/models/portraits/human/human_female_clothes_enforcer.dds" = {
+			owner = {
+				has_authority = auth_dictatorial
+				has_civic = civic_police_state
+			}
+		}
+		########################
+		# Corporate Governments
+		########################
+		"gfx/models/portraits/human/human_female_clothes_preacher.dds" = {
+			owner = {
+				has_civic = civic_gospel_of_the_masses
+			}
+		}
+		random = {
+			trigger = {
+				owner = { has_authority = auth_corporate }
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_trader.dds"
+				"gfx/models/portraits/human/human_female_clothes_governor.dds"
+			}
+		}
 		##########################
 		# Materialist Governments
 		#########################
@@ -632,6 +679,7 @@ mammalian_human_female_clothes_01 = {
 		######################
 		"gfx/models/portraits/human/human_female_clothes_governor5.dds" = {
 			owner = {
+				NOT = { has_authority = auth_imperial }
 				OR = {
 					has_government = gov_communal_parity
 					has_generic_government = yes
@@ -650,15 +698,15 @@ mammalian_human_female_clothes_01 = {
 			owner = { has_militarist_government = yes }
 			pre_ruler_leader_class = admiral
 		}
-		"gfx/models/portraits/human/human_female_clothes_governor3.dds" = {
-			owner = {
-				has_militarist_government = yes
-				is_autocracy = yes
-			}
+		"gfx/models/portraits/human/human_female_clothes_governor2.dds" = {
+			owner = { has_militarist_government = yes }
 			NOT = {
 				pre_ruler_leader_class = admiral
 				pre_ruler_leader_class = general
 			}
+		}
+		"gfx/models/portraits/human/human_female_clothes_governor3.dds" = {
+			owner = { has_government = gov_blood_court }
 		}
 		########################
 		# Spiritual Governments
@@ -675,34 +723,6 @@ mammalian_human_female_clothes_01 = {
 				is_autocracy = no
 			}
 		}
-		##########################
-		# Egalitarian Governments
-		##########################
-		random = {
-			trigger = {
-				owner = {
-					has_militarist_government = no
-					has_ethic = ethic_fanatic_egalitarian
-				}
-			}
-			list = {
-				"gfx/models/portraits/human/human_female_clothes_civilian.dds"
-				"gfx/models/portraits/human/human_female_clothes_slave.dds"
-				"gfx/models/portraits/human/human_female_clothes_unemployed_worker01.dds"
-			}
-		}
-		########################
-		# Corporate Governments
-		########################
-		random = {
-			trigger = {
-				owner = { has_authority = auth_corporate }
-			}
-			list = {
-				"gfx/models/portraits/human/human_female_clothes_trader.dds"
-				"gfx/models/portraits/human/human_female_clothes_governor.dds"
-			}
-		}
 		########################
 		# Primitive Governments
 		########################
@@ -714,6 +734,12 @@ mammalian_human_female_clothes_01 = {
 				"gfx/models/portraits/human/human_female_clothes_ruler3.dds"
 				"gfx/models/portraits/human/human_female_clothes_noble.dds"
 			}
+		}
+		########################
+		# Imperial Governments
+		########################
+		"gfx/models/portraits/human/human_female_clothes_royal.dds" = {
+			owner = { has_authority = auth_imperial }
 		}
 	}
 }
