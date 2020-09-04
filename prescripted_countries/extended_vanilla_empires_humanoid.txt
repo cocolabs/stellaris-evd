@@ -1550,7 +1550,7 @@ united_earth_federation = {
 	adjective="Earth"
 	authority="auth_democratic"
 	flags = {
-		human_uef
+		human_earth_federation
 	}
 	government="gov_citizen_republic"
 	advisor_voice_type="l_the_soldier"
