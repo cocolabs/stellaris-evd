@@ -382,17 +382,6 @@ mammalian_human_male_clothes_01 = {
 		random = {
 			trigger = {
 				is_unemployed = yes
-				is_pop_category = ruler
-			}
-
-			list = {
-				"gfx/models/portraits/human/human_male_clothes_unemployed_ruler.dds"
-			}
-		}
-
-		random = {
-			trigger = {
-				is_unemployed = yes
 				is_pop_category = specialist
 			}
 
