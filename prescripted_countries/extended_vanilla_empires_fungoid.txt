@@ -1,6 +1,6 @@
 "Amaranth Efflorescence"
 ={
-	key="Amaranth Efflorescence"
+	name="Amaranth Efflorescence"
 	ship_prefix=""
 	species={
 		class="FUN"
@@ -13,7 +13,6 @@
 		trait="trait_hive_mind"
 		trait="trait_adaptive"
 	}
-	name="Amaranth Efflorescence"
 	adjective="Amaranth"
 	authority="auth_hive_mind"
 	government="gov_devouring_swarm"
@@ -61,7 +60,7 @@
 }
 "Exhalted Tanjavan Providence"
 ={
-	key="Exhalted Tanjavan Providence"
+	name="Exhalted Tanjavan Providence"
 	ship_prefix="ITN"
 	species={
 		class="FUN"
@@ -89,7 +88,6 @@
 		trait="trait_resilient"
 		trait="trait_sedentary"
 	}
-	name="Exhalted Tanjavan Providence"
 	adjective="Tanjavan"
 	authority="auth_imperial"
 	government="gov_divine_empire"
@@ -138,7 +136,7 @@
 }
 "Makolar Prosperity Sphere"
 ={
-	key="Makolar Prosperity Sphere"
+	name="Makolar Prosperity Sphere"
 	ship_prefix=""
 	species={
 		class="FUN"
@@ -151,7 +149,6 @@
 		trait="trait_conservational"
 		trait="trait_enduring"
 	}
-	name="Makolar Prosperity Sphere"
 	adjective="Makolar"
 	authority="auth_oligarchic"
 	government="gov_executive_committee"
@@ -201,7 +198,7 @@
 }
 "Placid Dominion of Avv Vvada"
 ={
-	key="Placid Dominion of Avv Vvada"
+	name="Placid Dominion of Avv Vvada"
 	ship_prefix="AVV"
 	species={
 		class="FUN"
@@ -214,7 +211,6 @@
 		trait="trait_nomadic"
 		trait="trait_natural_engineers"
 	}
-	name="Placid Dominion of Avv Vvada"
 	adjective="Avv Vvadan"
 	authority="auth_imperial"
 	government="gov_despotic_hegemony"

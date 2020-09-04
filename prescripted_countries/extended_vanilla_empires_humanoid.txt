@@ -1,6 +1,6 @@
 "Council of Veklaran Great Houses"
 ={
-	key="Council of Veklaran Great Houses"
+	name="Council of Veklaran Great Houses"
 	ship_prefix="IVC"
 	species={
 		class="HUM"
@@ -15,7 +15,6 @@
 		trait="trait_strong"
 		trait="trait_quarrelsome"
 	}
-	name="Council of Veklaran Great Houses"
 	adjective="Veklaran"
 	authority="auth_oligarchic"
 	government="gov_war_council"
@@ -66,7 +65,7 @@
 }
 "Democratic People's Republic of Earth"
 ={
-	key="Democratic People's Republic of Earth"
+	name="Democratic People's Republic of Earth"
 	ship_prefix="RSF"
 	species={
 		class="HUM"
@@ -78,7 +77,6 @@
 		name_list="HUMAN2"
 		trait="trait_adaptive"
 	}
-	name="Democratic People's Republic of Earth"
 	adjective="Earth"
 	authority="auth_oligarchic"
 	government="gov_military_junta"
@@ -130,7 +128,7 @@
 }
 "Deneb Star Corps"
 ={
-	key="Deneb Star Corps"
+	name="Deneb Star Corps"
 	ship_prefix="DSC"
 	species={
 		class="HUM"
@@ -143,7 +141,6 @@
 		trait="trait_quick_learners"
 		trait="trait_resilient"
 	}
-	name="Deneb Star Corps"
 	adjective="Deneb"
 	authority="auth_oligarchic"
 	government="gov_citizen_stratocracy"
@@ -195,7 +192,7 @@
 }
 "Divine Terran Crusade"
 ={
-	key="Divine Terran Crusade"
+	name="Divine Terran Crusade"
 	ship_prefix="ICV"
 	species={
 		class="HUM"
@@ -208,7 +205,6 @@
 		trait="trait_survivor"
 		trait="trait_adaptive"
 	}
-	name="Divine Terran Crusade"
 	adjective="Terran"
 	authority="auth_imperial"
 	government="gov_blood_court"
@@ -261,7 +257,7 @@
 }
 "Earth Colonial Administration"
 ={
-	key="Earth Colonial Administration"
+	name="Earth Colonial Administration"
 	ship_prefix="USS"
 	species={
 		class="HUM"
@@ -275,7 +271,6 @@
 		trait="trait_nomadic"
 		trait="trait_wasteful"
 	}
-	name="Earth Colonial Administration"
 	adjective="Earth"
 	authority="auth_democratic"
 	government="gov_representative_democracy"
@@ -325,7 +320,7 @@
 }
 "Exlari Development Syndicate"
 ={
-	key="Exlari Development Syndicate"
+	name="Exlari Development Syndicate"
 	ship_prefix="ESS"
 	species={
 		class="HUM"
@@ -339,7 +334,6 @@
 		trait="trait_strong"
 		trait="trait_deviants"
 	}
-	name="Exlari Development Syndicate"
 	adjective="Exlari"
 	authority="auth_corporate"
 	government="gov_megacorporation"
@@ -388,7 +382,7 @@
 }
 "Holy See of Terra and Her Colonies"
 ={
-	key="Holy See of Terra and Her Colonies"
+	name="Holy See of Terra and Her Colonies"
 	ship_prefix="HMS"
 	species={
 		class="HUM"
@@ -402,7 +396,6 @@
 		trait="trait_traditional"
 		trait="trait_decadent"
 	}
-	name="Holy See of Terra and Her Colonies"
 	adjective="Terran"
 	authority="auth_dictatorial"
 	government="gov_theocratic_dictatorship"
@@ -456,7 +449,7 @@
 }
 "Imperial Mongathi Legions"
 ={
-	key="Imperial Mongathi Legions"
+	name="Imperial Mongathi Legions"
 	ship_prefix="MRV"
 	species={
 		class="HUM"
@@ -470,7 +463,6 @@
 		trait="trait_strong"
 		trait="trait_decadent"
 	}
-	name="Imperial Mongathi Legions"
 	adjective="Mongathi"
 	authority="auth_imperial"
 	government="gov_martial_empire"
@@ -519,7 +511,7 @@
 }
 "Kolari Martial Coalition"
 ={
-	key="Kolari Martial Coalition"
+	name="Kolari Martial Coalition"
 	ship_prefix="KNS"
 	species={
 		class="HUM"
@@ -532,7 +524,6 @@
 		trait="trait_natural_engineers"
 		trait="trait_talented"
 	}
-	name="Kolari Martial Coalition"
 	adjective="Kolari"
 	authority="auth_oligarchic"
 	government="gov_military_junta"
@@ -582,7 +573,7 @@
 }
 "Liao-Nishanti Stellar Industries"
 ={
-	key="Liao-Nishanti Stellar Industries"
+	name="Liao-Nishanti Stellar Industries"
 	ship_prefix="LNCV"
 	species={
 		class="HUM"
@@ -596,7 +587,6 @@
 		trait="trait_nomadic"
 		trait="trait_wasteful"
 	}
-	name="Liao-Nishanti Stellar Industries"
 	adjective="Deneb"
 	authority="auth_corporate"
 	government="gov_megacorporation"
@@ -647,7 +637,7 @@
 }
 "Lithine Continuity Alliance"
 ={
-	key="Lithine Continuity Alliance"
+	name="Lithine Continuity Alliance"
 	ship_prefix="LCS"
 	species={
 		class="HUM"
@@ -661,7 +651,6 @@
 		trait="trait_industrious"
 		trait="trait_repugnant"
 	}
-	name="Lithine Continuity Alliance"
 	adjective="Lithine"
 	authority="auth_democratic"
 	government="gov_purity_assembly"
@@ -710,7 +699,7 @@
 }
 "Mirandan Interstellar Directorate"
 ={
-	key="Mirandan Interstellar Directorate"
+	name="Mirandan Interstellar Directorate"
 	ship_prefix="MDC"
 	species={
 		class="HUM"
@@ -740,7 +729,6 @@
 		trait="trait_fleeting"
 		trait="trait_slow_learners"
 	}
-	name="Mirandan Interstellar Directorate"
 	adjective="Mirandan"
 	authority="auth_oligarchic"
 	government="gov_executive_committee"
@@ -791,7 +779,7 @@
 }
 "Order of Azrael's Chosen"
 ={
-	key="Order of Azrael's Chosen"
+	name="Order of Azrael's Chosen"
 	ship_prefix=""
 	species={
 		class="HUM"
@@ -805,7 +793,6 @@
 		trait="trait_nomadic"
 		trait="trait_wasteful"
 	}
-	name="Order of Azrael's Chosen"
 	adjective="Azraelite"
 	authority="auth_corporate"
 	flags={
@@ -860,7 +847,7 @@
 }
 "Presidium of Human Enlightenment"
 ={
-	key="Presidium of Human Enlightenment"
+	name="Presidium of Human Enlightenment"
 	ship_prefix=""
 	species={
 		class="HUM"
@@ -874,7 +861,6 @@
 		trait="trait_communal"
 		trait="trait_deviants"
 	}
-	name="Presidium of Human Enlightenment"
 	adjective="Earth"
 	authority="auth_dictatorial"
 	government="gov_totalitarian_regime"
@@ -926,7 +912,7 @@
 }
 "Revolutionary Union of Sol"
 ={
-	key="Revolutionary Union of Sol"
+	name="Revolutionary Union of Sol"
 	ship_prefix="UNS"
 	species={
 		class="HUM"
@@ -940,7 +926,6 @@
 		trait="trait_nomadic"
 		trait="trait_wasteful"
 	}
-	name="Revolutionary Union of Sol"
 	adjective="Solar"
 	authority="auth_oligarchic"
 	government="gov_science_directorate"
@@ -989,7 +974,7 @@
 }
 "Sacred Commonwealth of Earth"
 ={
-	key="Sacred Commonwealth of Earth"
+	name="Sacred Commonwealth of Earth"
 	ship_prefix="CNS"
 	species={
 		class="HUM"
@@ -1000,7 +985,6 @@
 		species_bio="The Black Death wiped out half of Earth's population in the 14th Century, including 99% of Europeans. Various Medieval Islamic powers expanded to fill the vacuum, first colonizing Europe and then discovering the Americas. Invigorated by a new era of frontiersmanship, these societies birthed a Renaissance spanning from Qurtuba to Makka to Jayakarta. During Earth's Industrial and Machine Ages, the Dar al-Islam came into frequent conflict with the Indian Travancore League and Chinese Empire. The struggle between these three blocs culminated in the Long War, spanning decades and killing hundreds of millions. Such horrific bloodshed gave rise to the political philosophy of Moral Progressivism. Dominated by the victorious powers of Firanja, Jinshan, and the Japanese Republic, the Human homeworld thrived under a syncretic vision of Islam, Buddhism, democracy, and environmentalism. As Humanity expanded into space, an enlightened and unified global government emerged to ensure lasting peace and prosperity: the Sacred Commonwealth of Earth."
 		name_list="HUMAN1"
 	}
-	name="Sacred Commonwealth of Earth"
 	adjective="Earth"
 	authority="auth_democratic"
 	flags={
@@ -1057,7 +1041,7 @@
 }
 "Senzari Interstellar Quora"
 ={
-	key="Senzari Interstellar Quora"
+	name="Senzari Interstellar Quora"
 	ship_prefix="SMC"
 	species={
 		class="HUM"
@@ -1071,7 +1055,6 @@
 		trait="trait_sedentary"
 		trait="trait_slow_breeders"
 	}
-	name="Senzari Interstellar Quora"
 	adjective="Senzari"
 	authority="auth_oligarchic"
 	government="gov_science_directorate"
@@ -1121,7 +1104,7 @@
 }
 "Sublime Siranic Council"
 ={
-	key="Sublime Siranic Council"
+	name="Sublime Siranic Council"
 	ship_prefix="SCS"
 	species={
 		class="HUM"
@@ -1148,7 +1131,6 @@
 		trait="trait_resilient"
 		trait="trait_slow_learners"
 	}
-	name="Sublime Siranic Council"
 	adjective="Siranic"
 	authority="auth_democratic"
 	government="gov_theocratic_republic"
@@ -1198,7 +1180,7 @@
 }
 "Supreme Authority of Dralark"
 ={
-	key="Supreme Authority of Dralark"
+	name="Supreme Authority of Dralark"
 	ship_prefix="OSC"
 	species={
 		class="HUM"
@@ -1212,7 +1194,6 @@
 		trait="trait_intelligent"
 		trait="trait_decadent"
 	}
-	name="Supreme Authority of Dralark"
 	adjective="Dralarkan"
 	authority="auth_dictatorial"
 	government="gov_military_dictatorship"
@@ -1261,7 +1242,7 @@
 }
 "Tellusian Mindflower"
 ={
-	key="Tellusian Mindflower"
+	name="Tellusian Mindflower"
 	ship_prefix=""
 	species={
 		class="HUM"
@@ -1275,7 +1256,6 @@
 		trait="trait_natural_sociologists"
 		trait="trait_quick_learners"
 	}
-	name="Tellusian Mindflower"
 	adjective="Tellusian"
 	authority="auth_hive_mind"
 	government="gov_hive_mind"
@@ -1324,7 +1304,7 @@
 }
 "Ten Triads of Great Zeizok"
 ={
-	key="Ten Triads of Great Zeizok"
+	name="Ten Triads of Great Zeizok"
 	ship_prefix=""
 	species={
 		class="HUM"
@@ -1337,7 +1317,6 @@
 		trait="trait_very_strong"
 		trait="trait_quarrelsome"
 	}
-	name="Ten Triads of Great Zeizok"
 	adjective="Zeizoki"
 	authority="auth_oligarchic"
 	government="gov_bandit_commune"
@@ -1386,7 +1365,7 @@
 }
 "Terran Colonial Empire"
 ={
-	key="Terran Colonial Empire"
+	name="Terran Colonial Empire"
 	ship_prefix="HMS"
 	species={
 		class="HUM"
@@ -1400,7 +1379,6 @@
 		trait="trait_nomadic"
 		trait="trait_wasteful"
 	}
-	name="Terran Colonial Empire"
 	adjective="Terran"
 	authority="auth_imperial"
 	flags={
@@ -1458,7 +1436,7 @@
 }
 "Terran Millennium Covenant"
 ={
-	key="Terran Millennium Covenant"
+	name="Terran Millennium Covenant"
 	ship_prefix="CNV"
 	species={
 		class="HUM"
@@ -1473,7 +1451,6 @@
 		trait="trait_nomadic"
 		trait="trait_wasteful"
 	}
-	name="Terran Millennium Covenant"
 	adjective="Terran"
 	authority="auth_oligarchic"
 	government="gov_theocratic_oligarchy"
@@ -1523,7 +1500,7 @@
 }
 "United Earth Federation"
 ={
-	key="United Earth Federation"
+	name="United Earth Federation"
 	ship_prefix="FNC"
 	species={
 		class="HUM"
@@ -1537,7 +1514,6 @@
 		trait="trait_nomadic"
 		trait="trait_wasteful"
 	}
-	name="United Earth Federation"
 	adjective="Earth"
 	authority="auth_democratic"
 	government="gov_citizen_republic"
@@ -1590,7 +1566,7 @@
 }
 "United Systems Republic"
 ={
-	key="United Systems Republic"
+	name="United Systems Republic"
 	ship_prefix="USS"
 	species={
 		class="HUM"
@@ -1602,7 +1578,6 @@
 		name_list="HUMAN1"
 		trait="trait_adaptive"
 	}
-	name="United Systems Republic"
 	adjective="Earth"
 	authority="auth_democratic"
 	government="gov_moral_democracy"

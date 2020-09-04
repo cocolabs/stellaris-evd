@@ -1,6 +1,6 @@
 "Adherence of the Enchanted Liturgy"
 ={
-	key="Adherence of the Enchanted Liturgy"
+	name="Adherence of the Enchanted Liturgy"
 	ship_prefix=""
 	species={
 		class="MOL"
@@ -14,7 +14,6 @@
 		trait="trait_rapid_breeders"
 		trait="trait_weak"
 	}
-	name="Adherence of the Enchanted Liturgy"
 	adjective="Tymotic"
 	authority="auth_corporate"
 	government="gov_megachurch"
@@ -64,7 +63,7 @@
 }
 "Indrithi Galactic Inheritance"
 ={
-	key="Indrithi Galactic Inheritance"
+	name="Indrithi Galactic Inheritance"
 	ship_prefix="IFS"
 	species={
 		class="MOL"
@@ -77,7 +76,6 @@
 		trait="trait_natural_physicists"
 		trait="trait_talented"
 	}
-	name="Indrithi Galactic Inheritance"
 	adjective="Indrithi"
 	authority="auth_imperial"
 	government="gov_blood_court"
@@ -126,7 +124,7 @@
 }
 "Janagman Anocratic Marketplace"
 ={
-	key="Janagman Anocratic Marketplace"
+	name="Janagman Anocratic Marketplace"
 	ship_prefix=""
 	species={
 		class="MOL"
@@ -138,7 +136,6 @@
 		name_list="MOL2"
 		trait="trait_thrifty"
 	}
-	name="Janagman Anocratic Marketplace"
 	adjective="Janagman"
 	authority="auth_democratic"
 	government="gov_direct_democracy"
@@ -187,7 +184,7 @@
 }
 "Memetic Circuit of Sensulatu"
 ={
-	key="Memetic Circuit of Sensulatu"
+	name="Memetic Circuit of Sensulatu"
 	ship_prefix=""
 	species={
 		class="MOL"
@@ -201,7 +198,6 @@
 		trait="trait_repugnant"
 		trait="trait_solitary"
 	}
-	name="Memetic Circuit of Sensulatu"
 	adjective="Sensulatic"
 	authority="auth_dictatorial"
 	government="gov_elective_monarchy"
@@ -250,7 +246,7 @@
 }
 "Serene Unity of Thuln"
 ={
-	key="Serene Unity of Thuln"
+	name="Serene Unity of Thuln"
 	ship_prefix="USV"
 	species={
 		class="MOL"
@@ -277,7 +273,6 @@
 		trait="trait_syncretic_proles"
 		trait="trait_strong"
 	}
-	name="Serene Unity of Thuln"
 	adjective="Thulnic"
 	authority="auth_dictatorial"
 	government="gov_irenic_dictatorship"
@@ -326,7 +321,7 @@
 }
 "Settakian Providential Stars"
 ={
-	key="Settakian Providential Stars"
+	name="Settakian Providential Stars"
 	ship_prefix="PNC"
 	species={
 		class="MOL"
@@ -340,7 +335,6 @@
 		trait="trait_strong"
 		trait="trait_sedentary"
 	}
-	name="Settakian Providential Stars"
 	adjective="Settakian"
 	authority="auth_imperial"
 	government="gov_celestial_empire"
@@ -390,7 +384,7 @@
 }
 "Thogmarite Commerce Group"
 ={
-	key="Thogmarite Commerce Group"
+	name="Thogmarite Commerce Group"
 	ship_prefix="CTV"
 	species={
 		class="MOL"
@@ -405,7 +399,6 @@
 		trait="trait_weak"
 		trait="trait_quarrelsome"
 	}
-	name="Thogmarite Commerce Group"
 	adjective="Thogmarite"
 	authority="auth_corporate"
 	government="gov_criminal_syndicate"
@@ -457,7 +450,7 @@
 }
 "Tribunal of Elder Zegalax"
 ={
-	key="Tribunal of Elder Zegalax"
+	name="Tribunal of Elder Zegalax"
 	ship_prefix=""
 	species={
 		class="MOL"
@@ -486,7 +479,6 @@
 		trait="trait_resilient"
 		trait="trait_fleeting"
 	}
-	name="Tribunal of Elder Zegalax"
 	adjective="Zegalan"
 	authority="auth_oligarchic"
 	government="gov_holy_tribunal"

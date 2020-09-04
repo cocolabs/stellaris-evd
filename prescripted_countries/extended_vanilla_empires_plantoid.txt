@@ -1,6 +1,6 @@
 "Bosang Grand Accord"
 ={
-	key="Bosang Grand Accord"
+	name="Bosang Grand Accord"
 	ship_prefix="BAS"
 	species={
 		class="PLANT"
@@ -13,7 +13,6 @@
 		trait="trait_natural_engineers"
 		trait="trait_resilient"
 	}
-	name="Bosang Grand Accord"
 	adjective="Bosang"
 	authority="auth_democratic"
 	government="gov_rational_consensus"
@@ -62,7 +61,7 @@
 }
 "Third Flowering of Zanfir"
 ={
-	key="Third Flowering of Zanfir"
+	name="Third Flowering of Zanfir"
 	ship_prefix=""
 	species={
 		class="PLANT"
@@ -76,7 +75,6 @@
 		trait="trait_conservational"
 		trait="trait_sedentary"
 	}
-	name="Third Flowering of Zanfir"
 	adjective="Zanfiri"
 	authority="auth_oligarchic"
 	government="gov_irenic_bureaucracy"
@@ -125,7 +123,7 @@
 }
 "Unified Zamkand State"
 ={
-	key="Unified Zamkand State"
+	name="Unified Zamkand State"
 	ship_prefix="ZNSS"
 	species={
 		class="PLANT"
@@ -137,7 +135,6 @@
 		name_list="PLANT"
 		trait="trait_conformists"
 	}
-	name="Unified Zamkand State"
 	adjective="Zamkander"
 	authority="auth_dictatorial"
 	government="gov_constitutional_dictatorship"
@@ -187,7 +184,7 @@
 }
 "Universal Selesian Demarchate"
 ={
-	key="Universal Selesian Demarchate"
+	name="Universal Selesian Demarchate"
 	ship_prefix="SDN"
 	species={
 		class="PLANT"
@@ -212,7 +209,6 @@
 		trait="trait_syncretic_proles"
 		trait="trait_strong"
 	}
-	name="Universal Selesian Demarchate"
 	adjective="Selesian"
 	authority="auth_democratic"
 	government="gov_citizen_republic"
@@ -262,7 +258,7 @@
 }
 "Wealdworlds of the D'chen Holobiont"
 ={
-	key="Wealdworlds of the D'chen Holobiont"
+	name="Wealdworlds of the D'chen Holobiont"
 	ship_prefix=""
 	species={
 		class="PLANT"
@@ -277,7 +273,6 @@
 		trait="trait_intelligent"
 		trait="trait_sedentary"
 	}
-	name="Wealdworlds of the D'chen Holobiont"
 	adjective="D'chen"
 	authority="auth_hive_mind"
 	government="gov_hive_mind"

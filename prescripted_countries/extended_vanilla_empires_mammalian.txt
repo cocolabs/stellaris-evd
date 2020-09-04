@@ -1,6 +1,6 @@
 "Cistrenthic Cybernetic Consensus"
 ={
-	key="Cistrenthic Cybernetic Consensus"
+	name="Cistrenthic Cybernetic Consensus"
 	ship_prefix="CCS"
 	species={
 		class="MAM"
@@ -13,7 +13,6 @@
 		trait="trait_conservational"
 		trait="trait_quick_learners"
 	}
-	name="Cistrenthic Cybernetic Consensus"
 	adjective="Cistrenthic"
 	authority="auth_democratic"
 	government="gov_direct_democracy"
@@ -62,7 +61,7 @@
 }
 "Confederation of Camrena"
 ={
-	key="Confederation of Camrena"
+	name="Confederation of Camrena"
 	ship_prefix="CNC"
 	species={
 		class="MAM"
@@ -75,7 +74,6 @@
 		trait="trait_communal"
 		trait="trait_natural_sociologists"
 	}
-	name="Confederation of Camrena"
 	adjective="Camordic"
 	authority="auth_dictatorial"
 	government="gov_totalitarian_regime"
@@ -126,7 +124,7 @@
 }
 "Eldagan Oathsworn"
 ={
-	key="Eldagan Oathsworn"
+	name="Eldagan Oathsworn"
 	ship_prefix=""
 	species={
 		class="MAM"
@@ -140,7 +138,6 @@
 		trait="trait_nomadic"
 		trait="trait_wasteful"
 	}
-	name="Eldagan Oathsworn"
 	adjective="Eldagan"
 	authority="auth_dictatorial"
 	government="gov_martial_dictatorship"
@@ -190,7 +187,7 @@
 }
 "Enlightened Ralahr Hegemony"
 ={
-	key="Enlightened Ralahr Hegemony"
+	name="Enlightened Ralahr Hegemony"
 	ship_prefix="RHS"
 	species={
 		class="MAM"
@@ -203,7 +200,6 @@
 		trait="trait_strong"
 		trait="trait_traditional"
 	}
-	name="Enlightened Ralahr Hegemony"
 	adjective="Ralahran"
 	authority="auth_dictatorial"
 	government="gov_elective_monarchy"
@@ -253,7 +249,7 @@
 }
 "Federated Tantai Republics"
 ={
-	key="Federated Tantai Republics"
+	name="Federated Tantai Republics"
 	ship_prefix="RNS"
 	species={
 		class="MAM"
@@ -265,7 +261,6 @@
 		name_list="MAM2"
 		trait="trait_charismatic"
 	}
-	name="Federated Tantai Republics"
 	adjective="Tantai"
 	authority="auth_democratic"
 	government="gov_moral_democracy"
@@ -315,7 +310,7 @@
 }
 "Galtanian Unistatic Regime"
 ={
-	key="Galtanian Unistatic Regime"
+	name="Galtanian Unistatic Regime"
 	ship_prefix="GRS"
 	species={
 		class="MAM"
@@ -327,7 +322,6 @@
 		name_list="MAM3"
 		trait="trait_intelligent"
 	}
-	name="Galtanian Unistatic Regime"
 	adjective="Galtanian"
 	authority="auth_dictatorial"
 	government="gov_technocratic_dictatorship"
@@ -376,7 +370,7 @@
 }
 "Great Bountiful Empire of Behgana"
 ={
-	key="Great Bountiful Empire of Behgana"
+	name="Great Bountiful Empire of Behgana"
 	ship_prefix="BINC"
 	species={
 		class="MAM"
@@ -389,7 +383,6 @@
 		trait="trait_very_strong"
 		trait="trait_slow_breeders"
 	}
-	name="Great Bountiful Empire of Behgana"
 	adjective="Behganan"
 	authority="auth_imperial"
 	government="gov_enlightened_monarchy"
@@ -441,7 +434,7 @@
 }
 "Maaktese Primarchate"
 ={
-	key="Maaktese Primarchate"
+	name="Maaktese Primarchate"
 	ship_prefix="PNV"
 	species={
 		class="MAM"
@@ -456,7 +449,6 @@
 		trait="trait_conservational"
 		trait="trait_slow_learners"
 	}
-	name="Maaktese Primarchate"
 	adjective="Maaktese"
 	authority="auth_dictatorial"
 	government="gov_theocratic_dictatorship"
@@ -506,7 +498,7 @@
 }
 "Mancibotic Caretaker Foundation"
 ={
-	key="Mancibotic Caretaker Foundation"
+	name="Mancibotic Caretaker Foundation"
 	ship_prefix=""
 	species={
 		class="MACHINE"
@@ -531,7 +523,6 @@
 		trait="trait_thrifty"
 		trait="trait_wasteful"
 	}
-	name="Mancibotic Caretaker Foundation"
 	adjective="Mancibotic"
 	authority="auth_machine_intelligence"
 	government="gov_machine_servitor"
@@ -579,7 +570,7 @@
 }
 "Vul Straag Brethren Council"
 ={
-	key="Vul Straag Brethren Council"
+	name="Vul Straag Brethren Council"
 	ship_prefix=""
 	species={
 		class="MAM"
@@ -593,7 +584,6 @@
 		trait="trait_strong"
 		trait="trait_quarrelsome"
 	}
-	name="Vul Straag Brethren Council"
 	adjective="Vul Straagan"
 	authority="auth_democratic"
 	government="gov_assembly_of_clans"

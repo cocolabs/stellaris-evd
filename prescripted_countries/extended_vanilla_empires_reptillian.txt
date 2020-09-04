@@ -1,6 +1,6 @@
 "Askaran Orthodoxy"
 ={
-	key="Askaran Orthodoxy"
+	name="Askaran Orthodoxy"
 	ship_prefix=""
 	species={
 		class="REP"
@@ -14,7 +14,6 @@
 		trait="trait_resilient"
 		trait="trait_decadent"
 	}
-	name="Askaran Orthodoxy"
 	adjective="Askaran"
 	authority="auth_oligarchic"
 	government="gov_theocratic_oligarchy"
@@ -63,7 +62,7 @@
 }
 "Diranic Imperial Schemata"
 ={
-	key="Diranic Imperial Schemata"
+	name="Diranic Imperial Schemata"
 	ship_prefix="IDNS"
 	species={
 		class="REP"
@@ -77,7 +76,6 @@
 		trait="trait_natural_engineers"
 		trait="trait_solitary"
 	}
-	name="Diranic Imperial Schemata"
 	adjective="Diranic"
 	authority="auth_imperial"
 	government="gov_illuminated_autocracy"
@@ -126,7 +124,7 @@
 }
 "Eleemosynary Conclave of Idaan"
 ={
-	key="Eleemosynary Conclave of Idaan"
+	name="Eleemosynary Conclave of Idaan"
 	ship_prefix="CNS"
 	species={
 		class="REP"
@@ -141,7 +139,6 @@
 		trait="trait_sedentary"
 		trait="trait_weak"
 	}
-	name="Eleemosynary Conclave of Idaan"
 	adjective="Idaanic"
 	authority="auth_oligarchic"
 	government="gov_holy_tribunal"
@@ -192,7 +189,7 @@
 }
 "Federal Empire of Kravaal"
 ={
-	key="Federal Empire of Kravaal"
+	name="Federal Empire of Kravaal"
 	ship_prefix="INS"
 	species={
 		class="REP"
@@ -204,7 +201,6 @@
 		name_list="REP1"
 		trait="trait_industrious"
 	}
-	name="Federal Empire of Kravaal"
 	adjective="Kravaalian"
 	authority="auth_imperial"
 	government="gov_irenic_monarchy"
@@ -257,7 +253,7 @@
 }
 "Hayikiir Economic Union"
 ={
-	key="Hayikiir Economic Union"
+	name="Hayikiir Economic Union"
 	ship_prefix=""
 	species={
 		class="REP"
@@ -271,7 +267,6 @@
 		trait="trait_nomadic"
 		trait="trait_slow_breeders"
 	}
-	name="Hayikiir Economic Union"
 	adjective="Hayikiiran"
 	authority="auth_corporate"
 	government="gov_trade_league"
@@ -324,7 +319,7 @@
 }
 "Phlogistonic Mandate of Silrith"
 ={
-	key="Phlogistonic Mandate of Silrith"
+	name="Phlogistonic Mandate of Silrith"
 	ship_prefix=""
 	species={
 		class="REP"
@@ -352,7 +347,6 @@
 		trait="trait_strong"
 		trait="trait_wasteful"
 	}
-	name="Phlogistonic Mandate of Silrith"
 	adjective="Silrithian"
 	authority="auth_democratic"
 	government="gov_assembly_of_clans"
@@ -402,7 +396,7 @@
 }
 "Raathi Stellar Ascendancy"
 ={
-	key="Raathi Stellar Ascendancy"
+	name="Raathi Stellar Ascendancy"
 	ship_prefix="IRNS"
 	species={
 		class="REP"
@@ -417,7 +411,6 @@
 		trait="trait_talented"
 		trait="trait_nonadaptive"
 	}
-	name="Raathi Stellar Ascendancy"
 	adjective="Raathi"
 	authority="auth_imperial"
 	government="gov_star_empire"
@@ -471,7 +464,7 @@
 }
 "Radiant Ororian Hierarchy"
 ={
-	key="Radiant Ororian Hierarchy"
+	name="Radiant Ororian Hierarchy"
 	ship_prefix="ORN"
 	species={
 		class="REP"
@@ -485,7 +478,6 @@
 		trait="trait_enduring"
 		trait="trait_sedentary"
 	}
-	name="Radiant Ororian Hierarchy"
 	adjective="Ororian"
 	authority="auth_imperial"
 	government="gov_feudal_empire"
@@ -535,7 +527,7 @@
 }
 "Royal Gankilian Godhead"
 ={
-	key="Royal Gankilian Godhead"
+	name="Royal Gankilian Godhead"
 	ship_prefix="HGS"
 	species={
 		class="REP"
@@ -547,7 +539,6 @@
 		name_list="REP3"
 		trait="trait_conformists"
 	}
-	name="Royal Gankilian Godhead"
 	adjective="Gankilian"
 	authority="auth_imperial"
 	government="gov_divine_empire"
@@ -596,7 +587,7 @@
 }
 "Surmeki Throne Worlds"
 ={
-	key="Surmeki Throne Worlds"
+	name="Surmeki Throne Worlds"
 	ship_prefix="HMS"
 	species={
 		class="REP"
@@ -612,7 +603,6 @@
 		trait="trait_decadent"
 		trait="trait_wasteful"
 	}
-	name="Surmeki Throne Worlds"
 	adjective="Mezakine"
 	authority="auth_imperial"
 	government="gov_despotic_empire"

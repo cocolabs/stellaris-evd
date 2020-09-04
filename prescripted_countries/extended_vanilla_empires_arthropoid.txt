@@ -1,6 +1,6 @@
 "Auspicious Tharfalion Entente"
 ={
-	key="Auspicious Tharfalion Entente"
+	name="Auspicious Tharfalion Entente"
 	ship_prefix=""
 	species={
 		class="ART"
@@ -15,7 +15,6 @@
 		trait="trait_sedentary"
 		trait="trait_slow_learners"
 	}
-	name="Auspicious Tharfalion Entente"
 	adjective="Tharfalion"
 	authority="auth_democratic"
 	government="gov_moral_democracy"
@@ -68,7 +67,7 @@
 }
 "Conglomerated Syklidian Estates"
 ={
-	key="Conglomerated Syklidian Estates"
+	name="Conglomerated Syklidian Estates"
 	ship_prefix=""
 	species={
 		class="ART"
@@ -98,7 +97,6 @@
 		trait="trait_fleeting"
 		trait="trait_quarrelsome"
 	}
-	name="Conglomerated Syklidian Estates"
 	adjective="Syklidian"
 	authority="auth_oligarchic"
 	government="gov_military_junta"
@@ -151,7 +149,7 @@
 }
 "Consortial Guilds of Nirm-Sa-Gand"
 ={
-	key="Consortial Guilds of Nirm-Sa-Gand"
+	name="Consortial Guilds of Nirm-Sa-Gand"
 	ship_prefix="NGV"
 	species={
 		class="ART"
@@ -166,7 +164,6 @@
 		trait="trait_deviants"
 		trait="trait_solitary"
 	}
-	name="Consortial Guilds of Nirm-Sa-Gand"
 	adjective="Nirm-Sa-Gander"
 	authority="auth_oligarchic"
 	government="gov_plutocratic_oligarchy"
@@ -217,7 +214,7 @@
 }
 "Ethereal Dynasty of Straalgor"
 ={
-	key="Ethereal Dynasty of Straalgor"
+	name="Ethereal Dynasty of Straalgor"
 	ship_prefix=""
 	species={
 		class="ART"
@@ -230,7 +227,6 @@
 		trait="trait_communal"
 		trait="trait_natural_engineers"
 	}
-	name="Ethereal Dynasty of Straalgor"
 	adjective="Straalgoran"
 	authority="auth_imperial"
 	government="gov_enlightened_monarchy"
@@ -279,7 +275,7 @@
 }
 "Eusocial Coalescence of Shisthoon"
 ={
-	key="Eusocial Coalescence of Shisthoon"
+	name="Eusocial Coalescence of Shisthoon"
 	ship_prefix=""
 	species={
 		class="ART"
@@ -294,7 +290,6 @@
 		trait="trait_natural_engineers"
 		trait="trait_fleeting"
 	}
-	name="Eusocial Coalescence of Shisthoon"
 	adjective="Shiskoid"
 	authority="auth_hive_mind"
 	government="gov_hive_mind"
@@ -342,7 +337,7 @@
 }
 "Honored Kotan Bloodlines"
 ={
-	key="Honored Kotan Bloodlines"
+	name="Honored Kotan Bloodlines"
 	ship_prefix="KBC"
 	species={
 		class="ART"
@@ -356,7 +351,6 @@
 		trait="trait_traditional"
 		trait="trait_solitary"
 	}
-	name="Honored Kotan Bloodlines"
 	adjective="Kotan"
 	authority="auth_democratic"
 	government="gov_assembly_of_clans"
@@ -406,7 +400,7 @@
 }
 "J'dekhian Manifest Purity"
 ={
-	key="J'dekhian Manifest Purity"
+	name="J'dekhian Manifest Purity"
 	ship_prefix=""
 	species={
 		class="ART"
@@ -419,7 +413,6 @@
 		trait="trait_very_strong"
 		trait="trait_solitary"
 	}
-	name="J'dekhian Manifest Purity"
 	adjective="J'dekhian"
 	authority="auth_oligarchic"
 	government="gov_purification_committee"
@@ -468,7 +461,7 @@
 }
 "Majestic Zytan Enclave"
 ={
-	key="Majestic Zytan Enclave"
+	name="Majestic Zytan Enclave"
 	ship_prefix=""
 	species={
 		class="ART"
@@ -494,7 +487,6 @@
 		trait="trait_syncretic_proles"
 		trait="trait_strong"
 	}
-	name="Majestic Zytan Enclave"
 	adjective="Zytan"
 	authority="auth_imperial"
 	government="gov_irenic_monarchy"
@@ -545,7 +537,7 @@
 }
 "Undjinic Pirate Cartels"
 ={
-	key="Undjinic Pirate Cartels"
+	name="Undjinic Pirate Cartels"
 	ship_prefix=""
 	species={
 		class="ART"
@@ -562,7 +554,6 @@
 		trait="trait_repugnant"
 		trait="trait_decadent"
 	}
-	name="Undjinic Pirate Cartels"
 	adjective="Undjinic"
 	authority="auth_dictatorial"
 	government="gov_bandit_kingdom"
