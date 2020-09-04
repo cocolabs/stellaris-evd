@@ -782,9 +782,9 @@ order_of_azraels_chosen = {
 	}
 	adjective="Azraelite"
 	authority="auth_corporate"
-	flags={
-		"order_of_azraels_chosen"
-		"custom_start_screen"
+	flags = {
+		order_of_azraels_chosen
+		custom_start_screen
 	}
 	government="gov_subversive_cult"
 	planet_name="New Eden"
@@ -971,9 +971,9 @@ sacred_commonwealth_of_earth = {
 	}
 	adjective="Earth"
 	authority="auth_democratic"
-	flags={
-		"sacred_commonwealth_of_earth"
-		"custom_start_screen"
+	flags = {
+		sacred_commonwealth_of_earth
+		custom_start_screen
 	}
 	government="gov_theocratic_republic"
 	advisor_voice_type="l_pacifist"
@@ -1359,9 +1359,9 @@ terran_colonial_empire = {
 	}
 	adjective="Terran"
 	authority="auth_imperial"
-	flags={
-		"terran_colonial_empire"
-		"custom_start_screen"
+	flags = {
+		terran_colonial_empire
+		custom_start_screen
 	}
 	government="gov_feudal_empire"
 	planet_name="Terra"
