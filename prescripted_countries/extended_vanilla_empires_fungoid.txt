@@ -1,0 +1,264 @@
+"Amaranth Efflorescence"
+={
+	key="Amaranth Efflorescence"
+	ship_prefix=""
+	species={
+		class="FUN"
+		portrait="fun16"
+		name="Amaranth"
+		plural="Amaranth"
+		adjective="Amaranth"
+		species_bio="Millions of years ago, a great ice age swept over the planet Grithor, erasing a thriving fungal ecosystem that had dominated its surface for eons. This gave several species of mammalians an evolutionary opportunity, and in time one of them came to dominate the planet and develop an industrial civilization. Their industry soon began to melt the ice, releasing ancient spores long ago trapped in the permafrost. Most were harmless, but one species of awoken fungi had a unique psychoactive effect on the population. The Amaranth first hijacked its victims' central nervous systems and drove them into a ravening zombie-like madness. Past a certain point of saturation, however, it began to unlock the nascent telepathic potential of its hosts, creating a networked consciousness of its own. Melding its own fundamental impulses with the baser instincts of its victims, the Efflorescence hungers greedily and insatiably for expansion. The total consumption of Grithor was completed swiftly, and the Amaranth may yet consume the entire galaxy."
+		name_list="FUN2"
+		trait="trait_hive_mind"
+		trait="trait_adaptive"
+	}
+	name="Amaranth Efflorescence"
+	adjective="Amaranth"
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	planet_name="Grithor"
+	planet_class="pc_tundra"
+	system_name="Plenid"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_nature6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_half_black_circle.dds"
+		}
+		colors={
+			"dark_purple"
+			"purple"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Relentless"
+		portrait="fun16"
+		texture=1
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="outdoor14_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_devouring_swarm"
+		"civic_hive_subspace_ephapse"
+	}
+	origin="origin_remnants"
+}
+"Exhalted Tanjavan Providence"
+={
+	key="Exhalted Tanjavan Providence"
+	ship_prefix="ITN"
+	species={
+		class="FUN"
+		portrait="fun7"
+		name="Basikos"
+		plural="Basikosi"
+		adjective="Basikosian"
+		species_bio="The Basikosi are masters of the labrynthine fungal forests of the planet Morkev Civa, where a vast cornucopia of life seems to somehow move in slow motion. Heirs to a million year long history, Basikosian civilization has already endured a span of time orders of magnitude longer than that of other young interstellar powers. Their culture's survival is thanks in part to extremely conservative values. Individual Basikosi typically undertake extensive meditation before making decisions. When they act, however, it is with irresistable determination. More than a thousand years ago, the Basikosian God-Emperor Dakjavv CXII declared that his people must grow outward from their homeworld to inhabit the stars or face the ultimate sanction of heaven. Yet only now is that divine commandment becoming reality, and the light of Providence shining out at last into the galaxy."
+		name_list="FUN3"
+		trait="trait_enduring"
+		trait="trait_talented"
+		trait="trait_traditional"
+		trait="trait_sedentary"
+	}
+	secondary_species={
+		class="FUN"
+		portrait="fun11"
+		name="Lexolotus"
+		plural="Lexoloti"
+		adjective="Lexolotic"
+		species_bio="Lexoloti are massive fungal beings that communicate through pheromones and bioluminescence. Slow moving, they nevertheless possess great physical strength and endurance. Eons ago, in the teeming mushroom jungles of Morkev Civa, they formed a symbiotic relationship with the Basikosi. The smaller, abler species tended to the Lexolotus like pilot fish, cleaning them of parasites and alerting them to resources and danger. The larger, wiser species in turn tended to Basikosian needs by providing shelter, protection from predators, and a source of physical labor."
+		name_list="FUN2"
+		trait="trait_syncretic_proles"
+		trait="trait_communal"
+		trait="trait_resilient"
+		trait="trait_sedentary"
+	}
+	name="Exhalted Tanjavan Providence"
+	adjective="Tanjavan"
+	authority="auth_imperial"
+	government="gov_divine_empire"
+	planet_name="Morkev Civa"
+	planet_class="pc_tropical"
+	system_name="Tanjava"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_spiritualist8.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"dark_green"
+			"green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Xincava Qalvrfin"
+		portrait="fun7"
+		texture=4
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="hive5_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_imperial_cult"
+		"civic_philosopher_king"
+	}
+	origin="origin_syncretic_evolution"
+}
+"Makolar Prosperity Sphere"
+={
+	key="Makolar Prosperity Sphere"
+	ship_prefix=""
+	species={
+		class="FUN"
+		portrait="fun1"
+		name="Sculba"
+		plural="Sculbar"
+		adjective="Sculban"
+		species_bio="A relatively long-lived species adapted to desert living, the Sculbar were able to see within a single generation the environmental changes on their homeworld caused by late stage industrialization. Their once brutally dry dune seas were blooming with green for weeks at a time. Ice was descending upon the peaks of the highest mountains. If nothing was done, their scientists said, forests would take over the salt flats and rivers would run through every wadi. In short order, the adapted their society to a more sustainable economic model, moving heavy industry off-world to other locations in the Makol system and creating the Prosperity Sphere to manage future development."
+		name_list="FUN1"
+		trait="trait_conservational"
+		trait="trait_enduring"
+	}
+	name="Makolar Prosperity Sphere"
+	adjective="Makolar"
+	authority="auth_oligarchic"
+	government="gov_executive_committee"
+	planet_name="Hom-Marfeen"
+	planet_class="pc_desert"
+	system_name="Makol"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_materialist7.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_x120.dds"
+		}
+		colors={
+			"orange"
+			"dark_teal"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Adv. Hodok Tunxan"
+		portrait="fun1"
+		texture=2
+		hair=0
+		clothes=0
+		ruler_title="Chairbeing"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="desert7_room"
+	spawn_enabled=always
+	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_environmentalist"
+		"civic_meritocracy"
+	}
+	origin="origin_default"
+}
+"Placid Dominion of Avv Vvada"
+={
+	key="Placid Dominion of Avv Vvada"
+	ship_prefix="AVV"
+	species={
+		class="FUN"
+		portrait="fun10"
+		name="Tafri"
+		plural="Tafrim"
+		adjective="Tafrin"
+		species_bio="The House of Qamvs, whose members ruled their homeworld of Avv Vvada for two centuries before discovering the hyperlane network, remains the trusted guide and protector of the Tafrin species. The Tafrim place great faith in the power of technology to overcome the challenges in front of them. Facing a population crisis in their late Modern Age, the ruling family invested heavily in spaceflight, opening the planets and stars for exploration and expansion by their ever-wandering and ever-multiplying subjects."
+		name_list="FUN3"
+		trait="trait_nomadic"
+		trait="trait_natural_engineers"
+	}
+	name="Placid Dominion of Avv Vvada"
+	adjective="Avv Vvadan"
+	authority="auth_imperial"
+	government="gov_despotic_hegemony"
+	planet_name="Avv Vvada"
+	planet_class="pc_tundra"
+	system_name="Lavvyl"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_materialist6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_x120.dds"
+		}
+		colors={
+			"light_green"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Zavabb Qamvs"
+		portrait="fun10"
+		texture=6
+		hair=0
+		clothes=2
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="tech12_room"
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_functional_architecture"
+		"civic_aristocratic_elite"
+	}
+	origin="origin_mechanists"
+}

@@ -1,0 +1,538 @@
+"Adherence of the Enchanted Liturgy"
+={
+	key="Adherence of the Enchanted Liturgy"
+	ship_prefix=""
+	species={
+		class="MOL"
+		portrait="mol2"
+		name="Tymot"
+		plural="Tymosh"
+		adjective="Tymotic"
+		species_bio="Those who follow the Divine Prescription of the Enchanted Liturgy with perfect precision open the doors of their minds to the Universe, and the doors of the Universe are opened them... at least, so teaches the Adherence. The native molluscoids of Naff'Lin, the Tymosh, live in neurosymbiosis with an eel-like creature. Their all-encompassing church promotes the belief that all sentient beings (and the economies that they generate) exist in a similar relationship with an otherworldly spirit known as the Invisible Tentacle. Contacting that spirit, which is most often attempted to win its favor in some material pursuit or another, is achieved through a series of complex rituals and investment decisions. The more financially advantageous those investments are to the Adherence, the greater the spiritual rapture... or so they say."
+		name_list="MOL3"
+		trait="trait_nomadic"
+		trait="trait_rapid_breeders"
+		trait="trait_weak"
+	}
+	name="Adherence of the Enchanted Liturgy"
+	adjective="Tymotic"
+	authority="auth_corporate"
+	government="gov_megachurch"
+	planet_name="Naff'Lin"
+	planet_class="pc_arid"
+	system_name="Yulil"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_spiritualist6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"teal"
+			"light_green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Kaabbea Ba Tuy"
+		portrait="mol2"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="desert6_room"
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_brand_loyalty"
+		"civic_gospel_of_the_masses"
+	}
+	origin="origin_default"
+}
+"Indrithi Galactic Inheritance"
+={
+	key="Indrithi Galactic Inheritance"
+	ship_prefix="IFS"
+	species={
+		class="MOL"
+		portrait="mol5"
+		name="Indrith"
+		plural="Indrithi"
+		adjective="Indrithi"
+		species_bio="Rising from an environment full of megapredators, only their devious intelligence and ferocious protective instincts ensured the Indrithi would become the dominant species of their homeworld. Their early civilizations waged brutal wars for dominance of Minh until a single undeniable empire spanned the entire globe. In a galaxy populated by rival empires, their traits and their history are certain to mean the Indrithi will find conflict among the stars early and often. But to most Indrithi, all of this is as it should be, for their ultimate dominance of the universe belongs to the strongest species, and their place in that role is a manifest certainty."
+		name_list="MOL1"
+		trait="trait_natural_physicists"
+		trait="trait_talented"
+	}
+	name="Indrithi Galactic Inheritance"
+	adjective="Indrithi"
+	authority="auth_imperial"
+	government="gov_blood_court"
+	planet_name="Minh"
+	planet_class="pc_ocean"
+	system_name="Ghar"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_purifier1.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"black"
+			"burgundy"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Yggash the Destroyer"
+		portrait="mol5"
+		texture=1
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="outdoor7_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_militarist"
+	civics={
+		"civic_aristocratic_elite"
+		"civic_fanatic_purifiers"
+	}
+	origin="origin_default"
+}
+"Janagman Anocratic Marketplace"
+={
+	key="Janagman Anocratic Marketplace"
+	ship_prefix=""
+	species={
+		class="MOL"
+		portrait="mol3"
+		name="Ghex"
+		plural="Ghexi"
+		adjective="Ghexoid"
+		species_bio="Having emerged on a planet defined by vast seas that isolated pockets of dry resources, Ghexoid society naturally revolves around business and long-range trade. Tribal and familial alliances traditionally controlled the various regions and market sectors, and the Interstellar Age is no different. Individual family enclaves follow their own internal models of administration. Nearly all, however, recognize the fundamental value of personal liberty and free enterprise. What passes for a planetary government on their homeworld Teiso is the Marketplace. First conceived in the Ghexoid Machine Age, the Marketplace formalized and updated numerous conventional rules regarding the fair conduct of commerce (and the perpetual practice of espionage that underlies it). Consensus on Marketplace policy is achieved via plebiscite with a franchise that extends to all adult citizens."
+		name_list="MOL2"
+		trait="trait_thrifty"
+	}
+	name="Janagman Anocratic Marketplace"
+	adjective="Janagman"
+	authority="auth_democratic"
+	government="gov_direct_democracy"
+	planet_name="Teiso"
+	planet_class="pc_arid"
+	system_name="Janagma"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_authoritarian11.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_ring.dds"
+		}
+		colors={
+			"burgundy"
+			"yellow"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Kers Styuso"
+		portrait="mol3"
+		texture=2
+		hair=0
+		clothes=2
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="cityscape1_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_egalitarian"
+	ethic="ethic_materialist"
+	civics={
+		"civic_idealistic_foundation"
+		"civic_merchant_guilds"
+	}
+	origin="origin_default"
+}
+"Memetic Circuit of Sensulatu"
+={
+	key="Memetic Circuit of Sensulatu"
+	ship_prefix=""
+	species={
+		class="MOL"
+		portrait="mol6"
+		name="Phasgol"
+		plural="Phasgolans"
+		adjective="Phasgolan"
+		species_bio="The Phasgolans are a psychologically unique species from the frigid rocky planet Torrubia. Fearing failed social encounters more than any other threat in the universe, most of them live out their lives in near isolation among the millions of mutually inaccessible ravines and valleys that cover their homeworld. Even in an era of cheap and instantaneous telecommunications, the individual Phasgol may go years without contacting another sentient being. When such an encounter does come, a Phasgol must be ready. During periods of isolation, they build trinkets, compose poetry, practice jokes, and study the mystic arts of the memeways in the hopes of impressing a caller or visitor. If this fails, they may become frustrated and physically compel a guest to stay. Once trapped, their victims can expect a slow torture by endless rambling hyperbolic conversation and frantic attempts by the Phasgol to demonstrate their cultural savvy and social value. The greatest among them, having impressed literally dozens of others, is elected High King. Phasgolan royalty, of course, should have the attention and admiration of the entire galaxy..."
+		name_list="FUN4"
+		trait="trait_venerable"
+		trait="trait_repugnant"
+		trait="trait_solitary"
+	}
+	name="Memetic Circuit of Sensulatu"
+	adjective="Sensulatic"
+	authority="auth_dictatorial"
+	government="gov_elective_monarchy"
+	planet_name="Torrubia"
+	planet_class="pc_alpine"
+	system_name="Sensulatu"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_nature8.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_gradient.dds"
+		}
+		colors={
+			"burgundy"
+			"dark_grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Dooklor"
+		portrait="mol6"
+		texture=1
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="industrial1_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_militarist"
+	civics={
+		"civic_free_haven"
+		"civic_philosopher_king"
+	}
+	origin="origin_default"
+}
+"Serene Unity of Thuln"
+={
+	key="Serene Unity of Thuln"
+	ship_prefix="USV"
+	species={
+		class="MOL"
+		portrait="mol7"
+		name="Lanbel"
+		plural="Lanbeli"
+		adjective="Lanbellar"
+		species_bio="Relying on the stalwart protection of their Genoggian friends and the placidity of the waters of their homeworld Thuln, the Lanbeli float gracefully through their long lives engaging in intellectual exercises. So deliberate and leisurely was their development as a sentient species that almost a thousand standard years passed between the first Lanbeli spaceflight and their discovery of hyperspace."
+		name_list="MOL2"
+		trait="trait_charismatic"
+		trait="trait_venerable"
+		trait="trait_nonadaptive"
+		trait="trait_weak"
+		trait="trait_sedentary"
+	}
+	secondary_species={
+		class="MOL"
+		portrait="mol11"
+		name="Genoggian"
+		plural="Genoggians"
+		adjective="Genoggian"
+		species_bio="Evolved as symbiotic hosts to the Lanbeli, whose ancestors were once like pilot fish to their own ancient  precursors, the large and sturdy Genoggians are a physically impressive but unrefined species."
+		name_list="MOL2"
+		trait="trait_syncretic_proles"
+		trait="trait_strong"
+	}
+	name="Serene Unity of Thuln"
+	adjective="Thulnic"
+	authority="auth_dictatorial"
+	government="gov_irenic_dictatorship"
+	planet_name="Thuln"
+	planet_class="pc_ocean"
+	system_name="Dhanbet"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_nature3.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_gradient.dds"
+		}
+		colors={
+			"dark_teal"
+			"light_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Llyedith"
+		portrait="mol7"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="underwater1_room"
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_pacifist"
+	civics={
+		"civic_functional_architecture"
+		"civic_agrarian_idyll"
+	}
+	origin="origin_syncretic_evolution"
+}
+"Settakian Providential Stars"
+={
+	key="Settakian Providential Stars"
+	ship_prefix="PNC"
+	species={
+		class="MOL"
+		portrait="mol13"
+		name="Settak"
+		plural="Settaki"
+		adjective="Settakian"
+		species_bio="Devoted subjects of a heavenly hereditary autocrat, the Settaki of Gluggnal see far greater promise in building their own civilization up to be a brilliant example of Providence than in the prospect of relations with sullied alien outsiders. The stars that shine upon their celestial empire are surely blessed, but the tourism opportunities are few."
+		name_list="MOL3"
+		trait="trait_agrarian"
+		trait="trait_strong"
+		trait="trait_sedentary"
+	}
+	name="Settakian Providential Stars"
+	adjective="Settakian"
+	authority="auth_imperial"
+	government="gov_celestial_empire"
+	planet_name="Gluggnal"
+	planet_class="pc_ocean"
+	system_name="Daggimga"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_spiritualist3.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_horizon.dds"
+		}
+		colors={
+			"dark_blue"
+			"teal"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Awn Cliash"
+		portrait="mol13"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="throne3_room"
+	spawn_enabled=always
+	ethic="ethic_xenophobe"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_inwards_perfection"
+		"civic_philosopher_king"
+	}
+	origin="origin_scion"
+}
+"Thogmarite Commerce Group"
+={
+	key="Thogmarite Commerce Group"
+	ship_prefix="CTV"
+	species={
+		class="MOL"
+		portrait="mol1"
+		name="Chamaf"
+		plural="Chamafs"
+		adjective="Chamafi"
+		species_bio="The great figures of Chamafi civilization are almost universally greedy, unscrupulous carpetbaggers. The average Chamaf is raised in a society driven by constant economic competition between corporations, which several centuries ago succeeded in usurping de facto control of their homeworld, Murg Lorr, from more directly altruistic governments. The Thogmarite Commerce Group, an always uneasy alliance struck between the largest such corporations, is all that passes for a central authority. The Group is meant to ensure equitable access to opportunities in the burgeoning galactic marketplace."
+		name_list="MOL1"
+		trait="trait_adaptive"
+		trait="trait_charismatic"
+		trait="trait_weak"
+		trait="trait_quarrelsome"
+	}
+	name="Thogmarite Commerce Group"
+	adjective="Thogmarite"
+	authority="auth_corporate"
+	government="gov_criminal_syndicate"
+	planet_name="Murg Lorr"
+	planet_class="pc_savannah"
+	system_name="Thogmar"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_egalitarian3.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_x60x3.dds"
+		}
+		colors={
+			"light_blue"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Tramartar Jen-Meokar"
+		portrait="mol1"
+		texture=0
+		hair=0
+		clothes=1
+		ruler_title="Administrator"
+		ruler_title_female="Administrator"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="cityscape2_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	civics={
+		"civic_criminal_heritage"
+		"civic_ruthless_competition"
+	}
+	origin="origin_default"
+}
+"Tribunal of Elder Zegalax"
+={
+	key="Tribunal of Elder Zegalax"
+	ship_prefix=""
+	species={
+		class="MOL"
+		portrait="mol15"
+		name="Zegal"
+		plural="Zegalax"
+		adjective="Zegalan"
+		species_bio="Naff'Canno, the wet jungle homeworld of both the Zegal and Ra-Clexu species, was once host to a Medival Age society under the passive protection of an ancient xenophilic interstellar empire. A small group of ancestors to the modern Zegalax ended this relationship when they perpetrated the Treason of Sovon. This cabal detected and mind-controlled several teams of alien observers, who were as yet unaware of the psionic potential of their Zegalan subjects. Over more than forty years, their thralls were carefully manipulated and infiltrated into key positions, while advanced alien technology was clandestinely secreted to the Zegalans by way of psionic coercion. When the fateful betrayal at last came, their alien guardians were left in ruins and the Tribunal arose to light a new flame amongst the stars."
+		name_list="MOL3"
+		trait="trait_venerable"
+		trait="trait_talented"
+		trait="trait_decadent"
+		trait="trait_slow_breeders"
+		trait="trait_weak"
+	}
+	secondary_species={
+		class="AVI"
+		portrait="avi17"
+		name="Ra-Clexu"
+		plural="Ra-Clexu"
+		adjective="Ra-Clexian"
+		species_bio="Sapient but simplistic natives of Naff'Canno, the avian Ra-Clexu evolved to rule the high jungle canopies. Below them, precursors of the psionically sensitive Zegalax roamed the seas and inland rivers. Early in the development of Zegalan civilization, the Ra-Clexu became first livestock and then servants to their molluscoid masters, a relationship that endures into the Interstellar Age."
+		name_list="AVI2"
+		trait="trait_syncretic_proles"
+		trait="trait_communal"
+		trait="trait_resilient"
+		trait="trait_fleeting"
+	}
+	name="Tribunal of Elder Zegalax"
+	adjective="Zegalan"
+	authority="auth_oligarchic"
+	government="gov_holy_tribunal"
+	planet_name="Naff'Canno"
+	planet_class="pc_tropical"
+	system_name="Sovon"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_authoritarian2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"purple"
+			"indigo"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="J'atl the Gruesome"
+		portrait="mol15"
+		texture=3
+		hair=0
+		clothes=0
+		ruler_title="Thaumatergic Primarch"
+		ruler_title_female="Thaumatergic Primarch"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="plantoid10_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_exalted_priesthood"
+		"civic_shadow_council"
+	}
+	origin="origin_syncretic_evolution"
+}

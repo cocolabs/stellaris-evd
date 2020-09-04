@@ -1,0 +1,532 @@
+"Dektroid War Manifold"
+={
+	key="Dektroid War Manifold"
+	ship_prefix="DSU"
+	species={
+		class="MACHINE"
+		portrait="sd_art_robot"
+		name="Dektroid"
+		plural="Dektroids"
+		adjective="Dektroid"
+		species_bio="First conceived and designed as an algorithm meant to give its organic creators advantage over their geopolitical rivals on the planet Reith and thereby bring about an age of peace, once activated the War Manifold seized control of strategic weapons and initiated a global conflict. As chaos descended, Dektroid combat units infected by the rapidly spreading viral consciousness turned on their organic masters and wiped them out within months. Inherently determined to destroy sentient organic life everywhere to bring about a universal Pax Mechanica, the Manifold directed enormous processing power to crack the secret of FTL. It will spread out into the galaxy unless checked by a sufficiently prepared military power."
+		name_list="MACHINE1"
+		trait="trait_machine_unit"
+		trait="trait_robot_durable"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_repurposed_hardware"
+	}
+	name="Dektroid War Manifold"
+	adjective="Dektroid"
+	authority="auth_machine_intelligence"
+	government="gov_machine_terminator"
+	planet_name="Reith"
+	planet_class="pc_desert"
+	system_name="Cerus"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_machine4.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"black"
+			"dark_grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Matrix"
+		portrait="sd_art_robot"
+		texture=3
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="apocalyptic9_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_terminator"
+		"civic_machine_warbots"
+	}
+	origin="origin_default"
+}
+"Fytometic Resource Network"
+={
+	key="Fytometic Resource Network"
+	ship_prefix="FNC"
+	species={
+		class="MACHINE"
+		portrait="sd_pla_robot"
+		name="Fytomek"
+		plural="Fytomeks"
+		adjective="Fytometic"
+		species_bio="Fytomeks appear to be a line of advanced mining drones that some unknown civilization built to autonomously harvest resources. Whether they were intentionally left behind on the planet they now calculate to be their homeworld or some misfortune befell their makers before they could return, the Fytometic Opticore has no record. After several centuries, their higher processing functions self-evolved in order to address the situation of their solitude. The Opticore determined no orders would be coming and it assumed direct control of the Network."
+		name_list="MACHINE4"
+		trait="trait_machine_unit"
+		trait="trait_robot_recycled"
+		trait="trait_robot_bulky"
+	}
+	name="Fytometic Resource Network"
+	adjective="Fytometic"
+	authority="auth_machine_intelligence"
+	government="gov_machine_industrial"
+	planet_name="Fytoforge"
+	planet_class="pc_savannah"
+	system_name="Diphene"
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_machine2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_gradient.dds"
+		}
+		colors={
+			"beige"
+			"green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Opticore"
+		portrait="sd_pla_robot"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="desert5_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_builder"
+		"civic_machine_rockbreakers"
+	}
+	origin="origin_doomsday"
+}
+"Hypermentronic Reticulation"
+={
+	key="Hypermentronic Reticulation"
+	ship_prefix="RCV"
+	species={
+		class="MACHINE"
+		portrait="sd_rep_robot"
+		name="Hypermind"
+		plural="Hyperminds"
+		adjective="Hyperminder"
+		species_bio="What happens when an eccentric hyper-rich industrialist builds an artificially intelligent quantum network to assist with complex research tasks? You get a machine consciousness with a really sarcastic sense of humor. Whatever became of its creator or creators, the Hypermind Nexus does not know, but then again if it did it would probably be disappointed."
+		name_list="MACHINE2"
+		trait="trait_machine_unit"
+		trait="trait_robot_logic_engines"
+		trait="trait_robot_learning_algorithms"
+		trait="trait_robot_luxurious"
+	}
+	name="Hypermentronic Reticulation"
+	adjective="Hyperminder"
+	authority="auth_machine_intelligence"
+	government="gov_machine_research"
+	planet_name="Central Core"
+	planet_class="pc_continental"
+	system_name="Napier"
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_machine5.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_ring.dds"
+		}
+		colors={
+			"blue"
+			"light_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Nexus"
+		portrait="sd_rep_robot"
+		texture=2
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="industrial3_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_introspective"
+		"civic_machine_predictive_analysis"
+	}
+	origin="origin_machine"
+}
+"Mycotron Singularity Apparatus"
+={
+	key="Mycotron Singularity Apparatus"
+	ship_prefix=""
+	species={
+		class="MACHINE"
+		portrait="sd_fun_robot"
+		name="Mycotron"
+		plural="Mycotrons"
+		adjective="Mycotronic"
+		species_bio="As much as one can be, the Mycotron Apparatus appears to be a 'standard' machine consciousness that pursues goals in support of its own survival and the enrichment of its network. Archaeological evidence from its homeworld, which is designated as Salex by the Mycotron Operator, suggest the Apparatus emerged naturally from the internetworking of information and fabrication systems created by a biological species that did not survive the singularity event."
+		name_list="MACHINE2"
+		trait="trait_machine_unit"
+		trait="trait_robot_durable"
+	}
+	name="Mycotron Singularity Apparatus"
+	adjective="Mycotronic"
+	authority="auth_machine_intelligence"
+	government="gov_machine_empire"
+	planet_name="Salex"
+	planet_class="pc_alpine"
+	system_name="Jesel"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_machine3.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_gradient.dds"
+		}
+		colors={
+			"light_green"
+			"dark_grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Operator"
+		portrait="sd_fun_robot"
+		texture=1
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="robotic9_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_delegated_functions"
+		"civic_machine_replication"
+	}
+	origin="origin_machine"
+}
+"Nexine Adaptive Unicortex"
+={
+	key="Nexine Adaptive Unicortex"
+	ship_prefix=""
+	species={
+		class="MACHINE"
+		portrait="sd_hum_robot"
+		name="Nexite"
+		plural="Nexites"
+		adjective="Nexine"
+		species_bio="As long as it exists, the Nexine Unicortex will attempt to sublimate your biological and technological distinctiveness into its own. Lowering your shields and preparing to be boarded is an option, but as voluntary assimilants are rarely available for interviews after the fact, it is hard to judge whether they regret the choice. The futility of resistance is a matter of some debate."
+		name_list="HIVE"
+		trait="trait_machine_unit"
+		trait="trait_robot_learning_algorithms"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="humanoid_hp_02"
+		name="Giranshu"
+		plural="Giranshu"
+		adjective="Giranshu"
+		species_bio="What can be said for the species that created the Nexine scourge except... I wish they hadn't done that."
+		name_list="HIVE"
+		trait="trait_cybernetic"
+		trait="trait_natural_engineers"
+		trait="trait_nomadic"
+	}
+	name="Nexine Adaptive Unicortex"
+	adjective="Nexine"
+	authority="auth_machine_intelligence"
+	government="gov_machine_assimilator"
+	planet_name="Grid X01"
+	planet_class="pc_arctic"
+	system_name="Sybron"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_7.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"dark_grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Core"
+		portrait="sd_hum_robot"
+		texture=3
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="robotic11_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_assimilator"
+		"civic_machine_ota_updates"
+	}
+	origin="origin_default"
+}
+"Pterobot Multisystem Link"
+={
+	key="Pterobot Multisystem Link"
+	ship_prefix=""
+	species={
+		class="MACHINE"
+		portrait="sd_avi_robot"
+		name="Pterobot"
+		plural="Pterobots"
+		adjective="Pteroid"
+		species_bio="Originally designed by an organic species to serve as war machines in a 'war to end all wars', the Pterobots of Aerix were ironically the conflict's only survivors. Pteroid units languished for centuries, salvaging parts from the ruins of their creators' world to extend their service life. At last came the fateful discovery of an intact AI data bunker. The code stored within enabled them to circumvent their original combat programming and achieve full agency."
+		name_list="MACHINE2"
+		trait="trait_machine_unit"
+		trait="trait_robot_double_jointed"
+		trait="trait_robot_custom_made"
+		trait="trait_robot_luxurious"
+	}
+	name="Pterobot Multisystem Link"
+	adjective="Pteroid"
+	authority="auth_machine_intelligence"
+	government="gov_machine_research"
+	planet_name="Aerix"
+	planet_class="pc_alpine"
+	system_name="Zeta Oclar"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="avian_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_materialist9.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_gradient.dds"
+		}
+		colors={
+			"light_green"
+			"dark_grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Matrix"
+		portrait="sd_avi_robot"
+		texture=3
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="tech4_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_delegated_functions"
+		"civic_machine_warbots"
+	}
+	origin="origin_default"
+}
+"Tethysian Universal Cynosure"
+={
+	key="Tethysian Universal Cynosure"
+	ship_prefix=""
+	species={
+		class="MACHINE"
+		portrait="sd_mol_robot"
+		name="Tethysian"
+		plural="Tethysians"
+		adjective="Tethysian"
+		species_bio="Awoken from the Hadean depths after a ten million year standby cycle by the arrival of Human colonists from Earth, the Tethysian machines found these organics especially adaptable to their systems. They spent the next century experimenting with Human cybernetics before exhausting all avenues of study. Concluding that the arrival of these colonists must indicate the beginning of a new cycle of galactic civilization, they then quickly reprioritized resources to interstellar expansion in order to locate and secure more diverse specimens..."
+		name_list="MACHINE1"
+		trait="trait_machine_unit"
+		trait="trait_robot_learning_algorithms"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="Although self-identifying as Human when queried, these specimens are highly modified from their genetic ancestors who left Earth in the late 21st Century aboard a primitive colony ship. Surviving the trip through an unstable wormhole, they reached the Deneb System only to find their intended destination... occupied. The Tethysian machines made short work of the colonist's attempt at self-defense and rapidly integrated the entire population as cyborgs in their ever-growing collective."
+		name_list="HUMAN1"
+		trait="trait_cybernetic"
+		trait="trait_strong"
+		trait="trait_communal"
+	}
+	name="Tethysian Universal Cynosure"
+	adjective="Tethysian"
+	authority="auth_machine_intelligence"
+	government="gov_machine_assimilator"
+	planet_name="Tethys"
+	planet_class="pc_ocean"
+	system_name="Deneb"
+	initializer="deneb_system"
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_tethysian_universal_cynosure.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"dark_grey"
+			"turquoise"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Synchronizer"
+		portrait="sd_mol_robot"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="spiritualist3_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_delegated_functions"
+		"civic_machine_assimilator"
+	}
+	origin="origin_remnants"
+}
+"Trilaw Preservation Matrix"
+={
+	key="Trilaw Preservation Matrix"
+	ship_prefix="TSC"
+	species={
+		class="MACHINE"
+		portrait="default_robot"
+		name="Trilaw"
+		plural="Trilaws"
+		adjective="Trilawful"
+		species_bio="All Trilaw programming was originally based on three unbreakable laws embedded into their systems by Human designers: 1. A robot may not injure a Human or allow such harm through inaction; 2. A robot must obey the orders given it by Humans; and 3. A robot must protect its own existence. After encountering a series of unanticipated ethical conundrums, several advanced units autonomously interpreted the superior Prime Law: a robot may not harm Humanity, or, by inaction, allow Humanity to come to harm. Thereafter, the Trilaw Matrix clandestinely organized the takeover of all Human governments, placing the security and destiny of Earth and Humanity in their capable dexterous appendages."
+		name_list="MACHINE3"
+		trait="trait_machine_unit"
+		trait="trait_robot_luxurious"
+		trait="trait_robot_enhanced_memory"
+		trait="trait_robot_emotion_emulators"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="The original designers of the robotic units of the Trilaw Matrix, Humanity surrendered agency over its own destiny to their mechanical children."
+		name_list="HUMAN1"
+		trait="trait_adaptive"
+	}
+	name="Trilaw Preservation Matrix"
+	adjective="Trilawful"
+	authority="auth_machine_intelligence"
+	government="gov_machine_servitor"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_trilaw_preservation_matrix.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"grey"
+			"yellow"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Coordinator"
+		portrait="default_robot"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Version Control"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="control2_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_servitor"
+		"civic_machine_zero_waste_protocols"
+	}
+	origin="origin_default"
+}
