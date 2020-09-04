@@ -1,5 +1,4 @@
-"Auspicious Tharfalion Entente"
-={
+auspicious_tharfalion_entente = {
 	name="Auspicious Tharfalion Entente"
 	ship_prefix=""
 	species={
@@ -65,8 +64,7 @@
 	}
 	origin="origin_shoulders_of_giants"
 }
-"Conglomerated Syklidian Estates"
-={
+conglomerated_syklidian_estates = {
 	name="Conglomerated Syklidian Estates"
 	ship_prefix=""
 	species={
@@ -147,8 +145,7 @@
 	}
 	origin="origin_syncretic_evolution"
 }
-"Consortial Guilds of Nirm-Sa-Gand"
-={
+consortial_guilds_of_nirm_sa_gand = {
 	name="Consortial Guilds of Nirm-Sa-Gand"
 	ship_prefix="NGV"
 	species={
@@ -212,8 +209,7 @@
 	}
 	origin="origin_default"
 }
-"Ethereal Dynasty of Straalgor"
-={
+ethereal_dynasty_of_straalgor = {
 	name="Ethereal Dynasty of Straalgor"
 	ship_prefix=""
 	species={
@@ -273,8 +269,7 @@
 	}
 	origin="origin_default"
 }
-"Eusocial Coalescence of Shisthoon"
-={
+eusocial_coalescence_of_shisthoon = {
 	name="Eusocial Coalescence of Shisthoon"
 	ship_prefix=""
 	species={
@@ -335,8 +330,7 @@
 	}
 	origin="origin_default"
 }
-"Honored Kotan Bloodlines"
-={
+honored_kotan_bloodlines = {
 	name="Honored Kotan Bloodlines"
 	ship_prefix="KBC"
 	species={
@@ -398,8 +392,7 @@
 	}
 	origin="origin_default"
 }
-"J'dekhian Manifest Purity"
-={
+jdekhian_manifest_purity = {
 	name="J'dekhian Manifest Purity"
 	ship_prefix=""
 	species={
@@ -459,8 +452,7 @@
 	}
 	origin="origin_default"
 }
-"Majestic Zytan Enclave"
-={
+majestic_zytan_enclave = {
 	name="Majestic Zytan Enclave"
 	ship_prefix=""
 	species={
@@ -535,8 +527,7 @@
 	}
 	origin="origin_syncretic_evolution"
 }
-"Undjinic Pirate Cartels"
-={
+undjinic_pirate_cartels = {
 	name="Undjinic Pirate Cartels"
 	ship_prefix=""
 	species={

@@ -1,5 +1,4 @@
-"Amaranth Efflorescence"
-={
+amaranth_efflorescence = {
 	name="Amaranth Efflorescence"
 	ship_prefix=""
 	species={
@@ -58,8 +57,7 @@
 	}
 	origin="origin_remnants"
 }
-"Exhalted Tanjavan Providence"
-={
+exhalted_tanjavan_providence = {
 	name="Exhalted Tanjavan Providence"
 	ship_prefix="ITN"
 	species={
@@ -134,8 +132,7 @@
 	}
 	origin="origin_syncretic_evolution"
 }
-"Makolar Prosperity Sphere"
-={
+makolar_prosperity_sphere = {
 	name="Makolar Prosperity Sphere"
 	ship_prefix=""
 	species={
@@ -196,8 +193,7 @@
 	}
 	origin="origin_default"
 }
-"Placid Dominion of Avv Vvada"
-={
+placid_dominion_of_avv_vvada = {
 	name="Placid Dominion of Avv Vvada"
 	ship_prefix="AVV"
 	species={

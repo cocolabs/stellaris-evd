@@ -1,5 +1,4 @@
-"Cistrenthic Cybernetic Consensus"
-={
+cistrenthic_cybernetic_consensus = {
 	name="Cistrenthic Cybernetic Consensus"
 	ship_prefix="CCS"
 	species={
@@ -59,8 +58,7 @@
 	}
 	origin="origin_mechanists"
 }
-"Confederation of Camrena"
-={
+confederation_of_camrena = {
 	name="Confederation of Camrena"
 	ship_prefix="CNC"
 	species={
@@ -122,8 +120,7 @@
 	}
 	origin="origin_mechanists"
 }
-"Eldagan Oathsworn"
-={
+eldagan_oathsworn = {
 	name="Eldagan Oathsworn"
 	ship_prefix=""
 	species={
@@ -185,8 +182,7 @@
 	}
 	origin="origin_default"
 }
-"Enlightened Ralahr Hegemony"
-={
+enlightened_ralahr_hegemony = {
 	name="Enlightened Ralahr Hegemony"
 	ship_prefix="RHS"
 	species={
@@ -247,8 +243,7 @@
 	}
 	origin="origin_default"
 }
-"Federated Tantai Republics"
-={
+federated_tantai_republics = {
 	name="Federated Tantai Republics"
 	ship_prefix="RNS"
 	species={
@@ -308,8 +303,7 @@
 	}
 	origin="origin_default"
 }
-"Galtanian Unistatic Regime"
-={
+galtanian_unistatic_regime = {
 	name="Galtanian Unistatic Regime"
 	ship_prefix="GRS"
 	species={
@@ -368,8 +362,7 @@
 	}
 	origin="origin_mechanists"
 }
-"Great Bountiful Empire of Behgana"
-={
+great_bountiful_empire_of_behgana = {
 	name="Great Bountiful Empire of Behgana"
 	ship_prefix="BINC"
 	species={
@@ -432,8 +425,7 @@
 	}
 	origin="origin_default"
 }
-"Maaktese Primarchate"
-={
+maaktese_primarchate = {
 	name="Maaktese Primarchate"
 	ship_prefix="PNV"
 	species={
@@ -496,8 +488,7 @@
 	}
 	origin="origin_void_dwellers"
 }
-"Mancibotic Caretaker Foundation"
-={
+mancibotic_caretaker_foundation = {
 	name="Mancibotic Caretaker Foundation"
 	ship_prefix=""
 	species={
@@ -568,8 +559,7 @@
 	}
 	origin="origin_shattered_ring"
 }
-"Vul Straag Brethren Council"
-={
+vul_straag_brethren_council = {
 	name="Vul Straag Brethren Council"
 	ship_prefix=""
 	species={

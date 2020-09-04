@@ -1,5 +1,4 @@
-"Celestial Communion of Armim"
-={
+celestial_communion_of_armim = {
 	name="Celestial Communion of Armim"
 	ship_prefix=""
 	species={
@@ -60,8 +59,7 @@
 	}
 	origin="origin_default"
 }
-"Dyrasian Securities Alliance"
-={
+dyrasian_securities_alliance = {
 	name="Dyrasian Securities Alliance"
 	ship_prefix="SAS"
 	species={
@@ -124,8 +122,7 @@
 	}
 	origin="origin_default"
 }
-"Harmonious Sondatian Ambit"
-={
+harmonious_sondatian_ambit = {
 	name="Harmonious Sondatian Ambit"
 	ship_prefix=""
 	species={
@@ -187,8 +184,7 @@
 	}
 	origin="origin_default"
 }
-"Kamak Union Star Command"
-={
+kamak_union_star_command = {
 	name="Kamak Union Star Command"
 	ship_prefix="KNV"
 	species={
@@ -250,8 +246,7 @@
 	}
 	origin="origin_default"
 }
-"Ryzon Stigmergic Commonwealth"
-={
+ryzon_stigmergic_commonwealth = {
 	name="Ryzon Stigmergic Commonwealth"
 	ship_prefix="RRS"
 	species={
@@ -313,8 +308,7 @@
 	}
 	origin="origin_default"
 }
-"Sordaxi Inquisitorial Order"
-={
+sordaxi_inquisitorial_order = {
 	name="Sordaxi Inquisitorial Order"
 	ship_prefix=""
 	species={
@@ -375,8 +369,7 @@
 	}
 	origin="origin_default"
 }
-"V'Takan Trade Commission"
-={
+vtakan_trade_commission = {
 	name="V'Takan Trade Commission"
 	ship_prefix="TCNV"
 	species={

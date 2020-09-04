@@ -1,5 +1,4 @@
-"Dektroid War Manifold"
-={
+dektroid_war_manifold = {
 	name="Dektroid War Manifold"
 	ship_prefix="DSU"
 	species={
@@ -60,8 +59,7 @@
 	}
 	origin="origin_default"
 }
-"Fytometic Resource Network"
-={
+fytometic_resource_network = {
 	name="Fytometic Resource Network"
 	ship_prefix="FNC"
 	species={
@@ -121,8 +119,7 @@
 	}
 	origin="origin_doomsday"
 }
-"Hypermentronic Reticulation"
-={
+hypermentronic_reticulation = {
 	name="Hypermentronic Reticulation"
 	ship_prefix="RCV"
 	species={
@@ -183,8 +180,7 @@
 	}
 	origin="origin_machine"
 }
-"Mycotron Singularity Apparatus"
-={
+mycotron_singularity_apparatus = {
 	name="Mycotron Singularity Apparatus"
 	ship_prefix=""
 	species={
@@ -243,8 +239,7 @@
 	}
 	origin="origin_machine"
 }
-"Nexine Adaptive Unicortex"
-={
+nexine_adaptive_unicortex = {
 	name="Nexine Adaptive Unicortex"
 	ship_prefix=""
 	species={
@@ -315,8 +310,7 @@
 	}
 	origin="origin_default"
 }
-"Pterobot Multisystem Link"
-={
+pterobot_multisystem_link = {
 	name="Pterobot Multisystem Link"
 	ship_prefix=""
 	species={
@@ -377,8 +371,7 @@
 	}
 	origin="origin_default"
 }
-"Tethysian Universal Cynosure"
-={
+tethysian_universal_cynosure = {
 	name="Tethysian Universal Cynosure"
 	ship_prefix=""
 	species={
@@ -449,8 +442,7 @@
 	}
 	origin="origin_remnants"
 }
-"Trilaw Preservation Matrix"
-={
+trilaw_preservation_matrix = {
 	name="Trilaw Preservation Matrix"
 	ship_prefix="TSC"
 	species={

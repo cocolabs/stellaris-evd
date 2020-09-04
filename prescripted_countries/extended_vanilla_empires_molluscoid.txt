@@ -1,5 +1,4 @@
-"Adherence of the Enchanted Liturgy"
-={
+adherence_of_the_enchanted_liturgy = {
 	name="Adherence of the Enchanted Liturgy"
 	ship_prefix=""
 	species={
@@ -61,8 +60,7 @@
 	}
 	origin="origin_default"
 }
-"Indrithi Galactic Inheritance"
-={
+indrithi_galactic_inheritance = {
 	name="Indrithi Galactic Inheritance"
 	ship_prefix="IFS"
 	species={
@@ -122,8 +120,7 @@
 	}
 	origin="origin_default"
 }
-"Janagman Anocratic Marketplace"
-={
+janagman_anocratic_marketplace = {
 	name="Janagman Anocratic Marketplace"
 	ship_prefix=""
 	species={
@@ -182,8 +179,7 @@
 	}
 	origin="origin_default"
 }
-"Memetic Circuit of Sensulatu"
-={
+memetic_circuit_of_sensulatu = {
 	name="Memetic Circuit of Sensulatu"
 	ship_prefix=""
 	species={
@@ -244,8 +240,7 @@
 	}
 	origin="origin_default"
 }
-"Serene Unity of Thuln"
-={
+serene_unity_of_thuln = {
 	name="Serene Unity of Thuln"
 	ship_prefix="USV"
 	species={
@@ -319,8 +314,7 @@
 	}
 	origin="origin_syncretic_evolution"
 }
-"Settakian Providential Stars"
-={
+settakian_providential_stars = {
 	name="Settakian Providential Stars"
 	ship_prefix="PNC"
 	species={
@@ -382,8 +376,7 @@
 	}
 	origin="origin_scion"
 }
-"Thogmarite Commerce Group"
-={
+thogmarite_commerce_group = {
 	name="Thogmarite Commerce Group"
 	ship_prefix="CTV"
 	species={
@@ -448,8 +441,7 @@
 	}
 	origin="origin_default"
 }
-"Tribunal of Elder Zegalax"
-={
+tribunal_of_elder_zegalax = {
 	name="Tribunal of Elder Zegalax"
 	ship_prefix=""
 	species={

@@ -1,5 +1,4 @@
-"Askaran Orthodoxy"
-={
+askaran_orthodoxy = {
 	name="Askaran Orthodoxy"
 	ship_prefix=""
 	species={
@@ -60,8 +59,7 @@
 	}
 	origin="origin_default"
 }
-"Diranic Imperial Schemata"
-={
+diranic_imperial_schemata = {
 	name="Diranic Imperial Schemata"
 	ship_prefix="IDNS"
 	species={
@@ -122,8 +120,7 @@
 	}
 	origin="origin_default"
 }
-"Eleemosynary Conclave of Idaan"
-={
+eleemosynary_conclave_of_idaan = {
 	name="Eleemosynary Conclave of Idaan"
 	ship_prefix="CNS"
 	species={
@@ -187,8 +184,7 @@
 	}
 	origin="origin_default"
 }
-"Federal Empire of Kravaal"
-={
+federal_empire_of_kravaal = {
 	name="Federal Empire of Kravaal"
 	ship_prefix="INS"
 	species={
@@ -251,8 +247,7 @@
 	}
 	origin="origin_default"
 }
-"Hayikiir Economic Union"
-={
+hayikiir_economic_union = {
 	name="Hayikiir Economic Union"
 	ship_prefix=""
 	species={
@@ -317,8 +312,7 @@
 	}
 	origin="origin_default"
 }
-"Phlogistonic Mandate of Silrith"
-={
+phlogistonic_mandate_of_silrith = {
 	name="Phlogistonic Mandate of Silrith"
 	ship_prefix=""
 	species={
@@ -394,8 +388,7 @@
 	}
 	origin="origin_syncretic_evolution"
 }
-"Raathi Stellar Ascendancy"
-={
+raathi_stellar_ascendancy = {
 	name="Raathi Stellar Ascendancy"
 	ship_prefix="IRNS"
 	species={
@@ -462,8 +455,7 @@
 	}
 	origin="origin_hegemon"
 }
-"Radiant Ororian Hierarchy"
-={
+radiant_ororian_hierarchy = {
 	name="Radiant Ororian Hierarchy"
 	ship_prefix="ORN"
 	species={
@@ -525,8 +517,7 @@
 	}
 	origin="origin_default"
 }
-"Royal Gankilian Godhead"
-={
+royal_gankilian_godhead = {
 	name="Royal Gankilian Godhead"
 	ship_prefix="HGS"
 	species={
@@ -585,8 +576,7 @@
 	}
 	origin="origin_default"
 }
-"Surmeki Throne Worlds"
-={
+surmeki_throne_worlds = {
 	name="Surmeki Throne Worlds"
 	ship_prefix="HMS"
 	species={

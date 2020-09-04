@@ -1,5 +1,4 @@
-"Council of Veklaran Great Houses"
-={
+council_of_veklaran_great_houses = {
 	name="Council of Veklaran Great Houses"
 	ship_prefix="IVC"
 	species={
@@ -63,8 +62,7 @@
 	}
 	origin="origin_default"
 }
-"Democratic People's Republic of Earth"
-={
+democratic_peoples_republic_of_earth = {
 	name="Democratic People's Republic of Earth"
 	ship_prefix="RSF"
 	species={
@@ -126,8 +124,7 @@
 	}
 	origin="origin_default"
 }
-"Deneb Star Corps"
-={
+deneb_star_corps = {
 	name="Deneb Star Corps"
 	ship_prefix="DSC"
 	species={
@@ -190,8 +187,7 @@
 	}
 	origin="origin_lost_colony"
 }
-"Divine Terran Crusade"
-={
+divine_terran_crusade = {
 	name="Divine Terran Crusade"
 	ship_prefix="ICV"
 	species={
@@ -255,8 +251,7 @@
 	}
 	origin="origin_post_apocalyptic"
 }
-"Earth Colonial Administration"
-={
+earth_colonial_administration = {
 	name="Earth Colonial Administration"
 	ship_prefix="USS"
 	species={
@@ -318,8 +313,7 @@
 	}
 	origin="origin_default"
 }
-"Exlari Development Syndicate"
-={
+exlari_development_syndicate = {
 	name="Exlari Development Syndicate"
 	ship_prefix="ESS"
 	species={
@@ -380,8 +374,7 @@
 	}
 	origin="origin_default"
 }
-"Holy See of Terra and Her Colonies"
-={
+holy_see_of_terra_and_her_colonies = {
 	name="Holy See of Terra and Her Colonies"
 	ship_prefix="HMS"
 	species={
@@ -447,8 +440,7 @@
 	}
 	origin="origin_default"
 }
-"Imperial Mongathi Legions"
-={
+imperial_mongathi_legions = {
 	name="Imperial Mongathi Legions"
 	ship_prefix="MRV"
 	species={
@@ -509,8 +501,7 @@
 	}
 	origin="origin_hegemon"
 }
-"Kolari Martial Coalition"
-={
+kolari_martial_coalition = {
 	name="Kolari Martial Coalition"
 	ship_prefix="KNS"
 	species={
@@ -571,8 +562,7 @@
 	}
 	origin="origin_default"
 }
-"Liao-Nishanti Stellar Industries"
-={
+liao_nishanti_stellar_industries = {
 	name="Liao-Nishanti Stellar Industries"
 	ship_prefix="LNCV"
 	species={
@@ -635,8 +625,7 @@
 	}
 	origin="origin_lost_colony"
 }
-"Lithine Continuity Alliance"
-={
+lithine_continuity_alliance = {
 	name="Lithine Continuity Alliance"
 	ship_prefix="LCS"
 	species={
@@ -697,8 +686,7 @@
 	}
 	origin="origin_default"
 }
-"Mirandan Interstellar Directorate"
-={
+mirandan_interstellar_directorate = {
 	name="Mirandan Interstellar Directorate"
 	ship_prefix="MDC"
 	species={
@@ -777,8 +765,7 @@
 	}
 	origin="origin_syncretic_evolution"
 }
-"Order of Azrael's Chosen"
-={
+order_of_azraels_chosen = {
 	name="Order of Azrael's Chosen"
 	ship_prefix=""
 	species={
@@ -845,8 +832,7 @@
 	}
 	origin="origin_lost_colony"
 }
-"Presidium of Human Enlightenment"
-={
+presidium_of_human_enlightenment = {
 	name="Presidium of Human Enlightenment"
 	ship_prefix=""
 	species={
@@ -910,8 +896,7 @@
 	}
 	origin="origin_default"
 }
-"Revolutionary Union of Sol"
-={
+revolutionary_union_of_sol = {
 	name="Revolutionary Union of Sol"
 	ship_prefix="UNS"
 	species={
@@ -972,8 +957,7 @@
 	}
 	origin="origin_default"
 }
-"Sacred Commonwealth of Earth"
-={
+sacred_commonwealth_of_earth = {
 	name="Sacred Commonwealth of Earth"
 	ship_prefix="CNS"
 	species={
@@ -1039,8 +1023,7 @@
 	}
 	origin="origin_default"
 }
-"Senzari Interstellar Quora"
-={
+senzari_interstellar_quora = {
 	name="Senzari Interstellar Quora"
 	ship_prefix="SMC"
 	species={
@@ -1102,8 +1085,7 @@
 	}
 	origin="origin_mechanists"
 }
-"Sublime Siranic Council"
-={
+sublime_siranic_council = {
 	name="Sublime Siranic Council"
 	ship_prefix="SCS"
 	species={
@@ -1178,8 +1160,7 @@
 	}
 	origin="origin_syncretic_evolution"
 }
-"Supreme Authority of Dralark"
-={
+supreme_authority_of_dralark = {
 	name="Supreme Authority of Dralark"
 	ship_prefix="OSC"
 	species={
@@ -1240,8 +1221,7 @@
 	}
 	origin="origin_default"
 }
-"Tellusian Mindflower"
-={
+tellusian_mindflower = {
 	name="Tellusian Mindflower"
 	ship_prefix=""
 	species={
@@ -1302,8 +1282,7 @@
 	}
 	origin="origin_tree_of_life"
 }
-"Ten Triads of Great Zeizok"
-={
+ten_triads_of_great_zeizok = {
 	name="Ten Triads of Great Zeizok"
 	ship_prefix=""
 	species={
@@ -1363,8 +1342,7 @@
 	}
 	origin="origin_shoulders_of_giants"
 }
-"Terran Colonial Empire"
-={
+terran_colonial_empire = {
 	name="Terran Colonial Empire"
 	ship_prefix="HMS"
 	species={
@@ -1434,8 +1412,7 @@
 	}
 	origin="origin_galactic_doorstep"
 }
-"Terran Millennium Covenant"
-={
+terran_millennium_covenant = {
 	name="Terran Millennium Covenant"
 	ship_prefix="CNV"
 	species={
@@ -1498,8 +1475,7 @@
 	}
 	origin="origin_post_apocalyptic"
 }
-"United Earth Federation"
-={
+united_earth_federation = {
 	name="United Earth Federation"
 	ship_prefix="FNC"
 	species={
@@ -1564,8 +1540,7 @@
 	}
 	origin="origin_default"
 }
-"United Systems Republic"
-={
+united_systems_republic = {
 	name="United Systems Republic"
 	ship_prefix="USS"
 	species={

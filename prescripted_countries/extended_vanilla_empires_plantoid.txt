@@ -1,5 +1,4 @@
-"Bosang Grand Accord"
-={
+bosang_grand_accord = {
 	name="Bosang Grand Accord"
 	ship_prefix="BAS"
 	species={
@@ -59,8 +58,7 @@
 	}
 	origin="origin_default"
 }
-"Third Flowering of Zanfir"
-={
+third_flowering_of_zanfir = {
 	name="Third Flowering of Zanfir"
 	ship_prefix=""
 	species={
@@ -121,8 +119,7 @@
 	}
 	origin="origin_life_seeded"
 }
-"Unified Zamkand State"
-={
+unified_zamkand_state = {
 	name="Unified Zamkand State"
 	ship_prefix="ZNSS"
 	species={
@@ -182,8 +179,7 @@
 	}
 	origin="origin_default"
 }
-"Universal Selesian Demarchate"
-={
+universal_selesian_demarchate = {
 	name="Universal Selesian Demarchate"
 	ship_prefix="SDN"
 	species={
@@ -256,8 +252,7 @@
 	}
 	origin="origin_syncretic_evolution"
 }
-"Wealdworlds of the D'chen Holobiont"
-={
+wealdworlds_of_the_dchen_holobiont = {
 	name="Wealdworlds of the D'chen Holobiont"
 	ship_prefix=""
 	species={
