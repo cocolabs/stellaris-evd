@@ -621,58 +621,100 @@ mammalian_human_male_clothes_01 = {
 
 		##########################
 
-		"gfx/models/portraits/human/human_male_clothes_governor4.dds" = {
-			pre_ruler_leader_class = general
-			owner = { has_militarist_government = yes }
+		##########################
+		# Materialist Governments
+		#########################
+		"gfx/models/portraits/human/human_male_clothes_headresearcher.dds" = {
+			owner = { has_materialist_government = yes }
 		}
-		"gfx/models/portraits/human/human_male_clothes_ruler.dds" = {
-			pre_ruler_leader_class = admiral
-			owner = { has_militarist_government = no }
+		######################
+		# Generic Governments
+		######################
+		"gfx/models/portraits/human/human_male_clothes_governor5.dds" = {
+			owner = {
+				OR = {
+					has_government = gov_communal_parity
+					has_generic_government = yes
+				}
+			}
+		}
+		#########################
+		# Militarist Governments
+		#########################
+		"gfx/models/portraits/human/human_male_clothes_governor4.dds" = {
+			owner = { has_militarist_government = yes }
+			pre_ruler_leader_class = general
+
 		}
 		"gfx/models/portraits/human/human_male_clothes_admiral2.dds" = {
-			pre_ruler_leader_class = admiral
 			owner = { has_militarist_government = yes }
+			pre_ruler_leader_class = admiral
 		}
 		"gfx/models/portraits/human/human_male_clothes_governor3.dds" = {
+			owner = {
+				has_militarist_government = yes
+				is_autocracy = yes
+			}
 			NOT = {
 				pre_ruler_leader_class = admiral
 				pre_ruler_leader_class = general
 			}
-			owner = {
-				has_militarist_government = yes
-				OR = {
-					has_authority = auth_dictatorial
-					has_authority = auth_imperial
-				}
-			}
 		}
+		########################
+		# Spiritual Governments
+		########################
 		"gfx/models/portraits/human/human_male_clothes_governor6.dds" = {
 			owner = {
 				has_spiritualist_government = yes
-				OR = {
-					has_authority = auth_dictatorial
-					has_authority = auth_imperial
-				}
+				is_autocracy = yes
 			}
 		}
 		"gfx/models/portraits/human/human_male_clothes_preacher.dds" = {
 			owner = {
 				has_spiritualist_government = yes
-				NOT = {
-					has_authority = auth_dictatorial
-					has_authority = auth_imperial
-				}
+				is_autocracy = no
 			}
 		}
-		"gfx/models/portraits/human/human_male_clothes_governor5.dds" = { owner = { has_government = gov_communal_parity } }
-		"gfx/models/portraits/human/human_male_clothes_governor5.dds" = { owner = { has_generic_government = yes NOT = { has_authority = auth_imperial } } }
-		# "gfx/models/portraits/human/human_male_clothes_ruler.dds" = { owner = { has_militarist_government = yes NOT = { has_authority = auth_imperial } } }
-		# "gfx/models/portraits/human/human_male_clothes_ruler2.dds" = { owner = { has_spiritualist_government = yes NOT = { has_authority = auth_imperial } } }
-		"gfx/models/portraits/human/human_male_clothes_ruler3.dds" = { owner = { has_pacifist_government = yes NOT = { has_authority = auth_imperial } } }
-		"gfx/models/portraits/human/human_male_clothes_ruler3.dds" = { owner = { has_primitive_government = yes NOT = { has_authority = auth_imperial } } }
-		"gfx/models/portraits/human/human_male_clothes_headresearcher.dds" = { owner = { has_materialist_government = yes NOT = { has_authority = auth_imperial } } }
-		"gfx/models/portraits/human/human_male_clothes_trader.dds" = { owner = { has_authority = auth_corporate } }
-		# "gfx/models/portraits/human/human_male_clothes_royal.dds" = { owner = { has_authority = auth_imperial } }
+		##########################
+		# Egalitarian Governments
+		##########################
+		random = {
+			trigger = {
+				owner = {
+					has_militarist_government = no
+					has_ethic = ethic_fanatic_egalitarian
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_male_clothes_civilian.dds"
+				"gfx/models/portraits/human/human_male_clothes_slave.dds"
+				"gfx/models/portraits/human/human_male_clothes_unemployed_ruler.dds"
+			}
+		}
+		########################
+		# Corporate Governments
+		########################
+		random = {
+			trigger = {
+				owner = { has_authority = auth_corporate }
+			}
+			list = {
+				"gfx/models/portraits/human/human_male_clothes_trader.dds"
+				"gfx/models/portraits/human/human_male_clothes_governor.dds"
+			}
+		}
+		########################
+		# Primitive Governments
+		########################
+		random = {
+			trigger = {
+				owner = { has_primitive_government = yes }
+			}
+			list = {
+				"gfx/models/portraits/human/human_male_clothes_ruler3.dds"
+				"gfx/models/portraits/human/human_male_clothes_noble.dds"
+			}
+		}
 	}
 }
 
