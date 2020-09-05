@@ -1,22 +1,16 @@
-# This is a template which multiple species can use. 
-  
+# This is a template which multiple species can use.
 human_female_hair_01 = {
 	default = "gfx/models/portraits/human/human_female_hair_black_style_01.dds"
-	
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
 		default = "gfx/models/portraits/human/human_female_hair_black_style_01.dds"
 	}
-	
 	#species scope
 	species = { #generic portrait for a species
 		default = "gfx/models/portraits/human/human_female_hair_black_style_01.dds"
 	}
-	
 	#pop scope
 	pop = { #for a specific pop
-	
 		default = "gfx/models/portraits/human/human_female_hair_black_style_01.dds"
-
 		random = {
 			list = {
 			#	"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
@@ -34,244 +28,6 @@ human_female_hair_01 = {
 			#	"gfx/models/portraits/human/human_female_hair_cendre_style_01.dds"
 			#	"gfx/models/portraits/human/human_female_hair_cendre_style_02.dds"
 			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
-
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_01.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_02.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_04.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_08.dds"
-
-			}
-		}	
-	}
-	
-	
-	
-	
-	#leader scope
-	leader = { #scientists, generals, admirals, governor
-	
-		random = {
-			trigger = { leader_class = general }
-			list = {
-				"gfx/models/portraits/human/human_female_hair_black_style_02.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_02.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_02.dds"
-			#	"gfx/models/portraits/human/human_female_hair_blonde_style_02.dds"
-				"gfx/models/portraits/human/human_female_hair_brown_style_02.dds"
-			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_01.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_02.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_04.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_08.dds"
-			}
-		}		
-		
-		random = {
-			trigger = { leader_class = admiral }
-			list = {
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_02.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
-				
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_02.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
-				
-			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
-			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
-			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
-			#	"gfx/models/portraits/human/human_female_hair_blonde_style_02.dds"
-			#	"gfx/models/portraits/human/human_female_hair_blonde_style_01.dds"
-				
-				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_brown_style_02.dds"
-				"gfx/models/portraits/human/human_female_hair_brown_style_01.dds"
-				
-			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
-			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
-			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
-			#	"gfx/models/portraits/human/human_female_hair_cendre_style_02.dds"
-			#	"gfx/models/portraits/human/human_female_hair_cendre_style_01.dds"
-
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_01.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_02.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_04.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_08.dds"
-			}
-		}	
-		
-		random = {
-			trigger = { leader_class = scientist }
-			list = {
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
-				
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
-				
-			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
-			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
-			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
-			#	"gfx/models/portraits/human/human_female_hair_blonde_style_01.dds"
-				
-				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_brown_style_01.dds"
-				
-			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
-			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
-			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
-			#	"gfx/models/portraits/human/human_female_hair_cendre_style_01.dds"
-
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_01.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_02.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_04.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_08.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_05.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_06.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_07.dds"
-				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_08.dds"
-			}
-		}		
-		
-		random = {
-			trigger = { leader_class = governor }
-			list = {
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
-				
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
-				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
-				
-			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
-			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
-			#	"gfx/models/portraits/human/human_female_hair_blonde_style_01.dds"
-			#	"gfx/models/portraits/human/human_female_hair_blonde_style_01.dds"
-			#	"gfx/models/portraits/human/human_female_hair_blonde_style_01.dds"
-				
-				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
-				"gfx/models/portraits/human/human_female_hair_brown_style_01.dds"
-				"gfx/models/portraits/human/human_female_hair_brown_style_01.dds"
-				"gfx/models/portraits/human/human_female_hair_brown_style_01.dds"
-				
-			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
-			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
-			#	"gfx/models/portraits/human/human_female_hair_cendre_style_01.dds"
-			#	"gfx/models/portraits/human/human_female_hair_cendre_style_01.dds"
-			#	"gfx/models/portraits/human/human_female_hair_cendre_style_01.dds"
-
 				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_05.dds"
 				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_06.dds"
 				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_07.dds"
@@ -303,41 +59,245 @@ human_female_hair_01 = {
 			}
 		}
 	}
-  
-	#leader scope 
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		random = {
+			trigger = { leader_class = general }
+			list = {
+				"gfx/models/portraits/human/human_female_hair_black_style_02.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_02.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_02.dds"
+			#	"gfx/models/portraits/human/human_female_hair_blonde_style_02.dds"
+				"gfx/models/portraits/human/human_female_hair_brown_style_02.dds"
+			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_02.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_04.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_08.dds"
+			}
+		}
+		random = {
+			trigger = { leader_class = admiral }
+			list = {
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_02.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_02.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
+			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
+			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
+			#	"gfx/models/portraits/human/human_female_hair_blonde_style_02.dds"
+			#	"gfx/models/portraits/human/human_female_hair_blonde_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_brown_style_02.dds"
+				"gfx/models/portraits/human/human_female_hair_brown_style_01.dds"
+			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
+			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
+			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
+			#	"gfx/models/portraits/human/human_female_hair_cendre_style_02.dds"
+			#	"gfx/models/portraits/human/human_female_hair_cendre_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_02.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_04.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_08.dds"
+			}
+		}
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
+			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
+			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
+			#	"gfx/models/portraits/human/human_female_hair_blonde_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_brown_style_01.dds"
+			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
+			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
+			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
+			#	"gfx/models/portraits/human/human_female_hair_cendre_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_02.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_04.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_08.dds"
+			}
+		}
+		random = {
+			trigger = { leader_class = governor }
+			list = {
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
+			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
+			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
+			#	"gfx/models/portraits/human/human_female_hair_blonde_style_01.dds"
+			#	"gfx/models/portraits/human/human_female_hair_blonde_style_01.dds"
+			#	"gfx/models/portraits/human/human_female_hair_blonde_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_brown_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_brown_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_brown_style_01.dds"
+			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
+			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
+			#	"gfx/models/portraits/human/human_female_hair_cendre_style_01.dds"
+			#	"gfx/models/portraits/human/human_female_hair_cendre_style_01.dds"
+			#	"gfx/models/portraits/human/human_female_hair_cendre_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_blonde_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_brown_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_cendre_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_01.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_02.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_03.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_04.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_dark_red_style_08.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_05.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_06.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_07.dds"
+				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_08.dds"
+			}
+		}
+	}
+	#leader scope
 	ruler = { #for rulers
-		
 		random = {
 			trigger = {
 				owner = { has_militarist_government = yes }
 			}
-				
 			list = {
 				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
 				"gfx/models/portraits/human/human_female_hair_black_style_02.dds"
 				"gfx/models/portraits/human/human_female_hair_black_style_02.dds"
 				"gfx/models/portraits/human/human_female_hair_black_style_02.dds"
-				
 				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
 				"gfx/models/portraits/human/human_female_hair_black_style_02.dds"
 				"gfx/models/portraits/human/human_female_hair_black_style_02.dds"
 				"gfx/models/portraits/human/human_female_hair_black_style_02.dds"
-				
 			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
 			#	"gfx/models/portraits/human/human_female_hair_blonde_style_02.dds"
 			#	"gfx/models/portraits/human/human_female_hair_blonde_style_02.dds"
 			#	"gfx/models/portraits/human/human_female_hair_blonde_style_02.dds"
-				
 				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
 				"gfx/models/portraits/human/human_female_hair_brown_style_02.dds"
 				"gfx/models/portraits/human/human_female_hair_brown_style_02.dds"
 				"gfx/models/portraits/human/human_female_hair_brown_style_02.dds"
-				
 			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
 			#	"gfx/models/portraits/human/human_female_hair_cendre_style_02.dds"
 			#	"gfx/models/portraits/human/human_female_hair_cendre_style_02.dds"
 			#	"gfx/models/portraits/human/human_female_hair_cendre_style_02.dds"
-
 				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_05.dds"
 				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_06.dds"
 				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_07.dds"
@@ -367,13 +327,11 @@ human_female_hair_01 = {
 				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_07.dds"
 				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_08.dds"
 			}
-		}		
-		
+		}
 		random = {
 			trigger = {
 				owner = { has_spiritualist_government = yes }
 			}
-			
 			list = {
 				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
 				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
@@ -381,7 +339,6 @@ human_female_hair_01 = {
 			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
 				"gfx/models/portraits/human/human_female_hair_brown_style_03.dds"
 			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
-
 				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_05.dds"
 				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_06.dds"
 				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_07.dds"
@@ -411,8 +368,7 @@ human_female_hair_01 = {
 				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_07.dds"
 				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_red_style_08.dds"
 			}
-		}		
-		
+		}
 		random = {
 			trigger = {
 				owner = {
@@ -426,38 +382,31 @@ human_female_hair_01 = {
 					}
 				}
 			}
-			
 			list = {
-			
 				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
 				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
 				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
 				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
 				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
-			
 				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
 				"gfx/models/portraits/human/human_female_hair_black_style_03.dds"
 				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
 				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
 				"gfx/models/portraits/human/human_female_hair_black_style_01.dds"
-
 			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
 			#	"gfx/models/portraits/human/human_female_hair_blonde_style_03.dds"
 			#	"gfx/models/portraits/human/human_female_hair_blonde_style_01.dds"
 			#	"gfx/models/portraits/human/human_female_hair_blonde_style_01.dds"
 			#	"gfx/models/portraits/human/human_female_hair_blonde_style_01.dds"
-				
 				"gfx/models/portraits/human/human_female_hair_brown_style_01.dds"
 				"gfx/models/portraits/human/human_female_hair_brown_style_01.dds"
 				"gfx/models/portraits/human/human_female_hair_brown_style_01.dds"
 				"gfx/models/portraits/human/human_female_hair_brown_style_01.dds"
-				
 			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
 			#	"gfx/models/portraits/human/human_female_hair_cendre_style_03.dds"
 			#	"gfx/models/portraits/human/human_female_hair_cendre_style_01.dds"
 			#	"gfx/models/portraits/human/human_female_hair_cendre_style_01.dds"
 			#	"gfx/models/portraits/human/human_female_hair_cendre_style_01.dds"
-
 				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_05.dds"
 				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_06.dds"
 				"gfx/models/portraits/human/human_female_hair_update/human_female_hair_black_style_07.dds"
