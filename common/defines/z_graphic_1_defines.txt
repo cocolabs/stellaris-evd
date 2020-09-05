@@ -1,0 +1,32 @@
+	NCamera = {
+		FOV									= 35 # Field-of-View
+
+		GALAXY_SHOW_FLEETS_ZOOM 			= 2300 # Camera zoom interval to show fleet icons
+		GALAXY_SHOW_STARNAME_ZOOM 			= 800 # Camera zoom interval to show star name
+
+		ZOOM_STEPS_GALAXY 					= { 100 200 400 600 900 1500 3000 } 	# Galaxy zoom steps
+		HIDE_ORBITS_ZOOM 					= 0
+
+		LEAVE_SYSTEM_ZOOM_STEP 				= 1 # Controls which zoom step is used after leaving system
+		ENTER_SYSTEM_ZOOM_STEP 				= 6 # Controls which zoom step is used after entering system
+
+		SYSTEM_MIN_PITCH					= 20.0	# in degrees
+		SYSTEM_MAX_PITCH					= 80.0	# in degrees
+
+		GALAXY_MIN_PITCH					= 30.0	# in degrees
+		GALAXY_MAX_PITCH					= 85.0	# in degrees
+
+		FOCUSED_MIN_PITCH					= -80.0 # in degrees used when focused on planet/ship
+		FOCUSED_MAX_PITCH					= 80.0 # in degrees used when focused on planet/ship
+
+		FOCUSED_MIN_ZOOM_BASE				= 20.0 # base min zoom
+		FOCUSED_MIN_ZOOM_MULT				= 0.5 # min zoom is base + entity radius * FOCUSED_MIN_ZOOM_MULT
+		FOCUSED_PLANET_MIN_ZOOM_MULT		= 1.6
+		FOCUSED_ZOOM_RATE					= 0.2 # higher values means faster zoom in/out
+		FOCUS_START_ZOOM_STEP				= 4 	# which zoom step will be used when focusing on a new object
+
+		SYSTEM_CAMERA_RESTRICT_EXTRA_SPACE 	= 100.0# how far the camera can go outside a systems outer radius
+
+		NEBULA_NAMES_FADEOUT_ZOOM			= 250
+		ROTATION_RADIANS_PER_MOUSE_UNIT		= 0.004 # moving the mouse 1 pixel results in rotation of X radians * sensitivity from settings
+	}
