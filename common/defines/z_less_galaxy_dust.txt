@@ -1,0 +1,9 @@
+	NGraphics = {
+		GALAXY_DUST_SIZE 					= 25.0
+		GALAXY_DUST_SIZE_EXTRA 				= 35.0
+		GALAXY_DUST_ROTATION_SPEED			= 0.005
+	}
+
+	NGameplay = {
+		TI_TEXTURE_SIZE = 256
+	}
