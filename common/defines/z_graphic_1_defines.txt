@@ -2,7 +2,7 @@
 		FOV									= 45 # Field-of-View
 
 		GALAXY_SHOW_FLEETS_ZOOM 			= 1450 # Camera zoom interval to show fleet icons
-		GALAXY_SHOW_STARNAME_ZOOM 			= 800 # Camera zoom interval to show star name
+		GALAXY_SHOW_STARNAME_ZOOM 			= 700 # Camera zoom interval to show star name
 
 		ZOOM_STEPS_GALAXY 					= { 100 170 250 350 500 700 1000 1400 2000 2800 } # Galaxy zoom steps
 		ZOOM_STEPS_SYSTEM_PERCENTAGES		= { 0.005 0.01 0.02 0.04 0.08 0.16 0.32 0.64 1.2 2.2 3.0 }
