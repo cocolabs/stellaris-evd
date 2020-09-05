@@ -5,10 +5,12 @@
 		GALAXY_SHOW_STARNAME_ZOOM 			= 800 # Camera zoom interval to show star name
 
 		ZOOM_STEPS_GALAXY 					= { 100 170 250 350 500 700 1000 1400 2000 2800 } # Galaxy zoom steps
+		ZOOM_STEPS_SYSTEM_PERCENTAGES		= { 0.005 0.01 0.02 0.04 0.08 0.16 0.32 0.64 1.2 2.2 3.0 }
 		HIDE_ORBITS_ZOOM 					= 1500
 
-		LEAVE_SYSTEM_ZOOM_STEP 				= 2 # Controls which zoom step is used after leaving system
+		LEAVE_SYSTEM_ZOOM_STEP 				= 2  # Controls which zoom step is used after leaving system
 		ENTER_SYSTEM_ZOOM_STEP 				= 10 # Controls which zoom step is used after entering system
+		SYSTEM_FOCUS_PLANET_STEP 			= 4	 # Controls which zoom step to planet zoom to in a system
 
 		SYSTEM_MIN_PITCH					= 0.0	# in degrees
 		SYSTEM_MAX_PITCH					= 89.0	# in degrees
@@ -24,6 +26,8 @@
 		FOCUSED_PLANET_MIN_ZOOM_MULT		= 1.1
 		FOCUSED_ZOOM_RATE					= 0.1 # higher values means faster zoom in/out
 		FOCUS_START_ZOOM_STEP				= 3 	# which zoom step will be used when focusing on a new object
+
+		SYSTEM_CAMERA_RESTRICT_EXTRA_SPACE 	= 100.0# how far the camera can go outside a systems outer radius
 
 		NEBULA_NAMES_FADEOUT_ZOOM			= 200
 		ROTATION_RADIANS_PER_MOUSE_UNIT		= 0.002 # moving the mouse 1 pixel results in rotation of X radians * sensitivity from settings
