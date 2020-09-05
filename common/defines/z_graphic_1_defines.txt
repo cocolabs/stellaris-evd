@@ -1,7 +1,7 @@
 	NCamera = {
 		FOV									= 45 # Field-of-View
 
-		GALAXY_SHOW_FLEETS_ZOOM 			= 2300 # Camera zoom interval to show fleet icons
+		GALAXY_SHOW_FLEETS_ZOOM 			= 1450 # Camera zoom interval to show fleet icons
 		GALAXY_SHOW_STARNAME_ZOOM 			= 800 # Camera zoom interval to show star name
 
 		ZOOM_STEPS_GALAXY 					= { 100 200 400 600 900 1500 3000 } 	# Galaxy zoom steps
