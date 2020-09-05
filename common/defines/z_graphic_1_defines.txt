@@ -4,7 +4,7 @@
 		GALAXY_SHOW_FLEETS_ZOOM 			= 1450 # Camera zoom interval to show fleet icons
 		GALAXY_SHOW_STARNAME_ZOOM 			= 800 # Camera zoom interval to show star name
 
-		ZOOM_STEPS_GALAXY 					= { 100 200 400 600 900 1500 3000 } 	# Galaxy zoom steps
+		ZOOM_STEPS_GALAXY 					= { 100 170 250 350 500 700 1000 1400 2000 2800 } # Galaxy zoom steps
 		HIDE_ORBITS_ZOOM 					= 0
 
 		LEAVE_SYSTEM_ZOOM_STEP 				= 1 # Controls which zoom step is used after leaving system
