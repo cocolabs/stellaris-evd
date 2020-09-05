@@ -1,7 +1,7 @@
 	NGraphics = {
-		GALAXY_DUST_ROTATION_SPEED			= 0.005
 		GALAXY_DUST_SIZE 					= 20.0
 		GALAXY_DUST_SIZE_EXTRA 				= 25.0
+		GALAXY_DUST_ROTATION_SPEED			= 0.0
 	}
 
 	NGameplay = {
