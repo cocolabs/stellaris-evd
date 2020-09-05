@@ -5,7 +5,7 @@
 		GALAXY_SHOW_STARNAME_ZOOM 			= 800 # Camera zoom interval to show star name
 
 		ZOOM_STEPS_GALAXY 					= { 100 170 250 350 500 700 1000 1400 2000 2800 } # Galaxy zoom steps
-		HIDE_ORBITS_ZOOM 					= 0
+		HIDE_ORBITS_ZOOM 					= 1500
 
 		LEAVE_SYSTEM_ZOOM_STEP 				= 2 # Controls which zoom step is used after leaving system
 		ENTER_SYSTEM_ZOOM_STEP 				= 10 # Controls which zoom step is used after entering system
@@ -27,6 +27,6 @@
 
 		SYSTEM_CAMERA_RESTRICT_EXTRA_SPACE 	= 100.0# how far the camera can go outside a systems outer radius
 
-		NEBULA_NAMES_FADEOUT_ZOOM			= 250
-		ROTATION_RADIANS_PER_MOUSE_UNIT		= 0.004 # moving the mouse 1 pixel results in rotation of X radians * sensitivity from settings
+		NEBULA_NAMES_FADEOUT_ZOOM			= 200
+		ROTATION_RADIANS_PER_MOUSE_UNIT		= 0.002 # moving the mouse 1 pixel results in rotation of X radians * sensitivity from settings
 	}
