@@ -25,8 +25,6 @@
 		FOCUSED_ZOOM_RATE					= 0.1 # higher values means faster zoom in/out
 		FOCUS_START_ZOOM_STEP				= 3 	# which zoom step will be used when focusing on a new object
 
-		SYSTEM_CAMERA_RESTRICT_EXTRA_SPACE 	= 100.0# how far the camera can go outside a systems outer radius
-
 		NEBULA_NAMES_FADEOUT_ZOOM			= 200
 		ROTATION_RADIANS_PER_MOUSE_UNIT		= 0.002 # moving the mouse 1 pixel results in rotation of X radians * sensitivity from settings
 	}
