@@ -19,11 +19,11 @@
 		FOCUSED_MIN_PITCH					= -85.0 # in degrees used when focused on planet/ship
 		FOCUSED_MAX_PITCH					= 89.0 # in degrees used when focused on planet/ship
 
-		FOCUSED_MIN_ZOOM_BASE				= 20.0 # base min zoom
-		FOCUSED_MIN_ZOOM_MULT				= 0.5 # min zoom is base + entity radius * FOCUSED_MIN_ZOOM_MULT
-		FOCUSED_PLANET_MIN_ZOOM_MULT		= 1.6
-		FOCUSED_ZOOM_RATE					= 0.2 # higher values means faster zoom in/out
-		FOCUS_START_ZOOM_STEP				= 4 	# which zoom step will be used when focusing on a new object
+		FOCUSED_MIN_ZOOM_BASE				= 10.0 # base min zoom
+		FOCUSED_MIN_ZOOM_MULT				= 0.6 # min zoom is base + entity radius * FOCUSED_MIN_ZOOM_MULT
+		FOCUSED_PLANET_MIN_ZOOM_MULT		= 1.1
+		FOCUSED_ZOOM_RATE					= 0.1 # higher values means faster zoom in/out
+		FOCUS_START_ZOOM_STEP				= 3 	# which zoom step will be used when focusing on a new object
 
 		SYSTEM_CAMERA_RESTRICT_EXTRA_SPACE 	= 100.0# how far the camera can go outside a systems outer radius
 
