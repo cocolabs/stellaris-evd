@@ -4,15 +4,15 @@ room_selector = {
 	default = "command2_room"	#point to textures that end with "_room.dds" but remove the file ending
 
 	#will run with a limited country scope. species and government is set but the country does not actually exist
-	
-	game_setup = {	
-		"barren1_room" = {}	
-		"barren2_room" = {}	
+
+	game_setup = {
+		"barren1_room" = {}
+		"barren2_room" = {}
 		"cave1_room" = {}
 		"cave2_room" = {}
-		"cave3_room" = {}	
-		"cave4_room" = {}	
-		"cave5_room" = {}	
+		"cave3_room" = {}
+		"cave4_room" = {}
+		"cave5_room" = {}
 		"cave6_room" = {}
 		"cave7_room" = {}
 		"cave8_room" = {}
@@ -107,8 +107,8 @@ room_selector = {
 		"hive8_room" = {}
 		"hive9_room" = {}
 		"hive10_room" = {}
-		"hive11_room" = {}	
-		"hive12_room" = {}			
+		"hive11_room" = {}
+		"hive12_room" = {}
 		"human1_room" = {}
 		"human2_room" = {}
 		"human3_room" = {}
@@ -239,17 +239,17 @@ room_selector = {
 		"spiritualist9_room" = {}
 		"spiritualist10_room" = {}
 		"spiritualist11_room" = {}
-		"throne1_room" = {} 
-		"throne2_room" = {} 
-		"throne3_room" = {} 
-		"throne4_room" = {} 
-		"throne5_room" = {} 
-		"throne6_room" = {} 
-		"throne7_room" = {} 
-		"throne8_room" = {} 
+		"throne1_room" = {}
+		"throne2_room" = {}
+		"throne3_room" = {}
+		"throne4_room" = {}
+		"throne5_room" = {}
+		"throne6_room" = {}
+		"throne7_room" = {}
+		"throne8_room" = {}
 		"throne9_room" = {}
 		"throne10_room" = {}
-		"throne11_room" = {} 
+		"throne11_room" = {}
 		"trader1_room" = {}
 		"trader2_room" = {}
 		"trader3_room" = {}
@@ -292,13 +292,13 @@ room_selector = {
 		"enclave_artist_room" = {}
 		"enclave_curator_room" = {}
 		"enclave_trader_room" = {}
-		
+
 	}
 
 	#leader scope
 	ruler = {
 		"ethic_light_side_room" = { exists = owner owner = { has_ethic = ethic_light_side } }
-		"ethic_dark_side_room" = { exists = owner owner = { has_ethic = ethic_dark_side } }		
+		"ethic_dark_side_room" = { exists = owner owner = { has_ethic = ethic_dark_side } }
 		"imperium1_room" = { exists = owner owner = { has_civic = civic_imperial_cult } }
 		"hive1_room" = { exists = owner owner = { has_authority = auth_hive_mind } }
 	}
