@@ -34,9 +34,8 @@ gfx_settings =
 	galaxy_background = { texture = "gfx/map/5_normal_a.dds" 	trigger = { distance_to_core_percent < 0.50 } ycocg = no }
 	galaxy_background = { texture = "gfx/map/5_normal.dds" 	trigger = { distance_to_core_percent < 0.60 } ycocg = no }
 	galaxy_background = { texture = "gfx/map/7_normal.dds" 	trigger = { distance_to_core_percent < 0.70 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/7_5_normal_a.dds" 	trigger = { distance_to_core_percent < 0.75 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/7_5_normal.dds" 	trigger = { distance_to_core_percent < 0.80 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/8_fog.dds" 	trigger = { distance_to_core_percent < 0.85 } ycocg = no }
+	galaxy_background = { texture = "gfx/map/7_5_normal_a.dds"	trigger = { distance_to_core_percent < 0.75 } ycocg = no }
+	galaxy_background = { texture = "gfx/map/7_5_normal.dds" 	trigger = { distance_to_core_percent < 0.85 } ycocg = no }
 	galaxy_background = { texture = "gfx/map/10_normal_a.dds" 	trigger = { distance_to_core_percent < 0.95 } ycocg = no }
 	galaxy_background = { texture = "gfx/map/10_normal.dds" 	trigger = { always = yes } ycocg = no }
 
