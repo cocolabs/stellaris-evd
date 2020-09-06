@@ -1,7 +1,6 @@
 ###_Z GG 天空盒 triggers	#########################################################################
 #_core=0.3	inner=0.3-0.6	mid=0.6-0.9	out=0.9-1.2
 
-
 #_[system]	inside nebula
 z_gg_inside_nebula_1 = {
 	distance_to_core_percent < 0.10

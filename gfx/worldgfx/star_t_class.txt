@@ -46,10 +46,6 @@ gfx_settings =
 	galaxy_background_lut = "gfx/worldgfx/colorcorrection_neutral.tga"
 	#center_entity = "spacedust_entity"
 
-
-
-
-
 #
 #	# Shader settings
 #	cubemap_intensity = 0.7#0.7
@@ -70,12 +66,6 @@ gfx_settings =
 #	# Rim light shader
 #
 #	rim_light_diffuse = hsv { 0.56 0.5 0.25}#0.3
-
-
-
-
-
-
 
 	# Shader settings
 	# Is affected by SPECULAR_INTENSITY_MULT
@@ -106,11 +96,7 @@ gfx_settings =
 	# Rim light shader
 	rim_light_diffuse = hsv { 0.56 0.5 0.25}#0.25	#GOOD
 
-
-
 	light_hdr_range = 1.0
-
-
 
 	bright_threshold = 0.95		# used by both bloom and lens flare
 
@@ -119,7 +105,6 @@ gfx_settings =
 	bloom_scale = 0.8
 	bloom_iterations = 8					# Bloom steps
 	emissive_bloom_strength = 0.6
-
 
 	#Lens flare parameters
 	lens_flare_bloom_width = 3.0			# Blurryness
@@ -133,7 +118,6 @@ gfx_settings =
 	lens_flare_distortion_factor = 1.5		# Chromatic abbaritions
 	lens_flare_distortion_factor_halo = 1.0	# Halo Chromatic abbaritions
 
-
 	hdr_min_adjustment = 0.15 #är hur mkt den anpassar sig till mörka områden, mindre värde -> mer mörkerseende
 
 	hdr_max_adjustment = 0.2 #jtte hgt vrde s ser du bra trots att du str inuti solen och tittar.
@@ -142,17 +126,12 @@ gfx_settings =
 	tonemap_middlegrey = 0.14
 	tonemap_whiteluminance = 2.0
 
-
-
 	lava_bright_color = hsv { 0.0 0.6 0.9 } #
 	lava_bright_intensity = 1.0
 	lava_hot_stone_color = hsv { 0.87 0.7 0.9 }
 	lava_hot_stone_intensity = 1.0
 	lava_cold_stone_color = hsv { 0.9 0.6 0.8 }
 	lava_cold_stone_intensity = 1.0
-
-
-
 
 	tex_lava_noise="gfx/worldgfx/t_class_noise.dds" #Noise texturen som genererar lava mönstret
 	tex_lava_diffuse="gfx/worldgfx/t_class_cloud_2_d.dds" #Texturen som mullas med bright/lava area

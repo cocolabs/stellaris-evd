@@ -45,10 +45,6 @@ gfx_settings =
 	galaxy_background_lut = "gfx/worldgfx/colorcorrection_neutral.tga"
 	#center_entity = "spacedust_entity"
 
-
-
-
-
 	# Shader settings
 	# Is affected by SPECULAR_INTENSITY_MULT
 	cubemap_intensity = 0.4#0.4
@@ -78,12 +74,6 @@ gfx_settings =
 	# Rim light shader
 	rim_light_diffuse = hsv { 0.56 0.5 0.25}#0.25	#GOOD
 
-
-
-
-
-
-
 	light_hdr_range = 1.0
 	bright_threshold = 0.95		# used by both bloom and lens flare
 
@@ -92,7 +82,6 @@ gfx_settings =
 	bloom_scale = 0.95
 	bloom_iterations = 8					# Bloom steps
 	emissive_bloom_strength = 0.6
-
 
 	#Lens flare parameters
 	lens_flare_bloom_width = 3.0			# Blurryness
@@ -105,8 +94,6 @@ gfx_settings =
 	lens_flare_halo_pow = 0.2
 	lens_flare_distortion_factor = 1.5		# Chromatic abbaritions
 	lens_flare_distortion_factor_halo = 1.0	# Halo Chromatic abbaritions
-
-
 
 	hdr_min_adjustment = 0.08 #�r hur mkt den anpassar sig till m�rka omr�den, mindre v�rde -> mer m�rkerseende
 	hdr_max_adjustment = 0.2 #j�tte h�gt v�rde s� ser du bra trots att du st�r inuti solen och tittar.
@@ -125,9 +112,6 @@ gfx_settings =
 	lava_hot_stone_intensity = 0.9
 	lava_cold_stone_color = hsv { 0.6 0.3 0.9 }
 	lava_cold_stone_intensity = 2.0
-
-
-
 
 	tex_lava_noise="gfx/worldgfx/lava_noise.dds" #Noise texturen som genererar lava m�nstret
 	tex_lava_diffuse="gfx/worldgfx/lava_d.dds" #Texturen som mullas med bright/lava area

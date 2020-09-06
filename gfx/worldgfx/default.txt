@@ -19,10 +19,6 @@ gfx_settings =
 	galaxy_background_hsv_shift = { 0.0 0.0 0.0 }
 	galaxy_background_lut = "gfx/worldgfx/colorcorrection_neutral.tga"
 
-
-
-
-
 #	# Shader settings
 #	cubemap_intensity = 0.0 #0.7
 #
@@ -47,9 +43,6 @@ gfx_settings =
 #	light_hdr_range = 1.0
 #
 #	bright_threshold = 0.5		# used by both bloom and lens flare
-
-
-
 
 	# Shader settings
 	#cubemap_intensity = 0.0 #0.7
@@ -94,7 +87,6 @@ gfx_settings =
 	lens_flare_distortion_factor = 1.5
 	lens_flare_distortion_factor_halo = 2.0
 
-
 	hdr_min_adjustment = 0.08 #är hur mkt den anpassar sig till mörka områden, mindre värde -> mer mörkerseende
 	hdr_max_adjustment = 0.2 #jätte högt värde så ser du bra trots att du står inuti solen och tittar.
 	#om du sätter max_adjustment till ett relaitiv lågt värde och sedan maxxar solens styrka så bör hela bilden typ overbrigtas
@@ -113,9 +105,6 @@ gfx_settings =
 	lava_cold_stone_color = hsv { 0.09 0.85 0.9 }
 	lava_cold_stone_intensity = 10.0
 	lava_bright_color = hsv { 0.0 0.9 0.9 }
-
-
-
 
 	tex_lava_noise="gfx/worldgfx/lava_noise.dds" #Noise texturen som genererar lava mönstret
 	tex_lava_diffuse="gfx/worldgfx/lava_d.dds" #Texturen som mullas med bright/lava area
