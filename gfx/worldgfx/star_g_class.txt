@@ -27,15 +27,11 @@ gfx_settings =
 	galaxy_background = { texture = "gfx/map/nebula_8.dds" 	trigger = { z_gg_inside_nebula_8 = yes } ycocg = no }
 	galaxy_background = { texture = "gfx/map/nebula_9.dds" 	trigger = { is_inside_nebula = yes } ycocg = no }
 	#_yellow
-	galaxy_background = { texture = "gfx/map/1_yellow.dds" 	trigger = { distance_to_core_percent < 0.15 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/2_yellow.dds" 	trigger = { distance_to_core_percent < 0.25 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/3_yellow.dds" 	trigger = { distance_to_core_percent < 0.40 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/4_yellow_green.dds" 	trigger = { distance_to_core_percent < 0.45 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/4_5_yellow.dds" 	trigger = { distance_to_core_percent < 0.50 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/5_yellow.dds" 	trigger = { distance_to_core_percent < 0.60 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/7_yellow.dds" 	trigger = { distance_to_core_percent < 0.75 } ycocg = no }
+	galaxy_background = { texture = "gfx/map/1_yellow.dds" 	trigger = { distance_to_core_percent < 0.17 } ycocg = no }
+	galaxy_background = { texture = "gfx/map/2_yellow.dds" 	trigger = { distance_to_core_percent < 0.34 } ycocg = no }
+	galaxy_background = { texture = "gfx/map/3_yellow.dds" 	trigger = { distance_to_core_percent < 0.51 } ycocg = no }
+	galaxy_background = { texture = "gfx/map/5_yellow.dds" 	trigger = { distance_to_core_percent < 0.68 } ycocg = no }
 	galaxy_background = { texture = "gfx/map/7_5_yellow.dds" 	trigger = { distance_to_core_percent < 0.85 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/9_yellow.dds" 	trigger = { distance_to_core_percent < 0.95 } ycocg = no }
 	galaxy_background = { texture = "gfx/map/10_yellow.dds" 	trigger = { always = yes } ycocg = no }
 
 	galaxy_background_hsv_shift = { 0.0 0.0 0.0 }	#_
