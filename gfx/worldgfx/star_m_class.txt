@@ -27,17 +27,11 @@ gfx_settings =
 	galaxy_background = { texture = "gfx/map/nebula_9.dds" 	trigger = { is_inside_nebula = yes } ycocg = no }
 	#_red
 	galaxy_background = { texture = "gfx/map/1_red.dds" 	trigger = { distance_to_core_percent < 0.15 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/2_red.dds" 	trigger = { distance_to_core_percent < 0.25 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/3_red.dds" 	trigger = { distance_to_core_percent < 0.40 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/4_5_red.dds" 	trigger = { distance_to_core_percent < 0.50 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/5_red.dds" 	trigger = { distance_to_core_percent < 0.60 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/6_red.dds" 	trigger = { distance_to_core_percent < 0.70 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/7_red.dds" 	trigger = { distance_to_core_percent < 0.72 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/7_red_a.dds" 	trigger = { distance_to_core_percent < 0.74 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/7_red_b.dds" 	trigger = { distance_to_core_percent < 0.76 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/7_5_red.dds" 	trigger = { distance_to_core_percent < 0.83 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/9_red.dds" 	trigger = { distance_to_core_percent < 0.90 } ycocg = no }
-	galaxy_background = { texture = "gfx/map/9_5_red.dds" 	trigger = { distance_to_core_percent < 0.95 } ycocg = no }
+	galaxy_background = { texture = "gfx/map/2_red.dds" 	trigger = { distance_to_core_percent < 0.30 } ycocg = no }
+	galaxy_background = { texture = "gfx/map/3_red.dds" 	trigger = { distance_to_core_percent < 0.45 } ycocg = no }
+	galaxy_background = { texture = "gfx/map/4_5_red.dds" 	trigger = { distance_to_core_percent < 0.60 } ycocg = no }
+	galaxy_background = { texture = "gfx/map/5_red.dds" 	trigger = { distance_to_core_percent < 0.75 } ycocg = no }
+	galaxy_background = { texture = "gfx/map/7_5_red.dds" 	trigger = { distance_to_core_percent < 0.90 } ycocg = no }
 	galaxy_background = { texture = "gfx/map/10_red.dds" 	trigger = { always = yes } ycocg = no }
 
 	galaxy_background_hsv_shift = { 0.0 0.0 0.0 }	#_
