@@ -87,7 +87,7 @@ humans2 = {
 		trait = "trait_wasteful"
 	}
 
-	room = "personality_hegemonic_imperialists_room"
+	room = "com_empire2_room"
 
 	authority = "auth_dictatorial"
 	civics = { "civic_nationalistic_zeal" "civic_distinguished_admiralty" }
