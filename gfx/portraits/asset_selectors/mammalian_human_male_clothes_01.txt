@@ -451,24 +451,12 @@ mammalian_human_male_clothes_01 = {
 			}
 		}
 
-		"gfx/models/portraits/human/human_male_clothes_general.dds" = { leader_class = general }
-
-		random = {
-			trigger = {
-				OR = {
-					owner = { has_government = gov_military_commissariat }
-					owner = { has_government = gov_military_junta }
-					owner = { has_government = gov_citizen_republic }
-					owner = { has_government = gov_citizen_stratocracy }
-				}
-				leader_class = admiral
-			}
-			list = {
-				"gfx/models/portraits/human/human_male_clothes_admiral2.dds"
-			}
+		"gfx/models/portraits/human/human_male_clothes_general.dds" = { 
+			leader_class = general 
 		}
-
-		"gfx/models/portraits/human/human_male_clothes_admiral.dds" = { leader_class = admiral }
+		"gfx/models/portraits/human/human_male_clothes_admiral.dds" = { 
+			leader_class = admiral 
+		}
 
 		random = {
 			trigger = {
