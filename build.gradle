@@ -1,0 +1,43 @@
+List<File> subprojectDirs = new ArrayList<>(subprojects.size())
+subprojects.forEach({
+        subprojectDirs.add(it.projectDir)
+})
+List<String> outputDescriptors = new ArrayList<>()
+task copyDescriptors {
+    description 'Copy mod descriptors to Stellaris mod directory.'
+    group 'mod'
+
+    def modRootDir = rootDir.parentFile
+    subprojectDirs.forEach({
+        outputDescriptors.add(new File(modRootDir, (it.name + '.mod') as String).path)
+    })
+    outputs.files files(outputDescriptors)
+
+    onlyIf {
+        rootDir.parentFile.name == 'mod'
+    }
+    doLast {
+        copy {
+            from subprojectDirs
+            include 'descriptor.mod'
+            rename 'descriptor\\.mod', ''
+            into rootDir.parentFile.absolutePath
+
+            eachFile({ it.name = it.file.parentFile.name + '.mod' })
+            duplicatesStrategy = DuplicatesStrategy.INCLUDE
+        }
+    }
+}
+
+task installDescriptors {
+    description 'Install mod descriptors to make mods work in-game.'
+    group 'mod'
+
+    dependsOn(copyDescriptors)
+    doLast {
+        outputDescriptors.forEach({
+            def propertyName = file(it).name - '.mod' + '-rfid' as String
+            file(it).append("\nremote_file_id=\"${project.property(propertyName)}\"")
+        })
+    }
+}
