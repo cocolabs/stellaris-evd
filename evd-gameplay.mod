@@ -5,3 +5,4 @@ tags={
 name="Extended Vanilla Design - Gameplay"
 path="mod/evd-gameplay"
 supported_version="3.0.*"
+remote_file_id=""
