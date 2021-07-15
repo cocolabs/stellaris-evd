@@ -1,0 +1,8 @@
+NGameplay = {
+    LEADER_ADMIRAL_FLEET_COMBAT_BASE_EXPERIENCE					= 5 # Leader Admiral base experience from fleet combat
+    LEADER_ADMIRAL_FLEET_COMBAT_EXPERIENCE_SCALE				= 0.5 # Scale factor used when calculating experience gain for Admiral
+    LEADER_ADMIRAL_FLEET_COMBAT_SHIPS_KILLED_CONVERSION			= 0.05 # Scale factor for total number of ships killed after combat when calculating experience gain for Admiral
+    LEADER_ADMIRAL_FLEET_COMBAT_SHIPS_DISENGAGED_CONVERSION		= 0.025 # Scale factor for total number of ships that disengaged after combat when calculating experience gain for Admiral
+    LEADER_ADMIRAL_FLEET_PIRACY_SUPPRESSION_DAILY				= 0.05 # Leader Admiral base experience from piracy suppression
+
+}
