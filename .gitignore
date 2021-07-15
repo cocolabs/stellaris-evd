@@ -3,3 +3,6 @@
 
 # Ignore Gradle build output directory
 build
+
+# Ignore Steam workshop metadata
+ugc_*.mod
