@@ -1,0 +1,1666 @@
+council_of_veklaran_great_houses = {
+	name="Council of Veklaran Great Houses"
+	ship_prefix="IVC"
+	species={
+		class="HUM"
+		portrait="humanoid_02"
+		name="Veklar"
+		plural="Veklars"
+		adjective="Veklaran"
+		species_bio="A species that thrives on dreams of honor and glory won through prowess and courage in personal combat, the Veklars represent an enormous military threat to the galaxy's mewling weaklings and a competitor for even its most fearsome warriors. Their society is organized into hundreds of tribal houses, the greatest of which convene a council to decide on matters of significance to them all. The unifying philosophy of their politics in the Interstellar Age is that the Great Houses should cooperate and make allies when necessary, but they must never leave the people without an enemy. The meaning of Veklaran life is combat. Thus their government exists to provide a steady supply of battlefields on which warriors can seek triumph or honorable death. Diplomats interacting with Veklaran representatives should be visibly armed, not only for personal protection but because a Veklar will not waste words on a pacifist."
+		name_list="HUM1"
+		trait="trait_enduring"
+		trait="trait_resilient"
+		trait="trait_strong"
+		trait="trait_quarrelsome"
+	}
+	adjective="Veklaran"
+	authority="auth_oligarchic"
+	flags = {
+		human_veklaran_great_houses
+	}
+	government="gov_war_council"
+	planet_name="Hu'dhan"
+	planet_class="pc_tundra"
+	system_name="Kalas"
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_militarist1.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_stripes_rotated.dds"
+		}
+		colors={
+			"dark_grey"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Juk of Red Banners"
+		portrait="humanoid_02_male_01"
+		texture=0
+		hair=4
+		clothes=4
+		ruler_title="Warlord"
+		ruler_title_female="Warmatron"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_dark_side_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_mining_guilds"
+		"civic_warrior_culture"
+	}
+	origin="origin_default"
+}
+democratic_peoples_republic_of_earth = {
+	name="Democratic People's Republic of Earth"
+	ship_prefix="RSF"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="In the waning days of the Great War, the World Council was conceived as a means of ensuring perpetual peace between the victorious Central Powers. After the nuclear horrors of the Year of Fire, it formed the basis for a successor organization that would oversee the institution of a new breed of authoritarian nationalism across the Human homeworld. By the early 21st Century, the House of Nations grew and evolved to effectively constitute an imperial government ruling all of Earth with its capital in Vienna. In 2050, all remaining pretense was dropped with the declaration of a global Democratic People's Republic: a unified state for a unified species. In the Interstellar Age, the military leaders of the Republic's General Staff openly speak of a grand stratagem to achieve galactic hegemony."
+		name_list="HUMAN2"
+		trait="trait_adaptive"
+	}
+	adjective="Earth"
+	authority="auth_oligarchic"
+	flags = {
+		peoples_republic_of_earth
+	}
+	government="gov_military_junta"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_democratic_peoples_republic_of_earth.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_stripe_negative_rotated.dds"
+		}
+		colors={
+			"red"
+			"light_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Albana Gorev"
+		portrait="human_female_04"
+		texture=0
+		hair=18
+		clothes=33
+		ruler_title="Grand Marshal"
+		ruler_title_female="Grand Marshal"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="cityscape4_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	civics={
+		"civic_nationalistic_zeal"
+		"civic_shadow_council"
+	}
+	origin="origin_default"
+}
+deneb_star_corps = {
+	name="Deneb Star Corps"
+	ship_prefix="DSC"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="Arriving in the Deneb System as the only survivors of a perilous journey through an unstable wormhole, the ancestors of these Humans set down upon a world teeming with extremely hostile life. The veterans among them quickly rose to positions of colonial leadership. As their burgeoning society fought for its very existence, a military survivalist mindset came to dominate their approach to everything. In time, this philosophy ensured the successful colonization of Eurotas and underwrote the foundation of the Deneb Star Corps. Eurotasians almost universally enlist at the age of ten for a twenty year term of service with the Corps, after which they are granted the full rights of a veteran, including the power to vote and own property."
+		name_list="HUMAN2"
+		trait="trait_quick_learners"
+		trait="trait_resilient"
+	}
+	adjective="Deneb"
+	authority="auth_oligarchic"
+	flags = {
+		deneb_star
+	}
+	government="gov_citizen_stratocracy"
+	advisor_voice_type="l_the_soldier"
+	planet_name="Eurotas"
+	planet_class="pc_continental"
+	system_name="Deneb"
+	initializer="deneb_system"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_deneb_star_corps.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"dark_grey"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Renata Vasquez"
+		portrait="human_female_03"
+		texture=0
+		hair=6
+		clothes=32
+		ruler_title="Commandant"
+		ruler_title_female="Commandant"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="command1_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_citizen_service"
+		"civic_warrior_culture"
+	}
+	origin="origin_lost_colony"
+}
+divine_terran_crusade = {
+	name="Divine Terran Crusade"
+	ship_prefix="ICV"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="In its Late Space Age, Terra was ravaged by a powerful marauder fleet lured there by a rogue AI's errant transmissions. Though outmatched, the Humans of Terra did what few primitive species have ever done. Despite atrocious losses and the complete collapse of their old societies, they captured and reverse engineered the attackers' military technologies. Under the leadership of a mysterious figure known only as Salazar, the Humans threw the xenos out of the Sol System. Crowned Imperator by his victorious armies, Salazar proclaimed this was but the first triumph in a Great Crusade to cleanse the galaxy of all enemies, both alien and internal, to ensure Humanity's destiny as masters of creation."
+		name_list="HUMAN3"
+		trait="trait_survivor"
+		trait="trait_adaptive"
+	}
+	adjective="Terran"
+	authority="auth_imperial"
+	flags = {
+		divine_terrans
+	}
+	government="gov_blood_court"
+	planet_name="Holy Terra"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_divine_terran_crusade.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_x60x3.dds"
+		}
+		colors={
+			"dark_grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Tiberius Salazar"
+		portrait="human_male_03"
+		texture=0
+		hair=0
+		clothes=19
+		ruler_title="Imperator"
+		heir_title="Lord Solar"
+		ruler_title_female="Imperatrix"
+		heir_title_female="Lady Solar"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="imperium1_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_fanatic_purifiers"
+		"civic_mining_guilds"
+	}
+	origin="origin_post_apocalyptic"
+}
+earth_colonial_administration = {
+	name="Earth Colonial Administration"
+	ship_prefix="USS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="By the mid-21st Century, Earth's political regimes already required updating, but it was the changing planet itself that forced changes in civilization. Resource limits meant either conflict or cooperation. Humanity chose cooperation. Autocratic states and Enlightenment-era republics gave way to streamlined technocratic social democracies far less concerned with national fortunes than with the common good. The United Nations evolved from a diplomatic forum into a proper planetary government. The UN's plenary council manages most of humanity's interstellar affairs via the Earth Colonial Administration. More confident, far-seeing, capable, and prudent than at any other time in their history, the people of Earth finally look to the stars. With their planetary home at last in order, the frontier is everywhere and the open road still softly calls."
+		name_list="HUMAN1"
+		trait="trait_adaptive"
+		trait="trait_nomadic"
+		trait="trait_wasteful"
+	}
+	adjective="Earth"
+	authority="auth_democratic"
+	flags = {
+		earth_colonial
+	}
+	government="gov_representative_democracy"
+	advisor_voice_type="l_the_diplomat"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_united_nations.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric.dds"
+		}
+		colors={
+			"light_blue"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Teobaldo Sarto Borges"
+		portrait="human_male_02"
+		texture=0
+		hair=6
+		clothes=21
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="control1_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_egalitarian"
+	ethic="ethic_xenophile"
+	civics={
+		"civic_beacon_of_liberty"
+		"civic_free_haven"
+	}
+	origin="origin_default"
+}
+exlari_development_syndicate = {
+	name="Exlari Development Syndicate"
+	ship_prefix="ESS"
+	species={
+		class="HUM"
+		portrait="humanoid_hp_09"
+		name="Exlar"
+		plural="Exlur"
+		adjective="Exlari"
+		species_bio="The Syndicate is hiring. The Syndicate is always hiring... and firing. Relying on an economy that takes the concept of contract labor to an extreme, if one looks only at its ever fluctuating employee rolls, the Exlari Syndicate is barely a coherent organization. The contracts, however, just keep coming and not only for big jobs like building a starship. Even a task as simple as cleaning a specific waste recepticle is treated as a unique work contract. This form of mercenary enterprise tapped the enormous potential of the Exlari workforce on their homeworld Jralad and may yet carry their species to interstellar fortune."
+		name_list="HUM2"
+		trait="trait_thrifty"
+		trait="trait_strong"
+		trait="trait_deviants"
+	}
+	adjective="Exlari"
+	authority="auth_corporate"
+	flags = {
+		exlari_development
+	}
+	government="gov_megacorporation"
+	planet_name="Jralad"
+	planet_class="pc_ocean"
+	system_name="Tel El"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_materialist2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_stripe_rotated.dds"
+		}
+		colors={
+			"dark_grey"
+			"yellow"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Aumeren"
+		portrait="humanoid_hp_09"
+		texture=1
+		hair=0
+		clothes=1
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="cityscape23_room"
+	spawn_enabled=always
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_private_military_companies"
+		"civic_private_prospectors"
+	}
+	origin="origin_default"
+}
+holy_see_of_terra_and_her_colonies = {
+	name="Holy See of Terra and Her Colonies"
+	ship_prefix="HMS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="Ages ago, the declining Roman Empire was restored to glory by the conquests of Belisarius. Thereafter, Rome withstood the rapine of tribal usurpers and weathered centuries of turmoil to remain a dominant political force in Europe. Technology swiftly progressed, leading to increased contact and trade between Terra's great powers. Brutal conflicts with the Chinese and Indian empires over spheres of influence cost many lives, but did little to forestall the Roman Emperors' dominance of their  homeworld. By the industrial age, however, the power of the mercantile elector class within Rome's upper echelons grew to outstrip that of the Senate and even the Emperor himself. These old imperial institutions still exist in the Interstellar Age, but as mere figureheads. Deeply embedded within Terran science, industry, and finance, the Church holds the true reins of power. While the Emperor remains head of state, the highest ecclesiastic leader in Terran society, the Supreme Pontif, is its de facto ruler. This civilization of fortune-building priests, built on the backs of a billion slaves and controlled by an impenetrable bureaucracy, now aims to own the stars themselves."
+		name_list="HUMAN3"
+		trait="trait_adaptive"
+		trait="trait_traditional"
+		trait="trait_decadent"
+	}
+	adjective="Terran"
+	authority="auth_dictatorial"
+	flags = {
+		holy_terra_colonies
+	}
+	government="gov_theocratic_dictatorship"
+	planet_name="Holy Terra"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_human3.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_x60x3.dds"
+		}
+		colors={
+			"red"
+			"yellow"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Statius Fulcinius"
+		portrait="human_male_06"
+		texture=0
+		hair=33
+		clothes=22
+		ruler_title="Pontifex Maximus"
+		heir_title="Lord Solar"
+		ruler_title_female="Pontifex Maxima"
+		heir_title_female="Lady Solar"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="throne9_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_byzantine_bureaucracy"
+		"civic_slaver_guilds"
+	}
+	origin="origin_default"
+}
+imperial_mongathi_legions = {
+	name="Imperial Mongathi Legions"
+	ship_prefix="MRV"
+	species={
+		class="HUM"
+		portrait="humanoid_hp_08"
+		name="Geral"
+		plural="Gerals"
+		adjective="Geralan"
+		species_bio="The frigid tundras of the planet Mongath are the ancestral home of the Gerals, a species of stolid warriors who look down on almost every other sentient being, even their own kin. Weakness is shameful, but demonstrating too much strength is also shameful as it causes one's opponents to lose face. They'll even look down on themselves if they can. Those in a shame debt can only recover their honor through a period of indenture. Misery loves company, however. The Mongathi Royal Family controls their vast empire by way of the Imperial Legions. Taking the Legionnaire's oath of loyalty is one of the few life choices that nearly all Gerals admire."
+		name_list="HUM1"
+		trait="trait_conformists"
+		trait="trait_strong"
+		trait="trait_decadent"
+	}
+	adjective="Mongathi"
+	authority="auth_imperial"
+	flags = {
+		imperial_mongathi
+	}
+	government="gov_martial_empire"
+	planet_name="Mongath"
+	planet_class="pc_tundra"
+	system_name="Saggor"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_militarist3.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_half.dds"
+		}
+		colors={
+			"burgundy"
+			"dark_teal"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Laal Shirgar"
+		portrait="humanoid_hp_08"
+		texture=0
+		hair=0
+		clothes=3
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="industrial16_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_militarist"
+	civics={
+		"civic_slaver_guilds"
+		"civic_warrior_culture"
+	}
+	origin="origin_hegemon"
+}
+kolari_martial_coalition = {
+	name="Kolari Martial Coalition"
+	ship_prefix="KNS"
+	species={
+		class="HUM"
+		portrait="humanoid_03"
+		name="Kolari"
+		plural="Kolarii"
+		adjective="Kolari"
+		species_bio="Considered to be completely corrupt, the former democratic government of the Kolari homeworld Inster was overthrown in a putsch days after their discovery of FTL travel. The Admiralty determined that the military was the only institution left that possessed sufficient ethical fortitude and took the people's interests into account enough to shape Kolari destiny as an interstellar species. Forging a new Coalition to ensure unity of effort and command, these elite officers alone speak for the people."
+		name_list="HUM2"
+		trait="trait_natural_engineers"
+		trait="trait_talented"
+	}
+	adjective="Kolari"
+	authority="auth_oligarchic"
+	flags = {
+		kolari_martial
+	}
+	government="gov_military_junta"
+	planet_name="Inster"
+	planet_class="pc_arctic"
+	system_name="Kotes"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_militarist9.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_half_rotated.dds"
+		}
+		colors={
+			"light_blue"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Dhanhaani Giasor"
+		portrait="humanoid_03_female_01"
+		texture=3
+		hair=0
+		clothes=4
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="frozen4_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_distinguished_admiralty"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_default"
+}
+liao_nishanti_stellar_industries = {
+	name="Liao-Nishanti Stellar Industries"
+	ship_prefix="LNCV"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="The only organization on Earth capable of bankrolling a colonization mission through an unstable wormhole in the late 21st Century, the Sino-African conglomerate Liao-Nishanti effectively bought the development rights to whatever lay on the other side. Through the wormhole was the Deneb System and the Human-habitable moon Pyrrho. The corporate colony's first challenge was to create an entire economic infrastructure, from top to bottom, out of whole cloth. In doing so, they made the great leap from understanding wealth as currency to understanding wealth as energy, but the investment cost them their economic edge on the old homeworld. The board committed fully to Project Pyrrho, transferring all remaining assets to Deneb just before the collapse of the wormhole. But when, at last, the time comes for Liao-Nishanti to transition from megacorporation to galactic government, then the true genius of the their strategy may become apparent. Energy is the lifeblood of society, and when the chips are down, he who controls the energy supply will control the stars."
+		name_list="HUMAN1"
+		trait="trait_adaptive"
+		trait="trait_nomadic"
+		trait="trait_wasteful"
+	}
+	adjective="Deneb"
+	authority="auth_corporate"
+	flags = {
+		liao_nishanti
+	}
+	government="gov_megacorporation"
+	advisor_voice_type="l_evil_corp"
+	planet_name="Pyrrho"
+	planet_class="pc_continental"
+	system_name="Deneb"
+	initializer="deneb_system"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_liao_nishanti_stellar_industries.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_half_black_circle.dds"
+		}
+		colors={
+			"beige"
+			"dark_grey"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Mosemotsane Kwayi"
+		portrait="human_male_16"
+		texture=0
+		hair=9
+		clothes=1
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="desert8_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_pacifist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_indentured_assets"
+		"civic_ruthless_competition"
+	}
+	origin="origin_lost_colony"
+}
+lithine_continuity_alliance = {
+	name="Lithine Continuity Alliance"
+	ship_prefix="LCS"
+	species={
+		class="HUM"
+		portrait="humanoid_hp_07"
+		name="Lithin"
+		plural="Lithini"
+		adjective="Lithinic"
+		species_bio="The supporters of the Continuinty Alliance are absolutely convinced that the Lithinic way of life is the only way of life. That is, a way of life wherein most members of society must tightly pack into hyperurbanized centers choked by pollution and endure the terrorizing whims of a cannibalistic death cult. Their religion teaches that this suffering is necessary to reach paradise, and nothing must stand between the Lithini and paradise."
+		name_list="HUM4"
+		trait="trait_communal"
+		trait="trait_industrious"
+		trait="trait_repugnant"
+	}
+	adjective="Lithine"
+	authority="auth_democratic"
+	flags = {
+		lithine_continuity
+	}
+	government="gov_purity_assembly"
+	planet_name="Farzhaak"
+	planet_class="pc_desert"
+	system_name="Draksog"
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_purifier4.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"dark_purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Adamant-Mind Uldek"
+		portrait="humanoid_hp_07"
+		texture=0
+		hair=0
+		clothes=4
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="militarist1_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_fanatic_purifiers"
+		"civic_shadow_council"
+	}
+	origin="origin_default"
+}
+mirandan_interstellar_directorate = {
+	name="Mirandan Interstellar Directorate"
+	ship_prefix="MDC"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Mirandan"
+		plural="Mirandans"
+		adjective="Mirandan"
+		species_bio="Arriving in the Deneb System after a fateful journey from Sol through an unstable wormhole in the late 21st Century, the survivors of Humanity's first interstellar voyage were lucky to find a habitable moon orbiting a gas giant in the system. They named it Miranda. There, the colonists quickly put into practice a brave new genetic engineering program to rapidly adapt to the alien planet. In the process, their society bifurcated. A small population of genetically superior lab-grown ('decanted') humans, calling themselves Mirandans, assumed leadership of the colony. Meanwhile, a rapidly reproducing population of genetically labotomized subhuman laborers, called Calibans, were tasked with the hard and dangerous frontier duties of colonial expansion. This experiment enabled the extremely rapid settlement of Miranda and a return to spaceflight within a century of their arrival, but its long-term societal costs can only be guessed at. Mirandans typically distinguish themselves from Calibans by wearing white, grey, or silver clothing."
+		name_list="HUMAN2"
+		trait="trait_enduring"
+		trait="trait_intelligent"
+		trait="trait_talented"
+		trait="trait_slow_breeders"
+		trait="trait_wasteful"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="human"
+		name="Caliban"
+		plural="Calibans"
+		adjective="Caliban"
+		species_bio="Typically clad in brown or khaki clothing, Calibans are genetically modified Humans created by a colonial genetic engineering program in the Deneb System in the early 22nd Century. Their needs for mental and social satisfaction have been suppressed while their physical strength has been greatly increased. As a result, they are an ideal labor class, toiling under harsh conditions that would make any of their Mirandan superiors wish for death. Calibans reproduce sexually, unlike their sterile Mirandan kin, and are particularly fertile by normal Human standards, often giving birth to twins. A consequence of their genetic modifications, however, is accelerated telomeric degeneration, resulting in shorter average lifespans."
+		name_list="HUMAN1"
+		trait="trait_syncretic_proles"
+		trait="trait_industrious"
+		trait="trait_communal"
+		trait="trait_fleeting"
+		trait="trait_slow_learners"
+	}
+	adjective="Mirandan"
+	authority="auth_oligarchic"
+	flags = {
+		mirandan_interstellar
+	}
+	government="gov_executive_committee"
+	planet_name="Miranda"
+	planet_class="pc_continental"
+	system_name="Deneb"
+	initializer="deneb_system"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_miranda2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_half_rotated.dds"
+		}
+		colors={
+			"grey"
+			"brown"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Japra Inik"
+		portrait="human_female_02"
+		texture=0
+		hair=4
+		clothes=13
+		ruler_title="Director-General"
+		ruler_title_female="Director-General"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="human5_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_aristocratic_elite"
+		"civic_efficient_bureaucracy"
+	}
+	origin="origin_syncretic_evolution"
+}
+order_of_azraels_chosen = {
+	name="Order of Azrael's Chosen"
+	ship_prefix=""
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="When Humans discovered a natural wormhole on the outskirts of Sol in the late 21st Century, they did not know what would lie on the other side. Those who dared the journey, financed by a secretive group of private investors, found Heaven. Azrael, the right hand of God, escorted them to their paradise and closed the gates behind. Foresaking the mundanity of their former Earthly lifestyles, these Human colonists let the mists of New Eden permeate their souls. Then Azrael gave them their greatest revelation: they too were angels, the agents of God, and they bore a divine duty. Now striking out from their elysian stronghold, the Order of Azrael's Chosen obeys its Prime Commandment: discover the lynchpins of interstellar power, subvert their political and economic power to serve Heaven, and free this galaxy from sin."
+		name_list="HUMAN3"
+		trait="trait_adaptive"
+		trait="trait_nomadic"
+		trait="trait_wasteful"
+	}
+	adjective="Azraelite"
+	authority="auth_corporate"
+	flags = {
+		order_of_azraels_chosen
+	}
+	government="gov_subversive_cult"
+	planet_name="New Eden"
+	planet_class="pc_continental"
+	system_name="Heaven"
+	initializer="deneb_system"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_nature10.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_ring.dds"
+		}
+		colors={
+			"turquoise"
+			"dark_purple"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Juhi Tamhane"
+		portrait="human_female_06"
+		texture=0
+		hair=34
+		clothes=9
+		ruler_title="First Chosen"
+		ruler_title_female="First Chosen"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="spiritualist8_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_criminal_heritage"
+		"civic_gospel_of_the_masses"
+	}
+	origin="origin_lost_colony"
+}
+presidium_of_human_enlightenment = {
+	name="Presidium of Human Enlightenment"
+	ship_prefix=""
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="Rampant overpopulation on Earth nearly destroyed human civilization. During the worst of the planet's upheavals, a new philosophy took root in the Far East. Its followers and advocates spoke of a collective Human consciousness that was expanding beyond a crucial point. At last Humanity was ready to accept life's fundamental truth: that life's only purpose is life itself. Learning to extend their awareness outward, beyond the self of body, to embrace the self of group and the self of Humanity, followers found sollace amid endless turmoil. This movement came to dominate Earth, where most now see the goals of the group and the wider species as transcendent, and believe embracing them is to achieve enlightenment. Those who cannot or do not conform to these fundamental realities can be re-educated or, failing that, sent into the reprocessing tanks to become one with all the people."
+		name_list="HUMAN1"
+		trait="trait_adaptive"
+		trait="trait_communal"
+		trait="trait_deviants"
+	}
+	adjective="Earth"
+	authority="auth_dictatorial"
+	flags = {
+		human_presidium
+	}
+	government="gov_totalitarian_regime"
+	advisor_voice_type="l_the_technocrat"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_presidium_of_human_enlightenment.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Guo Xinfang"
+		portrait="human_male_02"
+		texture=0
+		hair=2
+		clothes=2
+		ruler_title="Chairman"
+		ruler_title_female="Chairwoman"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="human6_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_materialist"
+	civics={
+		"civic_efficient_bureaucracy"
+		"civic_police_state"
+	}
+	origin="origin_default"
+}
+revolutionary_union_of_sol = {
+	name="Revolutionary Union of Sol"
+	ship_prefix="UNS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="Earth's industrial age brought with it widespread political upheaval. At the bidding of tyrants and their bourgeois lackeys, war both hot and cold cost many lives and lasted many generations. In the end, the people triumphed. The Red October revolution became a global movement with undeniable momentum. Old, corrupt societies fell as the workers of the world united. Eventually, the dictatorship of the proletariat gave way to true communism. Fortunately so, for collective ownership of Earth ensured its survival despite climate change. Looking to the stars, Humanity strives for a bright future where the galaxy takes from each being according to its ability and gives to each according to its need."
+		name_list="HUMAN1"
+		trait="trait_adaptive"
+		trait="trait_nomadic"
+		trait="trait_wasteful"
+	}
+	adjective="Solar"
+	authority="auth_oligarchic"
+	flags = {
+		union_of_sol
+	}
+	government="gov_science_directorate"
+	planet_name="Zemlya"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_revolutionary_union_of_sol2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric.dds"
+		}
+		colors={
+			"red"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Valentina Tsiolkovskaya"
+		portrait="human_female_04"
+		texture=0
+		hair=4
+		clothes=6
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="cityscape18_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_meritocracy"
+		"civic_technocracy"
+	}
+	origin="origin_default"
+}
+sacred_commonwealth_of_earth = {
+	name="Sacred Commonwealth of Earth"
+	ship_prefix="CNS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="The Black Death wiped out half of Earth's population in the 14th Century, including 99% of Europeans. Various Medieval Islamic powers expanded to fill the vacuum, first colonizing Europe and then discovering the Americas. Invigorated by a new era of frontiersmanship, these societies birthed a Renaissance spanning from Qurtuba to Makka to Jayakarta. During Earth's Industrial and Machine Ages, the Dar al-Islam came into frequent conflict with the Indian Travancore League and Chinese Empire. The struggle between these three blocs culminated in the Long War, spanning decades and killing hundreds of millions. Such horrific bloodshed gave rise to the political philosophy of Moral Progressivism. Dominated by the victorious powers of Firanja, Jinshan, and the Japanese Republic, the Human homeworld thrived under a syncretic vision of Islam, Buddhism, democracy, and environmentalism. As Humanity expanded into space, an enlightened and unified global government emerged to ensure lasting peace and prosperity: the Sacred Commonwealth of Earth."
+		name_list="HUMAN1"
+	}
+	adjective="Earth"
+	authority="auth_democratic"
+	flags = {
+		sacred_commonwealth_of_earth
+	}
+	government="gov_theocratic_republic"
+	advisor_voice_type="l_pacifist"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_human1.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_x120.dds"
+		}
+		colors={
+			"dark_green"
+			"green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Mahibah Mahdi"
+		portrait="human_female_13"
+		texture=0
+		hair=3
+		clothes=24
+		ruler_title="President"
+		ruler_title_female="President"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="frozen6_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_beacon_of_liberty"
+		"civic_environmentalist"
+	}
+	origin="origin_default"
+}
+senzari_interstellar_quora = {
+	name="Senzari Interstellar Quora"
+	ship_prefix="SMC"
+	species={
+		class="HUM"
+		portrait="humanoid_05"
+		name="Ta'lul"
+		plural="Ta'lulans"
+		adjective="Ta'lulan"
+		species_bio="A civilization ruled by a council of stoics and guided by dialectic principles, the Quora of the Ta'lulans of Senzar represents a species that seeks primarily to understand the nature of the physical universe. Exceptionally long-lived, individual Ta'lulans usually go through several distinct decades-long phases of life, including periods of extended isolation during which they hone their meditative practices. Another peculiar element of their biology is a years-long reproductive cycle. Though abhoring the use of violence to achieve their ends, if provoked, one should expect the Ta'lulans to bring cutting edge tech to bear against their enemies."
+		name_list="HUM3"
+		trait="trait_venerable"
+		trait="trait_sedentary"
+		trait="trait_slow_breeders"
+	}
+	adjective="Senzari"
+	authority="auth_oligarchic"
+	flags = {
+		senzari_interstellar
+	}
+	government="gov_science_directorate"
+	advisor_voice_type="l_the_technocrat"
+	planet_name="Senzar"
+	planet_class="pc_desert"
+	system_name="Shamok"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_materialist8.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"red_orange"
+			"burgundy"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Ts'aimnu of Kovar"
+		portrait="humanoid_05_female_01"
+		texture=0
+		hair=2
+		clothes=2
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_light_side_room"
+	spawn_enabled=always
+	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_efficient_bureaucracy"
+		"civic_technocracy"
+	}
+	origin="origin_mechanists"
+}
+sublime_siranic_council = {
+	name="Sublime Siranic Council"
+	ship_prefix="SCS"
+	species={
+		class="HUM"
+		portrait="humanoid_04"
+		name="Cydret"
+		plural="Cydreen"
+		adjective="Cydrese"
+		species_bio="A graceful demiamphibian species at home in warm littoral waters, the Cydreen of the planet Vacoo evolved a unique capability for telepathic empathy. This has allowed them to control some of their greatest predators, among them the physically imposing and more terrestrial Alari. Their talent may yet serve them well as they confront a galaxy full of no less hostile aliens."
+		name_list="HUM4"
+		trait="trait_charismatic"
+		trait="trait_natural_sociologists"
+		trait="trait_weak"
+	}
+	secondary_species={
+		class="HUM"
+		portrait="humanoid_hp_06"
+		name="Alari"
+		plural="Alari"
+		adjective="Alarian"
+		species_bio="Enraptured by their empathic evolutionary cousins, the Cydreen, the species known as the Alari seem quite content to do most of the heavy lifting on Sirana."
+		name_list="HUM4"
+		trait="trait_syncretic_proles"
+		trait="trait_strong"
+		trait="trait_resilient"
+		trait="trait_slow_learners"
+	}
+	adjective="Siranic"
+	authority="auth_democratic"
+	flags = {
+		sublime_siranic
+	}
+	government="gov_theocratic_republic"
+	planet_name="Vacoo"
+	planet_class="pc_ocean"
+	system_name="Sirana"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_spiritualist1.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_stripes.dds"
+		}
+		colors={
+			"teal"
+			"light_green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Aljoba Amanot"
+		portrait="humanoid_04_female_01"
+		texture=3
+		hair=0
+		clothes=1
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="cave5_room"
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_free_haven"
+		"civic_parliamentary_system"
+	}
+	origin="origin_syncretic_evolution"
+}
+supreme_authority_of_dralark = {
+	name="Supreme Authority of Dralark"
+	ship_prefix="OSC"
+	species={
+		class="HUM"
+		portrait="humanoid_hp_01"
+		name="Zilan"
+		plural="Zilans"
+		adjective="Zilan"
+		species_bio="Masters of a military apparatus capable of immense cruelty, individual Zilan admirals and field marshals function as lesser potentates in control of all aspects of life on their homeworld of Sarmova. Volunteering for military service is the only path to emancipation for the slave caste. Even so, such freedom is only granted to a volunteer's descendants after their honorable death in battle. For those lucky to be born into the warrior caste, life is sweeter but no less tyrannical."
+		name_list="HUM4"
+		trait="trait_enduring"
+		trait="trait_intelligent"
+		trait="trait_decadent"
+	}
+	adjective="Dralarkan"
+	authority="auth_dictatorial"
+	flags = {
+		supreme_dralark
+	}
+	government="gov_military_dictatorship"
+	planet_name="Sarmova"
+	planet_class="pc_arctic"
+	system_name="Dralark"
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_authoritarian6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"purple"
+			"indigo"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Clator Teotinentus"
+		portrait="humanoid_hp_01"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="frozen2_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_militarist"
+	civics={
+		"civic_cutthroat_politics"
+		"civic_slaver_guilds"
+	}
+	origin="origin_default"
+}
+tellusian_mindflower = {
+	name="Tellusian Mindflower"
+	ship_prefix=""
+	species={
+		class="HUM"
+		portrait="human"
+		name="Tellusian"
+		plural="Tellusians"
+		adjective="Tellusian"
+		species_bio="The Human colonists who braved a harrowing journey from Sol through an unstable wormhole arrived in the Deneb System with high hopes. Their new home, Tellus, offered the promise of a fresh start. Only after several years of colonial development did they realize their mistake. A massive fungal bloom erupted across the world, psionically-sensitive parasites bursting forth from the ground itself to attack colonial infrastructure from the land, air, and sea. Their victims were driven mad by psychic visions, and the military was nearly helpless to stem the tide. Only a small percentage of the population survived the initial blossoming, but these few were then overcome by the psychic power of the alien fauna made fully manifest. Compelled to submit to parasitic implantation, these survivors became the first human avatars of the Tellusian Mindflower."
+		name_list="HIVE"
+		trait="trait_hive_mind"
+		trait="trait_natural_sociologists"
+		trait="trait_quick_learners"
+	}
+	adjective="Tellusian"
+	authority="auth_hive_mind"
+	flags = {
+		tellusian_mindflower
+	}
+	government="gov_hive_mind"
+	planet_name="Tellus"
+	planet_class="pc_continental"
+	system_name="Deneb"
+	initializer="deneb_system"
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_tellusian_mindflower.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_half_black_circle.dds"
+		}
+		colors={
+			"burgundy"
+			"pink"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Consciousness"
+		portrait="human_male_01"
+		texture=0
+		hair=20
+		clothes=5
+		ruler_title="Mindflower"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="warp1_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_divided_attention"
+		"civic_hive_pooled_knowledge"
+	}
+	origin="origin_tree_of_life"
+}
+ten_triads_of_great_zeizok = {
+	name="Ten Triads of Great Zeizok"
+	ship_prefix=""
+	species={
+		class="HUM"
+		portrait="humanoid_hp_12"
+		name="Zeizok"
+		plural="Zeizox"
+		adjective="Zeizoki"
+		species_bio="The Zeizox, a native species of Gog, were genetically modified by an unknown precursor civilization several millennia ago in an abortive attempt to breed a race of slave soldiers. In the age since, brutal Zeizoki kleptocracies have vied for dominance of their homeworld in a never ending series of increasingly destructive wars. They would have likely wiped themselves out within a few more centuries were it not for a large nomad starship crashing on Gog mostly intact. The tech salvaged from this ship transformed Zeizoki fortunes, opening up space and the hyperlane network, but left their culture unchanged. Their quasi-tribal groups, little better than gangs on a planetary scale, now look to the stars as a source of adventure and plunder."
+		name_list="MAM4"
+		trait="trait_very_strong"
+		trait="trait_quarrelsome"
+	}
+	adjective="Zeizoki"
+	authority="auth_oligarchic"
+	flags = {
+		zeizok_ten_triads
+	}
+	government="gov_bandit_commune"
+	planet_name="Gog"
+	planet_class="pc_tropical"
+	system_name="Zangush"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_militarist6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"green"
+			"dark_green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Sagu, son of Imat"
+		portrait="humanoid_hp_12"
+		texture=3
+		hair=0
+		clothes=4
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="plantoid7_room"
+	spawn_enabled=always
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_barbaric_despoilers"
+		"civic_warrior_culture"
+	}
+	origin="origin_shoulders_of_giants"
+}
+terran_colonial_empire = {
+	name="Terran Colonial Empire"
+	ship_prefix="HMS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="An unknown alien vessel appeared over the city of St. Petersburg in June 1908. After hovering above the city for weeks, this Visitor vanished as suddenly as it came. The attentions of the peoples of Earth were all at once turned toward the stars. In the chaotic years of the early 20th Century, religious and political movements inspired by the Visitor threatened to upend the global order. Secretly, the British and Russian Empires exploited the wreckage of second Visitor, discovered crashed in Siberia, to rapidly advance their aerospace technologies. The personal union of Britain and Russia precipitated war with Germany and Austria. The resulting Continental War of 1939 firmy secured Russo-British hegemony over Earth. In time, great statesmen crafted the Terra Carta, the founding document of an imperial federation to govern all Humanity. The King-Emperors of the House of Romanov-Westminster have ruled the planet ever since, organizing and protecting its people, and directing their labor toward perpetual empire."
+		name_list="HUMAN2"
+		trait="trait_adaptive"
+		trait="trait_nomadic"
+		trait="trait_wasteful"
+	}
+	adjective="Terran"
+	authority="auth_imperial"
+	flags = {
+		terran_colonial_empire
+	}
+	government="gov_feudal_empire"
+	planet_name="Terra"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_human2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_x60.dds"
+		}
+		colors={
+			"dark_blue"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Richard Romanov-Westminster"
+		portrait="human_male_01"
+		texture=0
+		hair=7
+		clothes=37
+		ruler_title="King-Emperor"
+		heir_title="Prince of Sol"
+		ruler_title_female="Queen-Empress"
+		heir_title_female="Princess of Sol"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="throne8_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	civics={
+		"civic_distinguished_admiralty"
+		"civic_feudal_realm"
+	}
+	origin="origin_galactic_doorstep"
+}
+terran_millennium_covenant = {
+	name="Terran Millennium Covenant"
+	ship_prefix="CNV"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="Armaggedon came, and humanity was heir to a ruined world. Secular philosphies nearly destroyed the Earth through greed and excess. But behold! From the ashes of six billion souls, the Kingdom of Heaven is risen anew. Reforged in the radioactive fires of the Apocalypse, the great faiths are one at last. From Jerusalem to Mecca to Rome, the children of God raise their voices together in hope. The New Dark Ages are ending. With new technology sanctioned by the Guardian Council, mankind will at last attain the stars. The myriad wonders of Creation call out for witness. Each unknown virgin world beckons with the prospect of a new Eden. Rapture is come, and the faithful will ascend to the heavens at last."
+		name_list="HUMAN1"
+		trait="trait_survivor"
+		trait="trait_adaptive"
+		trait="trait_nomadic"
+		trait="trait_wasteful"
+	}
+	adjective="Terran"
+	authority="auth_oligarchic"
+	flags = {
+		terran_millennium
+	}
+	government="gov_theocratic_oligarchy"
+	planet_name="Old Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_terran_millennium_covenant.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"light_orange"
+			"orange"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Tala Muralidharan"
+		portrait="human_female_10"
+		texture=0
+		hair=7
+		clothes=17
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="throne10_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_idealistic_foundation"
+		"civic_functional_architecture"
+	}
+	origin="origin_post_apocalyptic"
+}
+united_earth_federation = {
+	name="United Earth Federation"
+	ship_prefix="FNC"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="The veterans of Earth's third global war seized control of the civilian governments that led them into such a destructive conflict and swore to build a more responsible civilization from the ruins of the old. The United Earth Federation was the result. An exclusive democracy, the Federation extends the franchise only to those who have put their lives on the line in its defense. Civilians who complete a term of Federal service earn citizenship and the right to participate in politics. Although the government is administered by the Federal Council, the Sky Marshal, elected from among the military's most senior and decorated career officers, controls Federal forces in most interstellar affairs."
+		name_list="HUMAN2"
+		trait="trait_adaptive"
+		trait="trait_nomadic"
+		trait="trait_wasteful"
+	}
+	adjective="Earth"
+	authority="auth_democratic"
+	flags = {
+		human_earth_federation
+	}
+	government="gov_citizen_republic"
+	advisor_voice_type="l_the_soldier"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_united_earth_federation.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"green"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Joan Watts"
+		portrait="human_female_01"
+		texture=0
+		hair=3
+		clothes=8
+		ruler_title="Sky Marshal"
+		ruler_title_female="Sky Marshal"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="cityscape20_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	civics={
+		"civic_citizen_service"
+		"civic_meritocracy"
+	}
+	origin="origin_default"
+}
+united_systems_republic = {
+	name="United Systems Republic"
+	ship_prefix="USS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Human"
+		plural="Humans"
+		adjective="Human"
+		species_bio="In the wake of disasters like the Fourth Persian Gulf Crisis, the Sino-American Data Wars, and the Graying of Moscow in the mid-21st Century, support increased for fundamental reform of the United Nations to empower it as a global government capable of managing problems at a planetary scale. The UN Charter amendment of 2061 created the UN Parliamentary Assembly and Protectorate Council, followed in subsequent years by numerous other structural changes. The old Westphalian system was at last fatally undermined by the rise of this world government backed by the military might of emerging superpowers, Brazil and India. Continued administrative integration eventually led to the asymmetric federalization of all UN member states by 2150. In this scheme, off-world colonies are administered by various types of devolved governments under the oversight of the Protectorate until they can qualify for federal incorporation. Reliable FTL travel via hyperlanes and the prospect of interstellar colonization laid the foundation for the UN to evolve yet further into the United Systems Republic, a responsible representative government advancing the interests of Humanity on the galactic stage."
+		name_list="HUMAN1"
+		trait="trait_adaptive"
+	}
+	adjective="Earth"
+	authority="auth_democratic"
+	flags = {
+		human_united_systems
+	}
+	government="gov_moral_democracy"
+	advisor_voice_type="l_the_diplomat"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_united_systems_republic.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_circle.dds"
+		}
+		colors={
+			"blue"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Benazir Buzdar"
+		portrait="human_female_19"
+		texture=0
+		hair=4
+		clothes=21
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_federation_builders_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	civics={
+		"civic_beacon_of_liberty"
+		"civic_parliamentary_system"
+	}
+	origin="origin_default"
+}
