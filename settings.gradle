@@ -1,1 +1,9 @@
 rootProject.name='stellaris-evd'
+
+include 'evd-backgrounds'
+include 'evd-empires'
+include 'evd-backgrounds'
+include 'evd-galaxy'
+include 'evd-gameplay'
+include 'evd-map-modes'
+include 'evd-portraits'
