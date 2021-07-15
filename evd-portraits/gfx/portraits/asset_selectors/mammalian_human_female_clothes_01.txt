@@ -1,0 +1,739 @@
+# This is a template which multiple species can use.
+
+mammalian_human_female_clothes_01 = {
+	default = "gfx/models/portraits/human/human_female_clothes_civilian.dds"
+
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/human/human_female_clothes_civilian.dds"
+	}
+
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/human/human_female_clothes_civilian.dds"
+	}
+
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/human/human_female_clothes_governor.dds"
+
+		random = {
+			trigger = {
+				has_job = enforcer
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_enforcer.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = colonist
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_industrial.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				OR = {
+					has_job = bureaucrat
+					has_job = bio_trophy
+					has_job = fe_hedonist
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_civilian.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				OR = {
+					has_job = culture_worker
+					has_job = entertainer
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_entertainer.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = duelist
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_duelist.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				OR = {
+					has_job = roboticist
+					has_job = artisan
+					has_job = foundry
+					has_job = translucer
+					has_job = gas_refiner
+					has_job = odd_factory_worker
+					has_job = bluelotus_technician
+					has_job = gas_plant_engineer
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_industrial.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				is_enslaved = yes
+				OR = {
+					has_job = miner
+					has_job = farmer
+					has_job = technician
+					has_job = clerk
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_slave.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				OR = {
+					has_job = mote_harvester
+					has_job = miner
+					has_job = crystal_miner
+					has_job = technician
+					has_job = gas_extractor
+					has_job = cave_cleaner
+					has_job = farmer
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_worker.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = slave_overseer
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_overseer.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				OR = {
+					has_job = high_priest
+					has_job = priest
+					has_job = preacher
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_preacher.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = servant
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_servant.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = soldier
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_soldier.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = telepath
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_telepath.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = head_researcher
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_headresearcher.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = researcher
+				OR = {
+					owner = { has_government = gov_rational_consensus }
+					owner = { has_government = gov_science_directorate }
+					owner = { has_government = gov_technocratic_dictatorship }
+					owner = { has_government = gov_illuminated_autocracy }
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_scientist2.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = dimensional_portal_researcher
+				OR = {
+					owner = { has_government = gov_rational_consensus }
+					owner = { has_government = gov_science_directorate }
+					owner = { has_government = gov_technocratic_dictatorship }
+					owner = { has_government = gov_illuminated_autocracy }
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_scientist2.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				OR = {
+					has_job = dimensional_portal_researcher
+					has_job = researcher
+					has_job = chemist
+					has_job = healthcare
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_scientist.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				OR = {
+					has_job = criminal
+					has_job = underground_trade_worker
+					has_job = ratling_scavenger
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_criminal.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = noble
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_noble.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = administrator
+				OR = {
+					owner = { has_government = gov_star_empire }
+					owner = { has_government = gov_despotic_hegemony }
+					owner = { has_government = gov_despotic_empire }
+					owner = { has_government = gov_feudal_empire }
+					owner = { has_government = gov_illuminated_autocracy }
+					owner = { has_government = gov_enlightened_monarchy }
+					owner = { has_government = gov_blood_court }
+					owner = { has_government = gov_divine_empire }
+					owner = { has_government = gov_elective_monarchy }
+					owner = { has_government = gov_martial_empire }
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_governor2-2.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = administrator
+				OR = {
+					owner = { has_government = gov_bandit_kingdom }
+					owner = { has_government = gov_bandit_commune }
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_governor3.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = administrator
+				OR = {
+					owner = { has_government = gov_military_commissariat }
+					owner = { has_government = gov_military_junta }
+					owner = { has_government = gov_citizen_republic }
+					owner = { has_government = gov_citizen_stratocracy }
+					owner = { has_government = gov_purity_assembly }
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_governor4-2.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = administrator
+				OR = {
+					owner = { has_government = gov_representative_democracy }
+					owner = { has_government = gov_communal_parity }
+					owner = { has_government = gov_moral_democracy }
+					owner = { has_government = gov_direct_democracy }
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_governor5.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = administrator
+				OR = {
+					owner = { has_government = gov_theocratic_monarchy }
+					owner = { has_government = gov_celestial_empire }
+					owner = { has_government = gov_theocratic_oligarchy }
+					owner = { has_government = gov_holy_tribunal }
+					owner = { has_government = gov_theocratic_dictatorship }
+					owner = { has_government = gov_theocratic_republic }
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_governor6.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = administrator
+				OR = {
+					owner = { has_government = gov_purity_order }
+					owner = { has_government = gov_martial_dictatorship }
+					owner = { has_government = gov_military_dictatorship }
+					owner = { has_government = gov_purification_committee }
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_governor7-2.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = administrator
+				OR = {
+					owner = { has_government = gov_irenic_monarchy }
+					owner = { has_government = gov_irenic_bureaucracy }
+					owner = { has_government = gov_irenic_dictatorship }
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_governor8.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				has_job = administrator
+				OR = {
+					owner = { has_government = gov_assembly_of_clans }
+					owner = { has_government = gov_war_council }
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_duelist.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				OR = {
+					has_job = executive
+					has_job = manager
+					has_job = merchant
+				}
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_trader.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				is_unemployed = yes
+				is_pop_category = ruler
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_entertainer.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				is_unemployed = yes
+				is_pop_category = specialist
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_unemployed_specialist.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				is_unemployed = yes
+				is_pop_category = worker
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_unemployed_worker01.dds"
+				"gfx/models/portraits/human/human_female_clothes_unemployed_worker02.dds"
+			}
+		}
+
+		"gfx/models/portraits/human/human_female_clothes_governor.dds" = { is_pop_category = ruler }
+		"gfx/models/portraits/human/human_female_clothes_civilian.dds" = { is_pop_category = worker }
+		"gfx/models/portraits/human/human_female_clothes_slave.dds" = {
+			OR = {
+				is_pop_category = slave
+				is_pop_category = simple_drone
+			}
+		}
+		"gfx/models/portraits/human/human_female_clothes_scientist.dds" = {
+			OR = {
+				is_pop_category = specialist
+				is_pop_category = complex_drone
+			}
+		}
+	}
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+
+		random = {
+			trigger = {
+				OR = {
+					owner = { has_government = gov_rational_consensus }
+					owner = { has_government = gov_science_directorate }
+					owner = { has_government = gov_technocratic_dictatorship }
+					owner = { has_government = gov_illuminated_autocracy }
+				}
+				leader_class = scientist
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_scientist2.dds"
+			}
+		}
+
+		"gfx/models/portraits/human/human_female_clothes_scientist.dds" = { leader_class = scientist }
+
+		random = {
+			trigger = {
+				OR = {
+					owner = { has_government = gov_military_commissariat }
+					owner = { has_government = gov_military_junta }
+					owner = { has_government = gov_citizen_republic }
+					owner = { has_government = gov_citizen_stratocracy }
+				}
+				leader_class = general
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_general2.dds"
+			}
+		}
+
+		"gfx/models/portraits/human/human_female_clothes_general.dds" = { 
+			leader_class = general 
+		}
+		"gfx/models/portraits/human/human_female_clothes_admiral.dds" = { 
+			leader_class = admiral 
+		}
+
+		random = {
+			trigger = {
+				OR = {
+					owner = { has_government = gov_star_empire }
+					owner = { has_government = gov_despotic_hegemony }
+					owner = { has_government = gov_despotic_empire }
+					owner = { has_government = gov_feudal_empire }
+					owner = { has_government = gov_illuminated_autocracy }
+					owner = { has_government = gov_enlightened_monarchy }
+					owner = { has_government = gov_divine_empire }
+					owner = { has_government = gov_blood_court }
+					owner = { has_government = gov_elective_monarchy }
+					owner = { has_government = gov_martial_empire }
+				}
+				leader_class = governor
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_governor2.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				OR = {
+					owner = { has_government = gov_bandit_kingdom }
+					owner = { has_government = gov_bandit_commune }
+				}
+				leader_class = governor
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_governor3.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				OR = {
+					owner = { has_government = gov_military_commissariat }
+					owner = { has_government = gov_military_junta }
+					owner = { has_government = gov_citizen_republic }
+					owner = { has_government = gov_citizen_stratocracy }
+					owner = { has_government = gov_purity_assembly }
+				}
+				leader_class = governor
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_governor4.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				OR = {
+					owner = { has_government = gov_representative_democracy }
+					owner = { has_government = gov_communal_parity }
+					owner = { has_government = gov_moral_democracy }
+					owner = { has_government = gov_direct_democracy }
+				}
+				leader_class = governor
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_governor5.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				OR = {
+					owner = { has_government = gov_theocratic_monarchy }
+					owner = { has_government = gov_celestial_empire }
+					owner = { has_government = gov_theocratic_oligarchy }
+					owner = { has_government = gov_holy_tribunal }
+					owner = { has_government = gov_theocratic_dictatorship }
+					owner = { has_government = gov_theocratic_republic }
+				}
+				leader_class = governor
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_governor6.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				OR = {
+					owner = { has_government = gov_purity_order }
+					owner = { has_government = gov_martial_dictatorship }
+					owner = { has_government = gov_military_dictatorship }
+					owner = { has_government = gov_purification_committee }
+				}
+				leader_class = governor
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_governor7.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				OR = {
+					owner = { has_government = gov_irenic_monarchy }
+					owner = { has_government = gov_irenic_bureaucracy }
+					owner = { has_government = gov_irenic_dictatorship }
+				}
+				leader_class = governor
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_governor8.dds"
+			}
+		}
+
+		random = {
+			trigger = {
+				OR = {
+					owner = { has_government = gov_assembly_of_clans }
+					owner = { has_government = gov_war_council }
+				}
+				leader_class = governor
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_duelist.dds"
+			}
+		}
+
+		"gfx/models/portraits/human/human_female_clothes_governor.dds" = { leader_class = governor }
+
+	}
+
+	#leader scope
+	ruler = { #for rulers
+		default = "gfx/models/portraits/human/human_female_clothes_governor5.dds"
+
+		#-------------------------
+		########################
+		# User defined Empires
+		########################
+		#-------------------------
+		# Commonwealth of Man
+		"gfx/models/portraits/human/human_female_clothes_governor3.dds" = {
+			owner = { has_country_flag = human_2 }
+		}
+		# Revolutionary Union of Sol
+		"gfx/models/portraits/human/human_female_clothes_slave.dds" = {
+			owner = { has_country_flag = union_of_sol }
+		}
+		# Sacred Commonwealth of Earth
+		"gfx/models/portraits/human/human_female_clothes_governor8.dds" = {
+			owner = { has_country_flag = sacred_commonwealth_of_earth }
+		}
+		# Terran Millennium Covenant
+		"gfx/models/portraits/human/human_female_clothes_noble.dds" = {
+			owner = { has_country_flag = terran_millennium }
+		}
+		# United Earth Federation
+		"gfx/models/portraits/human/human_male_clothes_overseer.dds" = {
+			owner = { has_country_flag = human_earth_federation }
+		}
+		#######################
+		# Hive Mind Government
+		######################
+		"gfx/models/portraits/human/human_female_clothes_duelist.dds" = {
+			owner = { has_authority = auth_hive_mind }
+		}
+		###########################
+		# Dictatorial Police State
+		###########################
+		"gfx/models/portraits/human/human_female_clothes_enforcer.dds" = {
+			owner = {
+				has_authority = auth_dictatorial
+				has_civic = civic_police_state
+			}
+		}
+		########################
+		# Corporate Governments
+		########################
+		"gfx/models/portraits/human/human_female_clothes_preacher.dds" = {
+			owner = {
+				has_civic = civic_gospel_of_the_masses
+			}
+		}
+		random = {
+			trigger = {
+				owner = { has_authority = auth_corporate }
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_trader.dds"
+				"gfx/models/portraits/human/human_female_clothes_governor.dds"
+			}
+		}
+		##########################
+		# Materialist Governments
+		#########################
+		"gfx/models/portraits/human/human_female_clothes_headresearcher.dds" = {
+			owner = { has_materialist_government = yes }
+		}
+		######################
+		# Generic Governments
+		######################
+		"gfx/models/portraits/human/human_female_clothes_governor5.dds" = {
+			owner = {
+				NOT = { has_authority = auth_imperial }
+				OR = {
+					has_government = gov_communal_parity
+					has_generic_government = yes
+				}
+			}
+		}
+		#########################
+		# Militarist Governments
+		#########################
+		"gfx/models/portraits/human/human_female_clothes_governor4.dds" = {
+			owner = { has_militarist_government = yes }
+			pre_ruler_leader_class = general
+
+		}
+		"gfx/models/portraits/human/human_female_clothes_governor2.dds" = {
+			owner = { has_militarist_government = yes }
+			NOT = {
+				pre_ruler_leader_class = admiral
+				pre_ruler_leader_class = general
+			}
+		}
+		"gfx/models/portraits/human/human_female_clothes_governor3.dds" = {
+			owner = { has_government = gov_blood_court }
+		}
+		########################
+		# Spiritual Governments
+		########################
+		"gfx/models/portraits/human/human_female_clothes_governor6.dds" = {
+			owner = {
+				has_spiritualist_government = yes
+				is_autocracy = yes
+			}
+		}
+		"gfx/models/portraits/human/human_female_clothes_preacher.dds" = {
+			owner = {
+				has_spiritualist_government = yes
+				is_autocracy = no
+			}
+		}
+		########################
+		# Primitive Governments
+		########################
+		random = {
+			trigger = {
+				owner = { has_primitive_government = yes }
+			}
+			list = {
+				"gfx/models/portraits/human/human_female_clothes_ruler3.dds"
+				"gfx/models/portraits/human/human_female_clothes_noble.dds"
+			}
+		}
+		########################
+		# Imperial Governments
+		########################
+		"gfx/models/portraits/human/human_female_clothes_royal.dds" = {
+			owner = { has_authority = auth_imperial }
+		}
+	}
+}
+
+human_female_hair_1 = {
+	default = "gfx/models/portraits/human/human_female_hair_blonde_style_01.dds"
+
+	ruler = {
+	default = "gfx/models/portraits/human/human_female_hair_blonde_style_01.dds"
+
+		"gfx/models/portraits/human/human_female_hair_blonde_style_01.dds" = { owner = { has_militarist_government = yes } }
+	}
+}
