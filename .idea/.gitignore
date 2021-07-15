@@ -1,0 +1,11 @@
+# User-specific stuff
+/workspace.xml
+/tasks.xml
+/usage.statistics.xml
+/shelf
+
+# Other stuff
+/compiler.xml
+/gradle.xml
+/libraries
+/.name
