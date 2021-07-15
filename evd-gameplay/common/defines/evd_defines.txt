@@ -6,6 +6,6 @@ NGameplay = {
 	LEADER_ADMIRAL_FLEET_PIRACY_SUPPRESSION_DAILY				= 0.1 # Leader Admiral base experience from piracy suppression
 
 	LEADER_GENERAL_GROUND_COMBAT_BASE_EXPERIENCE				= 100 # Leader General base experience from ground combat
-	LEADER_GENERAL_GROUND_COMBAT_EXPERIENCE_SCALE				= 2.5 # Scale factor used when calculating experience gain for General
+	LEADER_GENERAL_GROUND_COMBAT_EXPERIENCE_SCALE				= 3.0 # Scale factor used when calculating experience gain for General
 	LEADER_GENERAL_GROUND_COMBAT_ARMIES_KILLED_CONVERSION		= 0.25 # Scale factor for total number of armies killed after combat when calculating experience gain for General
 }
