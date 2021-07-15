@@ -4,6 +4,6 @@ tags={
 	"Galaxy Generation"
 }
 name="Extended Vanilla Design - Empires"
-supported_version="3.0.*"
 path="mod/evd-empires"
+supported_version="3.0.*"
 remote_file_id="2228527315"
