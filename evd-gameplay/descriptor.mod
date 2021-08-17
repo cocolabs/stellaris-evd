@@ -3,5 +3,5 @@ tags={
 	"Gameplay"
 }
 name="Extended Vanilla Design - Gameplay"
-path="mod/evd-gameplay"
+path="mod/stellaris-evd/evd-gameplay"
 supported_version="3.0.*"

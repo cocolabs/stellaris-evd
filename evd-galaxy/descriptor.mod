@@ -3,5 +3,5 @@ tags={
 	"Graphics"
 }
 name="Extended Vanilla Design - Galaxy"
-path="mod/evd-galaxy"
+path="mod/stellaris-evd/evd-galaxy"
 supported_version="3.0.*"

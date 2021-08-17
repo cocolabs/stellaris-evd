@@ -4,5 +4,5 @@ tags={
 	"Overhaul"
 }
 name="Extended Vanilla Design - Sound"
-path="mod/evd-gameplay"
+path="mod/stellaris-evd/evd-sound"
 supported_version="3.0.*"

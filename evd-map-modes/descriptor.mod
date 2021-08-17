@@ -3,5 +3,5 @@ tags={
 	"Graphics"
 }
 name="Extended Vanilla Design - Map Modes"
-path="mod/evd-map-modes"
+path="mod/stellaris-evd/evd-map-modes"
 supported_version="3.0.*"

@@ -4,5 +4,5 @@ tags={
 	"Leaders"
 }
 name="Extended Vanilla Design - Portraits"
-path="mod/evd-portraits"
+path="mod/stellaris-evd/evd-portraits"
 supported_version="3.0.*"

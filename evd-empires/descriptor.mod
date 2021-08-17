@@ -4,5 +4,5 @@ tags={
 	"Galaxy Generation"
 }
 name="Extended Vanilla Design - Empires"
-path="mod/evd-empires"
+path="mod/stellaris-evd/evd-empires"
 supported_version="3.0.*"

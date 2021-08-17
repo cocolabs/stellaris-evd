@@ -3,5 +3,5 @@ tags={
     "Loading Screen"
 }
 name="Extended Vanilla Design - Backgrounds"
-path="mod/evd-backgrounds"
+path="mod/stellaris-evd/evd-backgrounds"
 supported_version="3.0.*"
