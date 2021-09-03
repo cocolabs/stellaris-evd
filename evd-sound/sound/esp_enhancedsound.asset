@@ -24,13 +24,6 @@ sound =
 
 sound =
 {
-	name = "select_construction_ship03"
-	file = "units/select_construction_ship_04.wav"
-	volume = 0.55
-}
-
-sound =
-{
 	name = "select_science_ship02"
 	file = "units/select_science_ship_02.wav"
 	always_load = no

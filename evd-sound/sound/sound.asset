@@ -2286,7 +2286,7 @@ sound =
 sound =
 {
 	name = "select_construction_ship01"
-	file = "units/select_construction_ship_04.wav"
+	file = "units/select_construction_ship_01.wav"
 	volume = 0.55
 }
 sound =
