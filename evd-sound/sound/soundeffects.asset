@@ -963,7 +963,6 @@ soundeffect = {
 	sounds = {
 		sound = select_construction_ship01
 		sound = select_construction_ship02
-		sound = select_construction_ship03
 	}
 	volume = 0.35
 	fade_out = 0.3
