@@ -15,21 +15,22 @@ khennet = {
 		adjective = "PRESCRIPTED_species_adjective_khennet"
 		name_list = "LITHOID3"
 		trait = "trait_lithoid"
+		trait = "trait_hive_mind"
+		trait = "trait_extra_durable"
 		trait = "trait_communal"
 		trait = "trait_industrious"
 		trait = "trait_sedentary"
 	}
 
 	room = "lithoid_room"
-	ethic = "ethic_pacifist"
-	ethic = "ethic_fanatic_spiritualist"
-	authority = "auth_imperial"
+	ethic = "ethic_gestalt_consciousness"
+	authority = "auth_hive_mind"
 	civics = {
-		"civic_philosopher_king"
-		"civic_environmentalist"
+		"civic_hive_ascetic"
+		"civic_hive_empath"
 	}
-	government="gov_theocratic_monarchy"
-	origin = "origin_default"
+	government = "gov_hive_mind"
+	origin = "origin_sentient_planet"
 
 	adjective = "PRESCRIPTED_adjective_khennet"
 	planet_name = "PRESCRIPTED_planet_name_khennet"
