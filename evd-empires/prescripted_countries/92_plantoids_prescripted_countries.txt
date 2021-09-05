@@ -20,7 +20,7 @@ maweer = {
 		trait="trait_slow_breeders"
 	}
 
-	room = "personality_xenophobic_isolationists_room"
+	room = "fungus4_room"
 	ethic = "ethic_xenophobe"
 	ethic = "ethic_fanatic_pacifist"
 	authority="auth_dictatorial"
